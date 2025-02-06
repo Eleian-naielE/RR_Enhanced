@@ -1,6 +1,10 @@
 <?xml version="1.0" ?>
 <Sith_Space_Units>
 
+	<!-- RR_Enhanced
+		Supremacy : Boardable
+	-->
+
 	<SpaceUnit Name="Dreshdae_Corvette">
 		<Text_ID>TEXT_UNIT_DRESHDAE</Text_ID>
 		<Encyclopedia_Unit_Class>Ship Crews Cost: 8</Encyclopedia_Unit_Class>
@@ -1523,6 +1527,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
 		</Encyclopedia_Text>
 		<Icon_Name>i_button_supremacy.tga</Icon_Name>
 
@@ -1568,7 +1573,7 @@
 
 		<Ship_Class>Frigate</Ship_Class>
 		<CategoryMask> Frigate | AntiFrigate </CategoryMask>
-		<Property_Flags/>
+		<Property_Flags>Boardable</Property_Flags>
 		<Formation_Priority>3</Formation_Priority>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Is_Escort>yes</Is_Escort>

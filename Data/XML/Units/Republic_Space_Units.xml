@@ -1,6 +1,13 @@
 <?xml version="1.0" ?>
 <Republic_Space_Units>
 
+	<!-- RR_Enhanced
+	
+	Axehead & Hammerhead : Boardable(Templates)
+	Hammerhead Carrier : Boardable, Carrier Property added
+	
+	-->
+
 	<SpaceUnit Name="Template_Coruscant_Courier">
 		<Text_ID>TEXT_UNIT_CORUSCANT_COURIER</Text_ID>
 		<Encyclopedia_Unit_Class>Ship Crews Cost: 10</Encyclopedia_Unit_Class>
@@ -222,6 +229,7 @@
             </Laser_Defense_Ability>
 		</Abilities>
 	</SpaceUnit>
+
 	<SpaceUnit Name="Coruscant_Courier">
 		<Variant_Of_Existing_Type>Template_Coruscant_Courier</Variant_Of_Existing_Type>
 		
@@ -461,6 +469,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</SpaceUnit>
+
 	<SpaceUnit Name="Foray">
 		<Variant_Of_Existing_Type>Template_Foray</Variant_Of_Existing_Type>
 		
@@ -497,6 +506,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_AXEHEAD_REP.tga</Icon_Name>
 
@@ -544,7 +554,7 @@
 
 		<Ship_Class>corvette</Ship_Class>
 		<CategoryMask> Frigate | AntiFrigate | AntiCapital </CategoryMask>
-		<Property_Flags>Carrier</Property_Flags>
+		<Property_Flags>Carrier | Boardable</Property_Flags>
 		<Formation_Priority>3</Formation_Priority>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Is_Escort>yes</Is_Escort>
@@ -686,6 +696,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</SpaceUnit>
+
 	<SpaceUnit Name="Axehead">
 		<Variant_Of_Existing_Type>Template_Axehead</Variant_Of_Existing_Type>
 		
@@ -729,6 +740,7 @@
 		TEXT_TOOLTIP_HAMMERHEAD_WEAP3
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_HAMMERHEAD_REP.TGA</Icon_Name>
 
@@ -776,7 +788,7 @@
 
 		<Ship_Class>Frigate</Ship_Class>
 		<CategoryMask> Frigate | AntiCorvette | AntiFighter </CategoryMask>
-		<Property_Flags/>
+		<Property_Flags>Boardable</Property_Flags>
 		<Formation_Priority>3</Formation_Priority>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Is_Escort>yes</Is_Escort>
@@ -938,6 +950,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 	</SpaceUnit>
+
 	<SpaceUnit Name="Hammerhead">
 		<Variant_Of_Existing_Type>Template_Hammerhead</Variant_Of_Existing_Type>
 		
@@ -951,7 +964,6 @@
 		</Required_Special_Structures>
 		
 		<Lua_Script>GenericGameObject</Lua_Script>
-		
 		<Starting_Spawned_Units_Tech_0>Aurek_Starfighter_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>
 
@@ -1010,6 +1022,7 @@
 		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
 		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
 		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
 		</Encyclopedia_Text>
 		<Icon_Name>I_BUTTON_HAMMERHEAD_CARRIER.tga</Icon_Name>
 
@@ -1031,6 +1044,8 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 
 		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<Property_Flags>Carrier | Boardable</Property_Flags>
 
 		<Starting_Spawned_Units_Tech_0>Aurek_Starfighter_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Republic_Bomber_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
@@ -1525,6 +1540,7 @@
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Death_Clone>Damage_Normal, Large_Explosion_Space</Death_Clone>
 	</SpaceUnit>
+
 	<SpaceUnit Name="Swiftsure">
 		<Variant_Of_Existing_Type>Template_Swiftsure</Variant_Of_Existing_Type>
 		

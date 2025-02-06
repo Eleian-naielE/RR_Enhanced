@@ -1,0 +1,712 @@
+<?xml version='1.0' encoding='ASCII'?>
+<Militia_Space_Units>
+
+	<SpaceUnit Name="PDF_Coruscant_Courier">
+		<Variant_Of_Existing_Type>Template_Coruscant_Courier</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_CORUSCANT_COURIER_PDF</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_CORUSCANT_COURIER_PDF
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_CORUSCANT_COURIER_PDF_HULL
+		TEXT_TOOLTIP_CORUSCANT_COURIER_SHIELD
+		TEXT_TOOLTIP_CORUSCANT_COURIER_MOVE
+		TEXT_TOOLTIP_CORUSCANT_COURIER_PDF_WEAP1
+		TEXT_TOOLTIP_CORUSCANT_COURIER_PDF_WEAP2 
+		TEXT_TOOLTIP_CORUSCANT_COURIER_WEAP4
+		TEXT_TOOLTIP_SEPARATOR_BONUS_BLOCK
+		TEXT_TOOLTIP_CORUSCANT_COURIER_PDF_PD
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_CORUSCANT_COURIER_PDF.tga</Icon_Name>
+
+		<Space_Model_Name>CoruscantCourier.ALO</Space_Model_Name>
+		<No_Colorization_Color/>
+		
+		<Tactical_Health>600</Tactical_Health>
+
+		<Tech_Level>99</Tech_Level>
+
+		<Affiliation>Empire, Independent_Forces</Affiliation>
+
+		<Lua_Script>GenericGameObject</Lua_Script>
+		
+		<Build_Cost_Credits>470</Build_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Maintenance_Cost>9</Maintenance_Cost>
+		<Population_Value>3</Population_Value>
+
+		<HardPoints>
+			HP_Courier_PDF_Laser_LS_01, HP_Courier_PDF_Laser_LS_02,
+			HP_Courier_PDF_Turbo_LS_01,
+			HP_Courier_PDF_Conc_01,
+			HP_Courier_Engines
+		</HardPoints>
+		
+		<Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>TURBO</Type>
+
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+
+				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes">
+
+			<Laser_Defense_Ability Name="Coruscant_PDF_Laser_Defense">
+                <Activation_Style> Space_Automatic </Activation_Style>
+                <Defense_Duration_In_Secs> 4800.0 </Defense_Duration_In_Secs>
+                <Laser_Color>255, 134, 134, 255</Laser_Color>
+                <Bone_Names>Root</Bone_Names>
+                <Projectile_Types_Targeted>ROCKET, MISSILE</Projectile_Types_Targeted>
+                 <Protection_Radius>625.00</Protection_Radius>
+                <Laser_Beam_Frames>2</Laser_Beam_Frames>
+                <Laser_Beam_Width>4</Laser_Beam_Width>
+                <Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
+                <Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
+                <Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
+                <Recharge_Time_In_Secs>1.56</Recharge_Time_In_Secs>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
+            </Laser_Defense_Ability>
+		
+		</Abilities>
+
+		<AI_Combat_Power>268</AI_Combat_Power>
+		<Build_Cost_Credits>470</Build_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+
+		<!-- Survival -->
+		<Tactical_Build_Cost_Multiplayer>440</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	</SpaceUnit>
+
+	<SpaceUnit Name="PDF_Foray">
+		<Variant_Of_Existing_Type>Template_Foray</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_FORAY_PDF</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_FORAY_PDF
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_FORAY_PDF_HULL
+		TEXT_TOOLTIP_FORAY_SHIELD
+		TEXT_TOOLTIP_FORAY_MOVE
+		TEXT_TOOLTIP_FORAY_PDF_WEAP1
+		TEXT_TOOLTIP_FORAY_PDF_WEAP2 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_FORAY_PDF.tga</Icon_Name>
+
+		<Space_Model_Name>Rep_Foray.ALO</Space_Model_Name>
+		<No_Colorization_Color/>
+		
+		<Tactical_Health>500</Tactical_Health>
+
+		<Tech_Level>99</Tech_Level>
+
+		<Affiliation>Empire, Independent_Forces</Affiliation>
+		
+		<Lua_Script>GenericGameObject</Lua_Script>
+		
+		<Build_Cost_Credits>790</Build_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Maintenance_Cost>9</Maintenance_Cost>
+		<Population_Value>3</Population_Value>
+		
+		<HardPoints>
+			HP_Foray_Turbo_MS_01, HP_Foray_Turbo_MS_02,
+			HP_Foray_Laser_LS_01, HP_Foray_Laser_LS_02,
+			HP_Foray_Engines
+		</HardPoints>
+		
+		<Targeting_Max_Attack_Distance>2950.0</Targeting_Max_Attack_Distance>
+
+		<AI_Combat_Power>348</AI_Combat_Power>
+		
+		<Layer_Z_Adjust>-130.0</Layer_Z_Adjust>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-3</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1f</Mod_Multiplier>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>20</Expiration_Seconds>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Foray</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<!-- Survival -->
+		<Tactical_Build_Cost_Multiplayer>495</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>9</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	</SpaceUnit>
+
+	<SpaceUnit Name="PDF_Axehead">
+		<Variant_Of_Existing_Type>Template_Axehead</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_AXEHEAD_PDF</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_AXEHEAD_PDF
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_AXEHEAD_HULL
+		TEXT_TOOLTIP_AXEHEAD_SHIELD
+		TEXT_TOOLTIP_AXEHEAD_MOVE
+		TEXT_TOOLTIP_AXEHEAD_PDF_SQUADRON
+		TEXT_TOOLTIP_AXEHEAD_PDF_WEAP1
+		TEXT_TOOLTIP_AXEHEAD_PDF_WEAP2
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		TEXT_TOOLTIP_CAPABILITY_BOMBING_RUN
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_AXEHEAD_PDF.tga</Icon_Name>
+
+		<Space_Model_Name>Rep_Axehead_PDF.alo</Space_Model_Name>
+		<No_Colorization_Color/>
+
+		<Tech_Level>99</Tech_Level>
+
+		<Affiliation>Empire, Independent_Forces</Affiliation>
+		
+		<Lua_Script>GenericGameObject</Lua_Script>
+		
+		<AI_Combat_Power>688</AI_Combat_Power>		
+		<Build_Cost_Credits>1570</Build_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Build_Time_Seconds>35</Build_Time_Seconds>
+		<Maintenance_Cost>21</Maintenance_Cost>
+		<Population_Value>7</Population_Value>
+		
+		<HardPoints>
+			HP_Axehead_PDF_Turbo_LD_01, HP_Axehead_PDF_Turbo_LD_02, HP_Axehead_PDF_Turbo_LD_03, HP_Axehead_PDF_Turbo_LD_04,
+			HP_Axehead_PDF_Laser_LD_01, HP_Axehead_PDF_Laser_LD_02,
+			HP_Axehead_Engines,
+			HP_Axehead_Hangar_01
+		</HardPoints>
+		
+		<Starting_Spawned_Units_Tech_0>Chela_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Republic_Bomber_Squadron_Third, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>Chela_Fighter_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Republic_Bomber_Squadron_Third, 2</Reserve_Spawned_Units_Tech_0>
+		
+		<Targeting_Max_Attack_Distance>2450.0</Targeting_Max_Attack_Distance>
+		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+		
+		<Layer_Z_Adjust>-220.0</Layer_Z_Adjust>
+
+		<!-- Survival -->
+		<Tactical_Build_Cost_Multiplayer>1060</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	</SpaceUnit>
+
+	<SpaceUnit Name="PDF_Hammerhead">
+		<Variant_Of_Existing_Type>Template_Hammerhead</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_HAMMERHEAD_PDF</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_HAMMERHEAD_PDF
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_HAMMERHEAD_PDF_HULL
+		TEXT_TOOLTIP_HAMMERHEAD_SHIELD
+		TEXT_TOOLTIP_HAMMERHEAD_MOVE
+		TEXT_TOOLTIP_HAMMERHEAD_PDF_SQUADRON
+		TEXT_TOOLTIP_HAMMERHEAD_PDF_WEAP1
+		TEXT_TOOLTIP_HAMMERHEAD_PDF_WEAP2 
+		TEXT_TOOLTIP_HAMMERHEAD_PDF_WEAP3 
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT 
+		TEXT_TOOLTIP_CAPABILITY_BOARDABLE
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_HAMMERHEAD_PDF.tga</Icon_Name>
+
+		<Space_Model_Name>Hammerhead-class_cruiser_rusted.ALO</Space_Model_Name>
+		<No_Colorization_Color/>
+		
+		<Tactical_Health>1000</Tactical_Health>
+
+		<Tech_Level>99</Tech_Level>
+
+		<Affiliation>Empire, Independent_Forces</Affiliation>
+		
+		<Lua_Script>GenericGameObject</Lua_Script>
+		
+		<Build_Cost_Credits>1930</Build_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Build_Time_Seconds>45</Build_Time_Seconds>
+		<Maintenance_Cost>27</Maintenance_Cost>
+		<Population_Value>9</Population_Value>
+		
+		<Starting_Spawned_Units_Tech_0>Aurek_Starfighter_Squadron_Half, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>
+		
+		<HardPoints>
+			HP_Hammerhead_PDF_Turbo_DL_01, HP_Hammerhead_PDF_Turbo_DL_02, HP_Hammerhead_PDF_Turbo_DL_03,
+			HP_Hammerhead_PDF_Turbo_MS_01,
+			HP_Hammerhead_PDF_Laser_LS_01, HP_Hammerhead_PDF_Laser_LS_02,
+			HP_Hammerhead_PDF_Engine_01,
+			HP_Hammerhead_Hangar
+		</HardPoints>
+
+		<AI_Combat_Power>920</AI_Combat_Power>
+		
+		<Layer_Z_Adjust>-120.0</Layer_Z_Adjust>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>TURBO</Type>
+
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+
+				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<!-- Survival -->
+		<Tactical_Build_Cost_Multiplayer>1045</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	</SpaceUnit>
+
+	<SpaceUnit Name="PDF_Swiftsure">
+		<Variant_Of_Existing_Type>Template_Swiftsure</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_SWIFTSURE_PDF</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_SWIFTSURE_PDF
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_SWIFTSURE_HULL
+		TEXT_TOOLTIP_SWIFTSURE_PDF_SHIELD
+		TEXT_TOOLTIP_SWIFTSURE_MOVE
+		TEXT_TOOLTIP_SWIFTSURE_PDF_SQUADRON
+		TEXT_TOOLTIP_SWIFTSURE_WEAP1
+		TEXT_TOOLTIP_SWIFTSURE_WEAP2
+		TEXT_TOOLTIP_SWIFTSURE_WEAP3
+		TEXT_TOOLTIP_SWIFTSURE_WEAP4
+		TEXT_TOOLTIP_SWIFTSURE_PDF_WEAP5
+		TEXT_TOOLTIP_SWIFTSURE_WEAP6
+		TEXT_TOOLTIP_SEPARATOR_CAPABILITIES_BLOCK
+		TEXT_TOOLTIP_CAPABILITY_ORBITAL_BOMBARDMENT
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_SWIFTSURE_PDF.TGA</Icon_Name>
+
+		<Shield_Points>3400</Shield_Points>
+		<Shield_Refresh_Rate>42.5</Shield_Refresh_Rate>
+
+		<Tech_Level>0</Tech_Level>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+		<Affiliation>Empire, Sector_Forces, Independent_Forces</Affiliation>
+		
+		<Lua_Script>GenericGameObject</Lua_Script>
+		
+		<Build_Cost_Credits>8600</Build_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Build_Time_Seconds>160</Build_Time_Seconds>
+		<Maintenance_Cost>129</Maintenance_Cost>
+		<Population_Value>43</Population_Value>
+
+		<Required_Special_Structures>
+		AI_Category_Dummy | Capital_Category_Dummy,
+		Republic_Shipyard_Level_Four | Republic_Shipyard_Level_Three
+		</Required_Special_Structures>
+
+		<HardPoints>
+			HP_Swiftsure_Turbo_MD_01,
+			HP_Swiftsure_Turbo_MD_02,
+			HP_Swiftsure_Turbo_MD_03,
+			HP_Swiftsure_Turbo_MD_04,
+			HP_Swiftsure_Turbo_MD_05,
+			HP_Swiftsure_Turbo_MD_06,
+			HP_Swiftsure_Ion_MD_01
+			HP_Swiftsure_Ion_MD_02
+			HP_Swiftsure_Laser_LS_01,
+			HP_Swiftsure_Laser_LS_02,
+			HP_Swiftsure_Laser_LS_03,
+			HP_Swiftsure_Laser_LS_04,
+			HP_Swiftsure_Laser_LS_05,
+			HP_Swiftsure_Laser_LS_06,
+			HP_Swiftsure_Ion_MS_01,
+			HP_Swiftsure_Ion_MS_02,
+			HP_Swiftsure_PDF_Missile_CS_01,
+			HP_Swiftsure_PDF_Missile_CS_02,
+			HP_Swiftsure_Turbo_LS_01,
+			HP_Swiftsure_Turbo_LS_02,
+			HP_Swiftsure_Turbo_LS_03,
+			HP_Swiftsure_Turbo_LS_04,
+			HP_Swiftsure_Turbo_LS_05,
+			HP_Swiftsure_Turbo_LS_06,
+			HP_Swiftsure_Hangar_01,
+			HP_Swiftsure_Engine_01,
+			HP_Swiftsure_Engine_02
+		</HardPoints>
+		
+		<Starting_Spawned_Units_Tech_0>Aurek_Starfighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Chela_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>15</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>Aurek_Starfighter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Chela_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+
+		<AI_Combat_Power>4228</AI_Combat_Power>
+		
+		<Layer_Z_Adjust>-280.0</Layer_Z_Adjust>
+
+		<!-- Survival -->
+		<Tactical_Build_Cost_Multiplayer>4640</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>21</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites>Space_Level_Four_Tech_Upgrade</Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Dynamic_Freighter">
+		<Text_ID>TEXT_UNIT_DYNAMIC_FREIGHTER</Text_ID>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_HULL
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_SHIELD
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_MOVE
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_WEAP1
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_GUNSHIPHEAVY </Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_ebon_hawk.tga</Icon_Name>
+		<Is_Named_Hero>No</Is_Named_Hero>
+
+		<Space_Model_Name>EbonHawk.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Select_Box_Scale>150</Select_Box_Scale>
+		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+		<Mass>0.98</Mass>
+		<No_Colorization_Color/>
+		<MoveAttackWhileStopped>True</MoveAttackWhileStopped>
+
+		<Exclude_From_Distance_Fade>True</Exclude_From_Distance_Fade>
+		
+		<MovementClass> Space </MovementClass>
+		<Ship_Class>fighter</Ship_Class>
+		<Mass>0.99</Mass>
+		<Max_Speed>7.0</Max_Speed>
+		<Min_Speed>1.67</Min_Speed>
+		<Max_Rate_Of_Turn>6.0</Max_Rate_Of_Turn>
+		<Max_Thrust>2.5</Max_Thrust>
+		<Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>30</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Max_Lift>2.5</Max_Lift>
+
+		<AI_Combat_Power>24</AI_Combat_Power>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<OverrideAcceleration> 12.5 </OverrideAcceleration>
+		<OverrideDeceleration> 6.25 </OverrideDeceleration>
+		<Layer_Z_Adjust> -20 </Layer_Z_Adjust>
+
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Shield_Armor_Type> ShieldS_Fighter </Shield_Armor_Type>
+
+		<Affiliation></Affiliation>
+		<Shield_Points>75</Shield_Points>
+		<Tactical_Health>160</Tactical_Health>
+		<Autoresolve_Health>200</Autoresolve_Health>
+		<Damage>15</Damage>
+		<Shield_Refresh_Rate>1.5</Shield_Refresh_Rate>
+		<Energy_Capacity>99999</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Create_Team>Yes</Create_Team>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<Size_Value>8</Size_Value>
+		<Behavior>SELECTABLE</Behavior>
+		<SpaceBehavior>TELEKINESIS_TARGET,ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, AMBIENT_SFX, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<Lua_Script>GenericGameObject</Lua_Script>
+
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+
+		<HardPoints> 
+				HP_Dynamic_Freighter_1, HP_Dynamic_Freighter_2
+		</HardPoints>
+
+		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
+
+		<SFXEvent_Select>Unit_Select_IPV</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_IPV</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_IPV</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_IPV</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_IPV</SFXEvent_Guard>
+		<SFXEvent_Barrage>Unit_Barrage_IPV</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_IPV</SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_IPV</SFXEvent_Move_Into_Asteroid_Field>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_IPV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_IPV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_IPV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_IPV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_IPV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_IPV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_IPV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_HP_Bay_IPV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_IPV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_IPV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_IPV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_IPV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_IPV </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Ambient_Moving> Unit_Falcon_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Falcon_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Falcon_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Falcon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<Score_Cost_Credits> 15000 </Score_Cost_Credits>
+
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>200.0, 100.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Ranged_Target_Z_Adjust>-3.0</Ranged_Target_Z_Adjust>
+
+		<MovementClass> Space </MovementClass>
+	 	<CategoryMask>Gunship | AntiFighter | AntiCorvette</CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Hover_Offset>5</Hover_Offset>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>1.0</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Large_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_A_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>400.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+	</SpaceUnit>
+
+	<Squadron Name="Dynamic_Freighter_Group">
+		<Variant_Of_Existing_Type> Dynamic_Freighter </Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_DYNAMIC_FREIGHTER_GROUP</Text_ID>
+		<Encyclopedia_Unit_Class>Ship Crews Cost: 8</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_GROUP
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_SQUADRON
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_HULL
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_SHIELD
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_MOVE
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_WEAP1
+		</Encyclopedia_Text>
+
+		<AI_Combat_Power>360</AI_Combat_Power>
+
+		<Tech_Level>99</Tech_Level>
+
+		<Affiliation>Empire, Independent_Forces</Affiliation>
+
+		<Victory_Relevant>Yes</Victory_Relevant>
+		<Create_Team>No</Create_Team>
+
+		<Build_Cost_Credits>920</Build_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+
+		<Required_Special_Structures/>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits> 420</Score_Cost_Credits>
+		<Population_Value>5</Population_Value>
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+		<SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR, HIDE_WHEN_FOGGED, DAMAGE_TRACKING</SpaceBehavior>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_IPV</SFXEvent_Build_Complete>
+		
+		<SFXEvent_Select>null</SFXEvent_Select>
+
+		<Space_Layer>Corvette</Space_Layer>
+		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
+		<Has_Space_Evaluator>true</Has_Space_Evaluator>
+
+		<!-- Survival -->
+		<Tactical_Build_Cost_Multiplayer>405</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>4</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+	</Squadron>
+	<Squadron Name="Dynamic_Freighter_Squadron">
+
+		<Text_ID>TEXT_UNIT_DYNAMIC_FREIGHTER_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_GUNSHIPHEAVY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_SQUADRON
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_HULL
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_SHIELD
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_MOVE
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_WEAP1
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_ebon_hawk.tga</Icon_Name>
+
+		<Autoresolve_Health>30</Autoresolve_Health>
+		<Damage>25</Damage>
+		<AI_Combat_Power>72</AI_Combat_Power>
+
+		<Property_Flags> SmallShip </Property_Flags>
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>1</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline/>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+
+		<Affiliation/>
+		<Political_Control>0</Political_Control>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>195</Build_Cost_Credits>
+		<Expensive_Bribe_Cost>0</Expensive_Bribe_Cost>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Tactical_Bribe_Cost>1</Tactical_Bribe_Cost>
+		<Piracy_Value_Credits>1</Piracy_Value_Credits>
+		<Score_Cost_Credits> 420</Score_Cost_Credits>
+		<Population_Value>0</Population_Value>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+		<Lua_Script/>
+
+		<Max_Squad_Size> 4 </Max_Squad_Size>
+		<Create_Team_Type>Dynamic_Freighter_Squadron_Container</Create_Team_Type>
+		<Squadron_Units>Dynamic_Freighter, Dynamic_Freighter, Dynamic_Freighter</Squadron_Units>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>20.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>20.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-20.0,0.0,0.0</Squadron_Offsets>
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_IPV</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move/>
+
+		<Is_Visible_On_Radar>no</Is_Visible_On_Radar>
+
+		<Squadron_Formation_Error_Tolerance>100.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+	</Squadron>
+	<Container Name="Dynamic_Freighter_Squadron_Container">
+		<Text_ID>TEXT_UNIT_DYNAMIC_FREIGHTER_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SMALLCRAFT_GUNSHIPHEAVY</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER
+		TEXT_TOOLTIP_SEPARATOR_STAT_BLOCK 
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_SQUADRON
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_HULL
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_SHIELD
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_MOVE
+		TEXT_TOOLTIP_DYNAMIC_FREIGHTER_WEAP1
+		</Encyclopedia_Text>
+
+		<Icon_Name>i_button_ebon_hawk.tga</Icon_Name>
+
+		<!-- Same as unit -->
+		<Max_Speed>7.0</Max_Speed>
+		<Min_Speed>1.67</Min_Speed>
+
+		<Population_Value>1</Population_Value>
+
+		<MovementClass>Space</MovementClass>
+
+		<CategoryMask> Gunship | AntiCorvette </CategoryMask>
+		<Show_Name>no</Show_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<FormationOrder>3</FormationOrder>
+		<WaitsForFormationFormup>false</WaitsForFormationFormup>
+
+		<Behavior>TEAM, SELECTABLE, UNIT_AI, TEAM_LOCOMOTOR, TARGETING</Behavior>
+		<SpaceBehavior> REVEAL</SpaceBehavior>
+
+		<SFXEvent_Select>Null</SFXEvent_Select>
+
+		<Max_Squad_Size>4</Max_Squad_Size>
+		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>20.0,40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>20.0,-40.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-20.0,0.0,0.0</Squadron_Offsets>
+
+		<Is_Visible_On_Radar>yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name></Radar_Icon_Name>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Squadron_Formation_Error_Tolerance>30</Squadron_Formation_Error_Tolerance>
+
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1800.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>800.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1200.0</Autonomous_Move_Extension_Vs_Attacker>
+	</Container>
+</Militia_Space_Units>
