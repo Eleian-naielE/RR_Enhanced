@@ -1,5 +1,10 @@
 <?xml version='1.0' encoding='ASCII'?>
 <Militia_Space_Units>
+	<!-- RR_Enhanced
+	
+	PDF Axehead, PDF Hammerhead boardable txt block added
+
+	-->
 
 	<SpaceUnit Name="PDF_Coruscant_Courier">
 		<Variant_Of_Existing_Type>Template_Coruscant_Courier</Variant_Of_Existing_Type>
