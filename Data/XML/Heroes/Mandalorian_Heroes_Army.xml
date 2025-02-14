@@ -1,6 +1,10 @@
 <?xml version="1.0" ?>
 <Mandalorian_Heroes>
 
+	<!-- RR_Enhanced
+	Added ability self apply tag to all heroes that have meaningful combat bonus
+	-->
+
 	<!-- Melee Heroes -->
 
 	<HeroUnit Name="Jaska">
@@ -842,6 +846,8 @@
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>LUCKY_SHOT</Type>
@@ -1121,6 +1127,8 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -2151,6 +2159,8 @@
 
 		<AI_Combat_Power>72</AI_Combat_Power>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>SPREAD_OUT</Type>
@@ -2341,6 +2351,8 @@
 		<Presence_Range>150.0</Presence_Range>
 
 		<AI_Combat_Power>46</AI_Combat_Power>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -2576,6 +2588,8 @@
 		
 		<SFXEvent_Engine_Moving_Loop> Unit_Jet_Pack_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>STIM_PACK</Type>
@@ -2593,7 +2607,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
-		<Abilities SubObjectList="Yes"> <!-- Command_Tier_03 -->
+		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Force_Healing_Ability Name="Rohlan_Self_Heal">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Heal_Range>5.0</Heal_Range>
@@ -2756,6 +2770,8 @@
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Boba_Fett </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Boba_Fett </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Defeat_Boba_Fett </Death_SFXEvent_Start_Die>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -2960,6 +2976,8 @@
 		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> </Death_SFXEvent_Start_Die>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -4062,6 +4080,8 @@
 		<Property_Flags>GTSImmune</Property_Flags>
 		<Lua_Script>ObjectScript_SensorPing</Lua_Script>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>FOW_REVEAL_PING</Type>
@@ -4227,6 +4247,8 @@
 
 		<Property_Flags>GTSImmune</Property_Flags>
 		<Lua_Script>GroundHero</Lua_Script>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
@@ -4488,6 +4510,8 @@
 		<Starting_Spawned_Units_Tech_0>Baragwin_Tank, 4</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -4608,6 +4632,8 @@
 		
 		<Starting_Spawned_Units_Tech_0>Neocrusader_Elite_Trooper_Squad, 4</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Tier 2 base + Cooperative makes tier 3 on own plus stacking bonus -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">

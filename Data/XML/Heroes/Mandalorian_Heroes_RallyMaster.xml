@@ -70,6 +70,8 @@
 		<SFXEvent_Health_Critical_Warning> </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> </Death_SFXEvent_Start_Die>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>STIM_PACK</Type>
@@ -217,6 +219,8 @@
 		<CategoryMask> SpaceHero | AntiFrigate | AntiCorvette </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -304,6 +308,8 @@
 		<Highlight_Blob_Material_Name>Highlight_Mandalorian_Hero</Highlight_Blob_Material_Name>
 
 		<Property_Flags>GTSImmune | GoodInfantryCrusher | CanContainGarrison | IsSupercrusher</Property_Flags>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
@@ -429,6 +435,8 @@
 		<Reserve_Spawned_Units_Tech_1>Davaab_Squadron, 1</Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1>Basilisk_Bomber_Squadron_Third, 1</Reserve_Spawned_Units_Tech_1>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -552,6 +560,8 @@
 		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning>  </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die>  </Death_SFXEvent_Start_Die>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -699,6 +709,8 @@
 		<CategoryMask> SpaceHero | AntiCorvette </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -822,6 +834,8 @@
 		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> </Death_SFXEvent_Start_Die>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -960,6 +974,8 @@
 		<CategoryMask> SpaceHero | AntiFrigate | AntiCorvette </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -1083,6 +1099,8 @@
 		<No_Colorization_Color> 0, 0, 0, 0 </No_Colorization_Color>
 
 		<Highlight_Blob_Material_Name>Highlight_Mandalorian_Hero</Highlight_Blob_Material_Name>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
@@ -1221,6 +1239,8 @@
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 		<CategoryMask> SpaceHero | AntiFrigate | AntiCorvette </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">

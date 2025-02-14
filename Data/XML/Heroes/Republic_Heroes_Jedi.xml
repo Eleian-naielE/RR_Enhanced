@@ -404,6 +404,8 @@
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>FORCE_WHIRLWIND</Type>
@@ -653,6 +655,8 @@
 		<Tactical_Health>260</Tactical_Health>
 
 		<AI_Combat_Power>388</AI_Combat_Power>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -992,6 +996,8 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -5056,6 +5062,8 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>

@@ -45,6 +45,8 @@
 
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_11 -->
 			<Combat_Bonus_Ability Name="Command_Tier_11_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -229,6 +231,8 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_05_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -342,6 +346,8 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -452,6 +458,8 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -592,6 +600,8 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_Lost_Saul_Karath </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_HP_Lost_Saul_Karath </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_HP_Lost_Saul_Karath </SFXEvent_Hardpoint_Destroyed>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_08 -->
 			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
@@ -767,6 +777,8 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -869,6 +881,8 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
@@ -984,6 +998,8 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
@@ -1210,6 +1226,8 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -1310,6 +1328,8 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
@@ -1468,6 +1488,8 @@
 		<CategoryMask> SpaceHero | AntiFrigate | AntiCorvette </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -1540,6 +1562,8 @@
 		<Reserve_Spawned_Units_Tech_1>Republic_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_1>
 
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -1678,6 +1702,8 @@
 
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -1752,6 +1778,8 @@
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 		<CategoryMask> SpaceHero | AntiCapital </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
@@ -1894,6 +1922,8 @@
 		<CategoryMask> SpaceHero | AntiFrigate | AntiCorvette </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -1966,6 +1996,8 @@
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 		<CategoryMask> SpaceHero | AntiFrigate | AntiCorvette </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_04 -->
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
@@ -2137,6 +2169,8 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Imperial_Destroyer </SFXEvent_Attack_Hardpoint>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Tier 6 base + Cooperative equals Tier 7 by itself -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -2293,6 +2327,8 @@
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Carth </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Carth </SFXEvent_Attack_Hardpoint>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_08 -->
 			<Combat_Bonus_Ability Name="Command_Tier_08_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -2384,6 +2420,8 @@
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 		<CategoryMask> SpaceHero | AntiFrigate | AntiCorvette </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
@@ -2489,6 +2527,8 @@
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 		<CategoryMask> SpaceHero | AntiFrigate | AntiCorvette </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -2614,6 +2654,8 @@
 
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -2722,6 +2764,8 @@
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 		<CategoryMask> SpaceHero | AntiCapital </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
@@ -2835,6 +2879,8 @@
 		<CategoryMask> SpaceHero | AntiFrigate | AntiCorvette </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_06 -->
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -2945,6 +2991,8 @@
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 		<CategoryMask> SpaceHero | AntiFrigate | AntiCorvette </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">

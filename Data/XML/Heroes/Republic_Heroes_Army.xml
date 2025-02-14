@@ -136,6 +136,8 @@
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>STIM_PACK</Type>
@@ -325,6 +327,8 @@
 		<Starting_Spawned_Units_Tech_0>PDF_Soldier_Squad, 2</Starting_Spawned_Units_Tech_0>
 
 		<AI_Combat_Power>26</AI_Combat_Power>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -520,6 +524,8 @@
 		<SFXEvent_Assist_Move>Unit_Assist_Move_Calamarian</SFXEvent_Assist_Move>
 		<SFXEvent_Guard>Unit_Guard_Calamarian</SFXEvent_Guard>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
@@ -689,6 +695,8 @@
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Carth </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Carth </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Death_Carth </Death_SFXEvent_Start_Die>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -935,6 +943,8 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -1202,6 +1212,8 @@
 		<SFXEvent_Fire>Unit_Grenade_Throw</SFXEvent_Fire>
 
 		<AI_Combat_Power>27</AI_Combat_Power>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -1715,6 +1727,8 @@
 
 		<Starting_Spawned_Units_Tech_0>Twin228_Airspeeder, 2</Starting_Spawned_Units_Tech_0>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>TURBO</Type>
@@ -1965,6 +1979,8 @@
 		<Property_Flags> GTSImmune | CanContainGarrison | GarrisonCanFire </Property_Flags>
 		<Lua_Script>GroundHero</Lua_Script>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2083,6 +2099,8 @@
 		
 		<Starting_Spawned_Units_Tech_0>PDF_Soldier_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
+		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -2210,6 +2228,8 @@
 		<Property_Flags> GTSImmune </Property_Flags>
 		<Lua_Script>GroundHero</Lua_Script>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2324,6 +2344,8 @@
 		<Property_Flags>GTSImmune | GoodInfantryCrusher | CanContainGarrison | IsSupercrusher</Property_Flags>
 		<Lua_Script>GroundHero</Lua_Script>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2437,6 +2459,8 @@
 		
 		<Property_Flags>GTSImmune | GoodInfantryCrusher | CanContainGarrison | IsSupercrusher</Property_Flags>
 		<Lua_Script>GroundHero</Lua_Script>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_02 -->
 			<Combat_Bonus_Ability Name="Command_Tier_02_Combat_Bonus">
@@ -2572,6 +2596,8 @@
 		<Property_Flags>GTSImmune | GoodInfantryCrusher | CanContainGarrison | IsSupercrusher</Property_Flags>
 		<Lua_Script>GroundHero</Lua_Script>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_01 -->
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -2692,6 +2718,8 @@
 		<Targeting_Max_Attack_Distance>375.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>HP_Hero_Beast_Rider_PulseWave_Rifle</HardPoints>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_07 -->
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">

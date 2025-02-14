@@ -1,5 +1,10 @@
 <?xml version="1.0" ?>
 <Mandalorian_Heroes>
+	
+	<!-- RR_Enhanced
+	Added ability self apply tag to all heroes that have meaningful combat bonus
+	-->
+
 	<!-- Capital + Dreadnaught -->
 	<DummyStructure Name="Dummy_Upgrade_Mandalore2Kandosii">
 		<Variant_Of_Existing_Type>Template_Flagship_Swap_NoSelfDelete</Variant_Of_Existing_Type>
@@ -108,6 +113,8 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_SPECIAL, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -247,6 +254,8 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes"> <!-- Command_Tier_10 -->
 			<Combat_Bonus_Ability Name="Command_Tier_10_Combat_Bonus">
 				<Activation_Style>Combat_Automatic</Activation_Style>
@@ -365,6 +374,8 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>FULL_SALVO</Type>
@@ -482,6 +493,8 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>FULL_SALVO</Type>
@@ -590,6 +603,8 @@
 		<CategoryMask> SpaceHero | AntiCapital </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>FULL_SALVO</Type>
@@ -679,6 +694,8 @@
 		<CategoryMask> SpaceHero | AntiCapital </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>FULL_SALVO</Type>
@@ -764,6 +781,8 @@
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 		<CategoryMask> SpaceHero | AntiFrigate | AntiCorvette </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_05_Combat_Bonus">
@@ -872,6 +891,8 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, null </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, null </SFXEvent_Hardpoint_Destroyed>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Reduce_Production_Time_Ability Name="Admin_Tier_Slavelord_Reduce_Production_Time">
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
@@ -927,7 +948,7 @@
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 		<CategoryMask> SpaceHero </CategoryMask>
 		<Property_Flags>GTSImmune</Property_Flags>
-		
+
 		<Abilities SubObjectList="Yes"> <!-- Admin_Tier_Admin_02 -->
 			<Force_Healing_Ability Name="Rusur_Fleet_Tender">
 				<Activation_Style>Space_Automatic</Activation_Style>
