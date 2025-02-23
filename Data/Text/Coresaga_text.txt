@@ -415,6 +415,12 @@ TEXT_STATBLOCK_TIE_FIGHTER_SQUADRON_HALF,Squadron: 6x TIE Fighter
 TEXT_STATBLOCK_TIE_FIGHTER_SQUADRON_THIRD,Squadron: 4x TIE Fighter
 TEXT_STATBLOCK_TIE_FIGHTER_WEAP1,1x Fighter Laser Cannon: 4 / 2.0s / 1.0km
 TEXT_STATBLOCK_TIE_FIGHTER_WEAP2,1x Fighter Proton Torpedo: 1 / 75.0s / 1.8km
+TEXT_STATBLOCK_TIE_POD_BASE,Health: 8 | Unshielded
+TEXT_STATBLOCK_TIE_POD_MOVE,Speed: 4.8 | Maneuverability: 4.4
+TEXT_STATBLOCK_TIE_POD_SQUADRON,Squadron: 12x TIE T.I.E. Pod
+TEXT_STATBLOCK_TIE_POD_SQUADRON_DOUBLE,Squadron: 24x T.I.E. Pod
+TEXT_STATBLOCK_TIE_POD_SQUADRON_HALF,Squadron: 6x T.I.E. Pod
+TEXT_STATBLOCK_TIE_POD_WEAP1,2x Fighter Laser Cannons: 4 / 3.0s / 1.1km
 TEXT_STATBLOCK_TIE_STARFIGHTER_BASE,Health: 11 | Unshielded
 TEXT_STATBLOCK_TIE_STARFIGHTER_MOVE,Speed: 5.9 | Maneuverability: 4.5
 TEXT_STATBLOCK_TIE_STARFIGHTER_SQUADRON,Squadron: 12x TIE Starfighter
@@ -532,6 +538,9 @@ TEXT_TIE_FIGHTER_2_SQUADRON,TIE Fighter Squadron
 TEXT_TIE_FIGHTER_2_SQUADRON_HALF,TIE Fighter Squadron 1/2
 TEXT_TIE_FIGHTER_2_SQUADRON_THIRD,TIE Fighter Squadron 1/3
 TEXT_TIE_FIGHTER_2_SQUADRON2,TIE Fighter Squadron x2
+TEXT_TIE_POD_SQUADRON,T.I.E. Pod Squadron
+TEXT_TIE_POD_SQUADRON_HALF,T.I.E. Pod Squadron 1/2
+TEXT_TIE_POD_SQUADRON2,T.I.E. Pod Squadron x2
 TEXT_TIE_STARFIGHTER_SQUADRON,TIE Starfighter Squadron
 TEXT_TIE_STARFIGHTER_SQUADRON_HALF,TIE Starfighter Squadron 1/2
 TEXT_TIE_STARFIGHTER_SQUADRON2,TIE Starfighter Squadron x2
@@ -635,6 +644,8 @@ TEXT_TOOLTIP_ARQUITENS_WEAP3,2x Concussion Missiles: 2 / 6.0s / 4.1km
 TEXT_TOOLTIP_ARROW23,Adventuring landspeeder with thick military-grade armor plating and heavy engines. Often converted into passable combat and support vehicles for various groups. Can reliably engage other vehicles and support friendly infantry well.
 TEXT_TOOLTIP_ARROW23_COMPANY,Company: 5x Arrow-23 Landspeeder
 TEXT_TOOLTIP_ARROW23_HEALTH,Health: 125 (Light Vehicle)
+TEXT_TOOLTIP_ARROW23_INFANTRY_HEAL,1x Infantry Healing: 1.5 / 1.0s / 96m
+TEXT_TOOLTIP_ARROW23_INFANTRY_HEAL_3X,3x Infantry Healing: 1.5 / 1.0s / 96m
 TEXT_TOOLTIP_ARROW23_MOVE,Speed: 4.0 | Turn: 3.0
 TEXT_TOOLTIP_ARROW23_WEAP1,1x AV Blaster Cannon: 1 / 1.0s / 320m
 TEXT_TOOLTIP_ARROW23_WEAP2,1x Light Concussion Missile: 1 / 15.0s / 320m
@@ -667,6 +678,7 @@ TEXT_TOOLTIP_ATRT_WEAP2,1x Proton Grenade: 1 / 15.0s / 160m
 TEXT_TOOLTIP_ATTE,A medium-sized walker with good weapons coverage. While lacking the durability of other heavy walkers, it is significantly more versatile and cheaper to produce. It is able to fight enemy vehicles and infantry with equal ability, but it cannot stand up to larger armor units.
 TEXT_TOOLTIP_ATTE_COMPANY,Company: 1x AT-TE Walker
 TEXT_TOOLTIP_ATTE_HEALTH,Health: 600 (Heavy Vehicle)
+TEXT_TOOLTIP_ATTE_INFANTRY_HEAL,1x Infantry Healing: 3 / 1.0s / 120m
 TEXT_TOOLTIP_ATTE_MOVE,Speed: 0.75 | Turn: 2.5 
 TEXT_TOOLTIP_ATTE_WEAP1,1x Medium Mass Driver Cannon: 1 / 3.0s / 480m
 TEXT_TOOLTIP_ATTE_WEAP2,6x AI Blaster Cannons: 5 / 2.5s / 320m
@@ -737,9 +749,9 @@ TEXT_TOOLTIP_BATTLEDROID_WEAP6,1x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_BF2_LASER_TURRET_BEAM_WEAP1,1x AV Beam Cannon: 12 / 3.5s / 320m
 TEXT_TOOLTIP_BF2_LASER_TURRET_BLASTER_WEAP1,1x AI Blaster Cannon: 2 / 1.0s / 280m
 TEXT_TOOLTIP_BF2_LASER_TURRET_HEALTH,Health: 50 (Structure)
-TEXT_TOOLTIP_BONUS_ARMOR_SHIELD,Armor Shield: Major chance to deflect frontal infantry blaster fire
-TEXT_TOOLTIP_BONUS_RIOT_SHIELD,Riot Shield: Major chance to deflect frontal infantry blaster fire
-TEXT_TOOLTIP_BONUS_RIOT_SHIELD_TOKEN,Shield Plate: Minor chance to deflect frontal infantry blaster fire
+TEXT_TOOLTIP_BONUS_ARMOR_SHIELD,Armor Shield: 40% chance to deflect frontal infantry blaster fire
+TEXT_TOOLTIP_BONUS_RIOT_SHIELD,Riot Shield: 40% chance to deflect frontal infantry blaster fire
+TEXT_TOOLTIP_BONUS_RIOT_SHIELD_TOKEN,Shield Plate: 10% chance to deflect frontal infantry blaster fire
 TEXT_TOOLTIP_BORVO,A young Borvo found Naboo to be the perfect location to establish an extensive weapon and spice smuggling operation under the cover of the Nal Raka sporting rifle company. He tried to use the chaos of the Trade Federation invasion to his advantage, but was forced off the planet by Lietenant Gavyn Sykes after his intentions were revealed. Naboo was a convenient base for Borvo's operations on nearby planets and he eventually returned, though carefully watched by Sykes. 
 TEXT_TOOLTIP_BOSSATO,The Hutts of the Gorensla kajidic are widely recognized as the preeminent black marketeers of the galaxy, and none more so than the clan leader Bossato. She is ruthlessly profit focused, able to squeeze every credit from a venture, happy to sell to both sides of a conflict, and willing to forgive almost any transgression except losing money. Failures from Gorensla members might mean they are expeled from the clan, but Bossato will often mete out more permanent punishments for outsiders who have caused her problems.
 TEXT_TOOLTIP_BOSSK,A Trandoshan bounty hunter and son of Cradossk, leader of the Bounty Hunters Guild. Following Trandoshan customs, Bossk started his career as a hunter of Wookiees, and progressed to hunting other species. During the Clone Wars he accepted contracts from the Separatist movement, and frequently assisted Boba Fett. During the Imperial period he developed a vendetta against Han Solo and Chewbacca, along with Fett when their relationship deteriorated. A fierce hunter, Bossk is a danger to all he sets his eyes on.
@@ -980,6 +992,13 @@ TEXT_TOOLTIP_DREADNAUGHT_EMPIRE_WEAP1,2x Heavy Dual Turbolasers: 2 / 4.0s / 7.1k
 TEXT_TOOLTIP_DREADNAUGHT_EMPIRE_WEAP2,2x Light Turbolasers: 2 / 2.0s / 5.1km
 TEXT_TOOLTIP_DREADNAUGHT_EMPIRE_WEAP3,2x Light Quad Laser Cannons: 2 / 0.5s / 3.6km
 TEXT_TOOLTIP_DREADNAUGHT_EMPIRE_WEAP4,1x Concussion Missile: 1 / 5.0s / 4.1km
+TEXT_TOOLTIP_DREADNAUGHT_GUNBOAT,A dangerous configuration of a typical Rendili Dreadnaught-class intended to put as much firepower onto enemy ships as possible, armed with a full turbolaser fit. The power requirements degrades the shielding to barely compare to a Carrack-class. Effective against most ships, but not able to defend from fighters well.
+TEXT_TOOLTIP_DREADNAUGHT_GUNBOAT_HULL,Hull: 2170 (Heavy Frigate)
+TEXT_TOOLTIP_DREADNAUGHT_GUNBOAT_MOVE,Speed: 2.25 | Accel: 0.025 | Turn: 0.37
+TEXT_TOOLTIP_DREADNAUGHT_GUNBOAT_SHIELD,Shields: 1200 / [12/R] (Frigate)
+TEXT_TOOLTIP_DREADNAUGHT_GUNBOAT_WEAP1,2x Medium Turbolasers: 2 / 2.0s / 6.1km
+TEXT_TOOLTIP_DREADNAUGHT_GUNBOAT_WEAP2,2x Light Quad Turbolasers: 2 / 1.0s / 5.1km
+TEXT_TOOLTIP_DREADNAUGHT_GUNBOAT_WEAP3,2x Light Quad Laser Cannons: 2 / 0.5s / 3.6km
 TEXT_TOOLTIP_DREADNAUGHT_HULL,Hull: 2200 (Heavy Frigate)
 TEXT_TOOLTIP_DREADNAUGHT_LASERS,A crew-intensive but durable cruiser designed many decades before the Clone Wars. This is an older variant, more suited to picket duty than combat with modern warships.
 TEXT_TOOLTIP_DREADNAUGHT_LASERS_HULL,Hull: 2200 (Heavy Frigate)
@@ -1027,8 +1046,6 @@ TEXT_TOOLTIP_ESCORT_AYCEN1,2x Citadel Cruiser Squadron
 TEXT_TOOLTIP_ESCORT_BANTHA_II_SKIFF_COMMANDER,3x Hutt Guard Heavy Squad
 TEXT_TOOLTIP_ESCORT_GEVTES,1x Defense Force Trooper Platoon
 TEXT_TOOLTIP_ESCORT_HUTT_VAAT_COMMANDER,2x Armored Hutt Warrior Squad
-TEXT_TOOLTIP_ESCORT_IFTX_LOCAL,2x Local Military Squad
-TEXT_TOOLTIP_ESCORT_IFTX_REP,3x Navy Trooper Squad
 TEXT_TOOLTIP_ESCORT_OOM_DROID_COMMANDER,7x B1 Battle Droid Squad
 TEXT_TOOLTIP_ESCORT_PERSUADER_COMMANDER_CIS,2x B2 Battle Droid Squad
 TEXT_TOOLTIP_ESCORT_PERSUADER_COMMANDER_CSA,4x B1 Battle Droid Squad
@@ -1037,6 +1054,8 @@ TEXT_TOOLTIP_ESCORT_SUPERHAUL_II_SKIFF_COMMANDER,3x Hutt Guard Assault Squad
 TEXT_TOOLTIP_ESCORT_TACTICAL_DROID_COMMANDER,2x BX Commando Droid Squad
 TEXT_TOOLTIP_ESCORT_TARGRIM,3x / 5x Interceptor IV Frigate
 TEXT_TOOLTIP_ESCORT_THALASSIAN,3x IPV-1 Patrol Craft
+TEXT_TOOLTIP_ESCORT_TX130S_LOCAL,2x Local Military Squad
+TEXT_TOOLTIP_ESCORT_TX130S_REP,3x Navy Trooper Squad
 TEXT_TOOLTIP_ESCORT_VEILED_QUEEN2,2x Interceptor IV Frigate
 TEXT_TOOLTIP_ESCORT_VEILED_QUEEN3,1x Citadel Cruiser Squadron
 TEXT_TOOLTIP_ESCORT_ZAN_DANE1,1x CR90 Corvette
@@ -1071,13 +1090,13 @@ TEXT_TOOLTIP_FIELD_BASE_SUPPORT_HUTT1,Hutt Guard Heavy Squad: 2 / 10
 TEXT_TOOLTIP_FIELD_BASE_SUPPORT_HUTT2,Hutt Guard Medic Squad: 2 / 10
 TEXT_TOOLTIP_FIRESPRAY,The Firespray 31 class patrol and attack craft was designed by Kuat Systems Engineering for the Republic Correctional Authority however the initial batch of prototypes was destroyed by Jango Fett bar one which Fett stole. This forced KSE to mothball the project for several years although they would return to the project after several years when the Company was in a better financial position. They were heavily armed and armoured along with decent speed for a fighter its size. A very noticeable and novel feature of the design was its need to horizontally land with the engines against the ground and then rotate in orientation to actually fly after taking off.
 TEXT_TOOLTIP_FIRESPRAY_BASE,Health: 26 | Shields: 12
-TEXT_TOOLTIP_FIRESPRAY_BOMBER,TODO
+TEXT_TOOLTIP_FIRESPRAY_BOMBER,Ground-attack formation of the Firespray-31 used to level entire primitive cities in criminal actions. Easily configured as a snubfighter heavy bomber in space action, they excel at damaging larger capital ships but do not engage fighters comparatively as well.
 TEXT_TOOLTIP_FIRESPRAY_BOMBER_MOVE,Speed: 4.05 | Maneuverability: 3.6
 TEXT_TOOLTIP_FIRESPRAY_BOMBER_SQUADRON,Squadron: 12x Firespray-31 Support Bomber
 TEXT_TOOLTIP_FIRESPRAY_BOMBER_WEAP1,2x Heavy Fighter Laser Cannons: 2 / 2.0s / 2.0km
 TEXT_TOOLTIP_FIRESPRAY_BOMBER_WEAP2,1x Proton Rocket (AC): 1 / 12.5s / 3.0km
 TEXT_TOOLTIP_FIRESPRAY_BOMBER_WEAP3,1x Concussion Bomb (AC): 1 / 10.0s / 0.8km
-TEXT_TOOLTIP_FIRESPRAY_GUNSHIP,TODO
+TEXT_TOOLTIP_FIRESPRAY_GUNSHIP,Common, heavily armed configuration of the standard Firespray-31 usually equipped by mercenary forces and wealthy bounty agents. Carries both chin and tail guns with a varied munitons loadout.
 TEXT_TOOLTIP_FIRESPRAY_GUNSHIP_SQUADRON,Squadron: 12x Firespray-31 Gunship
 TEXT_TOOLTIP_FIRESPRAY_GUNSHIP_WEAP1,2x Heavy Fighter Laser Cannons: 2 / 2.0s / 2.0km
 TEXT_TOOLTIP_FIRESPRAY_GUNSHIP_WEAP2,1x Fighter Laser Cannon: 4 / 3.0s / 1.0km
@@ -1291,15 +1310,6 @@ TEXT_TOOLTIP_IFI_SQUADRON,Fighters: 1 / 2 | Bombers: 1 / 2
 TEXT_TOOLTIP_IFI_WEAP1,2x Light Dual Turbolasers: 2 / 1.0s / 5.2km
 TEXT_TOOLTIP_IFI_WEAP2,2x Light Quad Ion Cannons: 2 / 3.33s / 5.2km
 TEXT_TOOLTIP_IFI_WEAP3,2x Light Laser Cannons: 2 / 0.63s / 3.7km
-TEXT_TOOLTIP_IFTX,A fast and maneuverable "fighter tank" line developed by the Galactic Republic as a medium armor asset. Fixed weapons require it to face the target to bring its full firepower to bear while shields make up for somewhat light armor.
-TEXT_TOOLTIP_IFTX_COMMANDER_COMPANY,Company: 1x TX-130 Saber Tank
-TEXT_TOOLTIP_IFTX_COMPANY,Company: 3x TX-130 Saber Tank
-TEXT_TOOLTIP_IFTX_HEALTH,Health: 200 (Medium Vehicle)
-TEXT_TOOLTIP_IFTX_MOVE,Speed: 2.25 | Turn: 2.0 
-TEXT_TOOLTIP_IFTX_SHIELD,Shields: 75 / [10/R] (Light Vehicle)
-TEXT_TOOLTIP_IFTX_WEAP1,1x AV Beam Cannon: 12 / 3.5s / 320m
-TEXT_TOOLTIP_IFTX_WEAP2,1x AV Blaster Cannon: 2 / 2.0s / 320m
-TEXT_TOOLTIP_IFTX_WEAP3,1x Proton Missile: 1 / 15.0s / 320m
 TEXT_TOOLTIP_INTERCEPTOR_FRIGATE_MOVE,Speed: 3.0 | Accel: 0.04 | Turn: 0.5
 TEXT_TOOLTIP_INTERCEPTOR_FRIGATE_SHIELD,Shields: 700 / [10.5/R] (Corvette)
 TEXT_TOOLTIP_INTERCEPTOR_FRIGATE_WEAP1,2x Light Dual Turbolasers: 1 / 5.0s / 5.0km
@@ -1367,6 +1377,7 @@ TEXT_TOOLTIP_JUGGERNAUT_A5_WEAP3,1x Concussion Grenade: 2 / 3.0s / 160m
 TEXT_TOOLTIP_JUGGERNAUT_A6,The gargantuan A6 Juggernaut serves as a well armed and armored superheavy vehicle, significantly larger than the A5 Juggernaut it succeeded. The unit is capable against a variety of targets with its laser cannons and missile launchers.
 TEXT_TOOLTIP_JUGGERNAUT_A6_COMPANY,Company: 1x A6 Juggernaut
 TEXT_TOOLTIP_JUGGERNAUT_A6_HEALTH,Health: 2000 (Heavy Vehicle)
+TEXT_TOOLTIP_JUGGERNAUT_A6_INFANTRY_HEAL,1x Infantry Healing: 3 / 1.0s / 320m
 TEXT_TOOLTIP_JUGGERNAUT_A6_MOVE,Speed: 2.5 | Turn: 1.0 
 TEXT_TOOLTIP_JUGGERNAUT_A6_WEAP1,1x Super Heavy AV Blaster Cannon: 2 / 3.0s / 480m
 TEXT_TOOLTIP_JUGGERNAUT_A6_WEAP2,1x Heavy AV Blaster Cannon: 5 / 2.0s / 480m
@@ -1801,24 +1812,27 @@ TEXT_TOOLTIP_PDF_TACTICAL_UNIT_WEAP1,1x A280 Blaster Rifle: 1 / 1.0s / 240m
 TEXT_TOOLTIP_PDF_TACTICAL_UNIT_WEAP2,1x Concussion Rifle: 3 / 3.0s / 240m
 TEXT_TOOLTIP_PDF_TACTICAL_UNIT_WEAP3,1x Ion Rifle: 1 / 3.0s / 220m
 TEXT_TOOLTIP_PDF_TACTICAL_UNIT_WEAP4,1x Flame Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_PELTAASSAULT,A combat and convoy-escort equipped version of a modular frigate class. Fairly durable for its size with weaponry favoring anti-fighter alongside some prow-mounted turbolasers. Significantly better armed than the support model.
-TEXT_TOOLTIP_PELTAASSAULT_HULL,Hull: 1000 (Frigate)
-TEXT_TOOLTIP_PELTAASSAULT_MOVE,Speed: 2.5 | Accel: 0.035 | Turn: 0.4
-TEXT_TOOLTIP_PELTAASSAULT_PD,Point-Defense: 1 / 0.28s / 1.5km
-TEXT_TOOLTIP_PELTAASSAULT_SHIELD,Shields: 1000 / [17.5/R] (Frigate)
-TEXT_TOOLTIP_PELTAASSAULT_WEAP1,2x Light Triple Turbolasers: 1 / 5.0s / 5.1km
-TEXT_TOOLTIP_PELTAASSAULT_WEAP2,4x Medium Dual Rapid Laser Cannons: 6 / 2.5s / 3.6km
-TEXT_TOOLTIP_PELTASUPPORT,A general fleet support version of a modular frigate class used for tending and interdiction mine deployment - the most reliable form of hyperspace prevention in the era. It has token anti-fighter armament similar to a corvette.
-TEXT_TOOLTIP_PELTASUPPORT_HULL,Hull: 1000 (Corvette)
-TEXT_TOOLTIP_PELTASUPPORT_MINE,Interdiction Mines: 1 / 2
-TEXT_TOOLTIP_PELTASUPPORT_MOVE,Speed: 2.5 | Accel: 0.02 | Turn: 0.4
-TEXT_TOOLTIP_PELTASUPPORT_PD,Point-Defense: 1 / 0.57s / 1.5km
-TEXT_TOOLTIP_PELTASUPPORT_SHIELD,Shields: 800 / [14/R] (Corvette)
-TEXT_TOOLTIP_PELTASUPPORT_TENDER,Fleet Tender: 50 / 2.0s / 1.6km
-TEXT_TOOLTIP_PELTASUPPORT_WEAP1,2x Medium Dual Rapid Laser Cannons: 6 / 2.5s / 3.6km
+TEXT_TOOLTIP_PELTA_ASSAULT,A combat and convoy-escort equipped version of a modular frigate class. Fairly durable for its size with weaponry favoring anti-fighter alongside some prow-mounted turbolasers. Significantly better armed than the support model.
+TEXT_TOOLTIP_PELTA_ASSAULT_HULL,Hull: 1000 (Frigate)
+TEXT_TOOLTIP_PELTA_ASSAULT_MOVE,Speed: 2.5 | Accel: 0.035 | Turn: 0.4
+TEXT_TOOLTIP_PELTA_ASSAULT_PD,Point-Defense: 1 / 0.28s / 1.5km
+TEXT_TOOLTIP_PELTA_ASSAULT_SHIELD,Shields: 1000 / [17.5/R] (Frigate)
+TEXT_TOOLTIP_PELTA_ASSAULT_WEAP1,2x Light Triple Turbolasers: 1 / 5.0s / 5.1km
+TEXT_TOOLTIP_PELTA_ASSAULT_WEAP2,4x Medium Dual Rapid Laser Cannons: 6 / 2.5s / 3.6km
+TEXT_TOOLTIP_PELTA_MINELAYER,TODO
+TEXT_TOOLTIP_PELTA_SUPPORT,A general fleet support version of a modular frigate class used for tending and interdiction mine deployment - the most reliable form of hyperspace prevention in the era. It has token anti-fighter armament similar to a corvette.
+TEXT_TOOLTIP_PELTA_SUPPORT_HULL,Hull: 1000 (Corvette)
+TEXT_TOOLTIP_PELTA_SUPPORT_MINE,Interdiction Mines: 1 / 2
+TEXT_TOOLTIP_PELTA_SUPPORT_MOVE,Speed: 2.5 | Accel: 0.02 | Turn: 0.4
+TEXT_TOOLTIP_PELTA_SUPPORT_PD,Point-Defense: 1 / 0.57s / 1.5km
+TEXT_TOOLTIP_PELTA_SUPPORT_SHIELD,Shields: 800 / [14/R] (Corvette)
+TEXT_TOOLTIP_PELTA_SUPPORT_TENDER,Fleet Tender: 50 / 2.0s / 1.6km
+TEXT_TOOLTIP_PELTA_SUPPORT_WEAP1,2x Medium Dual Rapid Laser Cannons: 6 / 2.5s / 3.6km
 TEXT_TOOLTIP_PERSONNEL_SKIFF_IV,An originally civilian platform modified into a utility-oriented Light Mechanized Vehicle by commercial, criminal and rebel interests. Capable of carrying a variety of gear to support friendly forces, but limited in its ability to defend itself from notable threats.
 TEXT_TOOLTIP_PERSONNEL_SKIFF_IV_COMPANY,Company: 3x Modified Personnel Skiff Model IV
 TEXT_TOOLTIP_PERSONNEL_SKIFF_IV_HEALTH,Health: 250 (Light Vehicle)
+TEXT_TOOLTIP_PERSONNEL_SKIFF_IV_INFANTRY_HEAL,1x Infantry Healing: 2 / 1.0s / 96m
+TEXT_TOOLTIP_PERSONNEL_SKIFF_IV_INFANTRY_HEAL_3X,3x Infantry Healing: 2 / 1.0s / 96m
 TEXT_TOOLTIP_PERSONNEL_SKIFF_IV_MOVE,Speed: 1.5 | Turn: 3.0 
 TEXT_TOOLTIP_PERSONNEL_SKIFF_IV_WEAP1,5x Heavy Repeating Blasters: 5 / 1.0s / 280m
 TEXT_TOOLTIP_PERSUADER,Also commonly known as the "snail tank", the Persuader is an old Corporate Alliance design heavily utilized by the Confederacy in the Clone Wars. It was originally used by the Corporate Alliance to silence protesters and opponents of their business practices.
@@ -2083,6 +2097,7 @@ TEXT_TOOLTIP_SECURITYTROOPER_HEALTH,Health: 14 (Infantry)
 TEXT_TOOLTIP_SECURITYTROOPER_MOVE,Speed: 1.0 
 TEXT_TOOLTIP_SECURITYTROOPER_SQUAD,Squad: 10x Corporate Security Trooper
 TEXT_TOOLTIP_SECURITYTROOPER_SQUAD_WEAP1,10x Blaster Rifle: 1 / 1.0s / 240m
+TEXT_TOOLTIP_SECURITYTROOPER_VEHICLE_REPAIR_4X,4x Vehicle Repair: 5 / 1.0s / 80m
 TEXT_TOOLTIP_SECURITYTROOPER_WEAP1,1x A280 Blaster Rifle: 1 / 1.0s / 240m
 TEXT_TOOLTIP_SECUTOR,A massive carrier design that shares features with its Venator and Maelstrom predecessors. It is fast for its size, well-armed, and carries several times the fighter complement of most other capitals. It was designed late in the Clone Wars but only officially used by the Empire and its splinter factions. It is best used as a flagship for fleet groups seeking additional fighter superiority and firepower.
 TEXT_TOOLTIP_SECUTOR_HULL,Hull: 9660 (Capital)
@@ -2311,6 +2326,7 @@ TEXT_TOOLTIP_THETA_SHUTTLE_WEAP2,1x Fighter Concussion Missile: 2 / 25.0s / 1.8k
 TEXT_TOOLTIP_THETA_SHUTTLE_WEAP3,1x Aft Fighter Turbolaser: 1 / 3.0s / 1.4km
 TEXT_TOOLTIP_TIE_BOMBER,A bomber armed with proton torpedoes. It replaces the unpopular TIE/gt model and is a significant improvement over that design. It is best used to attack the larger enemy ships and space stations along with bombing runs against ground targets.
 TEXT_TOOLTIP_TIE_FIGHTER,A speedy and maneuverable light fighter that became one of the most recognizable Imperial symbol after being chosen to standardize fighter models shortly after the Empire's founding. It is cheap and lacks shielding and adequate armor compared to other designs. It is best used en-masse to engage enemy fighters and bombers.
+TEXT_TOOLTIP_TIE_POD,Spinoff design of the T.I.E. Starfighter line pushed into service during the last year of the Clone Wars. Overgunned but under-protected compared to the base design, the near-exclusive use of cloned pilots betrays their expendabiliy in the name of enemies killed.
 TEXT_TOOLTIP_TIE_STARFIGHTER,An upgrade of the Republic's T.I.E Starfighter, the TIE Starfighter was the first member of the TIE family designed in the Imperial era. The Empire needed vast numbers of fighters to occupy an entire galaxy, so the TIE Starfighter was quickly phased out in favor of the less capable and less expensive TIE/ln (better known as the TIE Fighter).
 TEXT_TOOLTIP_TNT,Originally a mining vehicle designed for the spice mines of Kessel during the era of the Republic, the Treaded Neutron Torch was adapted into military usage during the collapse of the Galactic Empire as makeshift assault tanks. A hull designed to survive perilous mine shafts offers a surprising amount of protection in combat and torches capable of melting easily through rock are also capable of burning their way through lots of other material that might see use on a battlefield.
 TEXT_TOOLTIP_TNT_COMPANY,Company: 3x Treaded Neutron Torch
@@ -2329,6 +2345,18 @@ TEXT_TOOLTIP_TRONOX_MOVE,Speed: 1.5
 TEXT_TOOLTIP_TRONOX_WEAP1,1x AV Laser Cannon: 1 / 1.0s / 240m
 TEXT_TOOLTIP_TRONOX_WEAP2,1x Light Concussion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_TROONOL,Troonol was the commander of a Qunaalac task force that patrolled Bootana Hutta and the area surrounding it. Troonol was as much a negotiator as a commander, constantly making agreements with other Qunaalac lords.
+TEXT_TOOLTIP_TX130S,A fast and maneuverable "fighter tank" line developed by the Galactic Republic as a medium armor asset. Fixed weapons require it to face the target to bring its full firepower to bear while shields make up for somewhat light armor.
+TEXT_TOOLTIP_TX130S_COMMANDER_COMPANY,Company: 1x TX-130S Fighter Tank
+TEXT_TOOLTIP_TX130S_COMPANY,Company: 3x TX-130S Fighter Tank
+TEXT_TOOLTIP_TX130S_HEALTH,Health: 200 (Medium Vehicle)
+TEXT_TOOLTIP_TX130S_MOVE,Speed: 2.25 | Turn: 2.0 
+TEXT_TOOLTIP_TX130S_SHIELD,Shields: 75 / [10/R] (Light Vehicle)
+TEXT_TOOLTIP_TX130S_WEAP1,1x AV Beam Cannon: 12 / 3.5s / 320m
+TEXT_TOOLTIP_TX130S_WEAP2,1x AV Blaster Cannon: 2 / 2.0s / 320m
+TEXT_TOOLTIP_TX130S_WEAP3,1x Proton Missile: 1 / 15.0s / 320m
+TEXT_TOOLTIP_TX130T,A endwar conversion of the TX-130 hull that managed to add space for a small fireteam by heavily re-arranging the internals heavily, at the cost of the base frame modularity and different optimal munitions load. Performance otherwise comparable to baseline.
+TEXT_TOOLTIP_TX130T_COMPANY,Company: 3x TX-130T Fighter Tank
+TEXT_TOOLTIP_TX130T_WEAP3,1x Heavy Proton Missile: 1 / 30.0s / 320m
 TEXT_TOOLTIP_UBRIKKIAN_CRUISER,One of the uncountable examples of licensed for production models of the venerable Dreadnaught-class cruiser, this Ubrikkian vessel has similar capabilities to the military models surrounding it, maintained over its service life. The main differences are in the aesthetics, which are more suited towards Hutt and similar buyers than coreward Human cultures.
 TEXT_TOOLTIP_UBRIKKIAN_CRUISER_HULL,Hull: 2380 (Heavy Frigate)
 TEXT_TOOLTIP_UBRIKKIAN_CRUISER_MOVE_CW,Speed: 2.75 | Accel: 0.035 | Turn: 0.375
@@ -2592,6 +2620,7 @@ TEXT_UNIT_DESTROYER_DROID_MK2_COMPANY,Destroyer Droid-II Company
 TEXT_UNIT_DORBULLA,Dor'bulla Warship
 TEXT_UNIT_DREADNAUGHT,Dreadnaught Heavy Cruiser
 TEXT_UNIT_DREADNAUGHT_CARRIER,Dreadnaught Heavy Carrier
+TEXT_UNIT_DREADNAUGHT_GUNBOAT,Dreadnaught Heavy Cruiser Gunboat
 TEXT_UNIT_DREADNAUGHT_LASERS,PDF Dreadnaught Heavy Cruiser
 TEXT_UNIT_DRK1_PROBE_DROID,DRK-1 Probe Droid
 TEXT_UNIT_DUNELIZARD_FIGHTER,Dunelizard Fighter
@@ -2649,8 +2678,6 @@ TEXT_UNIT_HUTT_GALLEON,Hutt Galleon Frigate
 TEXT_UNIT_HUTT_VAAT_COMMAND,Command VAAT/e Gunship
 TEXT_UNIT_HUTT_VAAT_COMMANDER,VAAT/e Gunship Commander
 TEXT_UNIT_I_BEAM,I-BEAM Star Fighter
-TEXT_UNIT_IFTX,TX-130 Saber Tank
-TEXT_UNIT_IFTX_COMPANY,TX-130 Saber Tank Company
 TEXT_UNIT_IMPERIAL_I_FRIGATE,Imperial-I Frigate
 TEXT_UNIT_INQUESTOR,InQuestor
 TEXT_UNIT_INTERCEPTOR1_FRIGATE,Interceptor I Bulk Cruiser
@@ -2748,8 +2775,9 @@ TEXT_UNIT_PDF_TACTICAL_UNIT_GRENADE,Defense Force Tactical Unit Grenadier
 TEXT_UNIT_PDF_TACTICAL_UNIT_OFFICER,Defense Force Tactical Unit Officer
 TEXT_UNIT_PDF_TACTICAL_UNIT_PLATOON,Defense Force Tactical Unit Platoon
 TEXT_UNIT_PDF_TACTICAL_UNIT_SQUAD,Defense Force Tactical Unit Squad
-TEXT_UNIT_PELTAASSAULT,Pelta Frigate
-TEXT_UNIT_PELTASUPPORT,Pelta Support Ship
+TEXT_UNIT_PELTA_ASSAULT,Pelta Frigate
+TEXT_UNIT_PELTA_MINELAYER,Pelta Minelayer Ship
+TEXT_UNIT_PELTA_SUPPORT,Pelta Support Ship
 TEXT_UNIT_PERSONNEL_SKIFF_IV,Modified Personnel Skiff Model IV
 TEXT_UNIT_PERSONNEL_SKIFF_IV_COMPANY,Modified Personnel Skiff Model IV Company
 TEXT_UNIT_PERSUADER,Persuader Droid Enforcer
@@ -2852,6 +2880,7 @@ TEXT_UNIT_TEMPLE_SECURITY_SQUAD,Temple Security Trooper Squad
 TEXT_UNIT_THETA_SHUTTLE,Theta-class T-2c shuttle
 TEXT_UNIT_TIE_BOMBER,TIE Bomber
 TEXT_UNIT_TIE_FIGHTER,TIE Fighter
+TEXT_UNIT_TIE_POD,T.I.E. Pod
 TEXT_UNIT_TIE_STARFIGHTER,TIE Starfighter
 TEXT_UNIT_TNT,Treaded Neutron Torch
 TEXT_UNIT_TNT_COMPANY,Treaded Neutron Torch Company
@@ -2861,6 +2890,10 @@ TEXT_UNIT_TOSCAN_INTERCEPTOR,Toscan 8-Q Interceptor
 TEXT_UNIT_TOSCAN_MISSILE,Missile Toscan 8-Q Starfighter
 TEXT_UNIT_TOSCAN_STOCK,Toscan 8-Q Starfighter
 TEXT_UNIT_TROONOL,Troonol
+TEXT_UNIT_TX130S,TX-130S Fighter Tank
+TEXT_UNIT_TX130S_COMPANY,TX-130S Fighter Tank Company
+TEXT_UNIT_TX130T,TX-130T Fighter Tank
+TEXT_UNIT_TX130T_COMPANY,TX-130T Fighter Tank Company
 TEXT_UNIT_TZ15_HERO_SHUTTLE,TZ-15 Shuttle
 TEXT_UNIT_UBRIKKIAN_CRUISER,Ubrikkian Cruiser
 TEXT_UNIT_ULAV,Ultra-Light Assault Vehicle

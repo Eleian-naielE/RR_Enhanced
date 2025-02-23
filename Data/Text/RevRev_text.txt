@@ -35,8 +35,17 @@ MT_FOTG_SPACE_RENDILI_RAVAGING,Collapse of the Core
 MT_FOTG_SPACE_SERROCO_STERILIZING,Days of Fear
 MT_FOTG_SPACE_VANQUO_VANISHING,Mandalorian Onslaught
 SET_YOUR_GAME_LANGUAGE_TO_ENGLISH_IF_YOU_READ_THIS,This mod was updated to version 0.5 on January 30th 2025.
+STAT_SHIPCREWS_1,Influence - 5: +2
+STAT_SHIPCREWS_10,Naval Academy: +25
+STAT_SHIPCREWS_11,Cloning Facility: +25
+STAT_SHIPCREWS_2,Influence - 6: +4
+STAT_SHIPCREWS_3,Influence - 7: +6
+STAT_SHIPCREWS_4,Influence - 8: +8
+STAT_SHIPCREWS_5,Influence - 9: +10
+STAT_SHIPCREWS_6,Influence - 10: +12
 STAT_SHIPCREWS_7,Type-I Space Colony: +5
 STAT_SHIPCREWS_8,Type-II Space Colony: +10
+STAT_SHIPCREWS_9,Faction Capital: +25
 TEXT_ABILITY_MICROJUMP,Force Controlled Micro-jump
 TEXT_ABILITY_MICROJUMP_DESCRIPTION,A tactical jump into hyperspace over a very short distance.
 TEXT_CAMPAIGN_DESCRIPTION_CORE_ASSAULT,Collapse of the Core\n-----\nDescription: \n\nIn an alternative timeline, the Mandalorian Triumph goes unhalted. With system and after system falling into Mandalorian hands, the Galactic Republic stands at the edge of collapse. As the gateway worlds of Duro and Corellia burn, Cassus Fett and his fleet march onward towards the shipyards of Rendili, pushing the Republic further towards their last bastion: The heart of the galaxy itself, Coruscant... \n-----\nPlanets: 39\n-----\nPlayable Factions: \n\n- Mandalorians Clans (Medium)\n-----\nNon-Playable Factions:\n\n- Galactic Republic\n\n- Republic Sector Forces\n\n- Sith Warlords\n\n- Krath Remnants\n-----\nThis Galactic Conquest can advance upon completing the required story missions.\n-----\nApproximate CPU Load: Light
@@ -70,7 +79,7 @@ TEXT_COMPANY_CSD_CENTRAL_SHIPYARD,Corellia StarDrive Shipyard
 TEXT_COMPANY_CSD_CENTRAL_SHIPYARD_DESCRIPTION,The central shipyard of the system, it is the heart and soul of local production.
 TEXT_COMPANY_CSD_DESCRIPTION,All CSD products: Coruscant Courier.
 TEXT_COMPANY_CZERKA,Czerka Arms
-TEXT_COMPANY_CZERKA_DESCRIPTION,All Czerka products: HK-24 Assassin Droid, Assault Droid-variants, Tank Droid, and VX-series Droids.
+TEXT_COMPANY_CZERKA_DESCRIPTION,All Czerka products: HK-24 Assassin Droid, Assault Droid-variants, Tank Droid, VX-series Droids and Dreshdae Patrol Corvette.
 TEXT_COMPANY_DURO_SHIPWRIGHT_STATION,Duro Starshipwright Shipyard
 TEXT_COMPANY_DURO_SHIPWRIGHT_STATION_DESCRIPTION,The central shipyard of the system, it is the heart and soul of local production.
 TEXT_COMPANY_DUWANI,Duwani Mechanical Products
@@ -115,7 +124,7 @@ TEXT_COMPANY_MANDAL_MOTORS_DESCRIPTION,All Mandal Motors products: Vergebuir Cor
 TEXT_COMPANY_MANDO_CAPITAL,Mand'alor Throne Hall
 TEXT_COMPANY_MANDO_GOVERNOROFFICE,Mandalorian Clan Castle
 TEXT_COMPANY_RENDILI,Rendili Hyperworks
-TEXT_COMPANY_RENDILI_DESCRIPTION,All Rendili products: Axehead, Hammerhead, Swiftsure, and Inexpugnable.
+TEXT_COMPANY_RENDILI_DESCRIPTION,All Rendili products: Axehead, Hammerhead, Stalwart, Swiftsure, and Inexpugnable.
 TEXT_COMPANY_RENDILI_SHIPWRIGHT_STATION,Rendili StarDrive Shipwright
 TEXT_COMPANY_RENDILI_SHIPWRIGHT_STATION_DESCRIPTION,The central shipyard of the system, it is the heart and soul of local production.
 TEXT_COMPANY_REPUBLIC_CAPITAL,Galactic Senate
@@ -163,85 +172,6 @@ TEXT_DOCUMENTATION_BODY_STORYOVERVIEW_ERA_2,Era 2: 3964 BBY - 3962 BBY | 24 Cycl
 TEXT_DOCUMENTATION_BODY_STORYOVERVIEW_ERA_3,Era 3: 3962 BBY - 3959 BBY | 36 Cycles
 TEXT_DOCUMENTATION_BODY_STORYOVERVIEW_ERA_4,Era 4: 3959 BBY - 3957 BBY | 24 Cycles
 TEXT_DOCUMENTATION_BODY_STORYOVERVIEW_ERA_5,Era 5: 3957+ BBY | ∞ Cycles
-TEXT_DOCUMENTATION_BODY_TIERSANDTRAITS,Heroes in EaWX are assigned a command tier indicated in their description (XII being best, I being worst) which has a set of bonuses for units based on that tier. Each character can also have a set of traits which can positively or negatively impact their command bonus. Below is every tier and trait and its effect. Unless stated otherwise hero bonuses do not stack with one another. If a faction has more than one hero with a bonus present in battle the highest value in each category will be applied. Stacking bonuses are added on top of the highest nonstacking bonus and cannot stack with another copy of themselves. Heroes do not apply their bonuses to themselves.
-TEXT_DOCUMENTATION_BODY_TRAIT_AGGRESSIVE,Aggressive: -3% Health \ +3% Damage \ +3% Speed
-TEXT_DOCUMENTATION_BODY_TRAIT_ARROGANT,Arrogant: -3% Damage \ -3% Defense 
-TEXT_DOCUMENTATION_BODY_TRAIT_BATTLE_MEDITATION,Battle Meditation: +9% Damage \ +9% Defense \ +9% Speed \ +9% Fog of War Reveal
-TEXT_DOCUMENTATION_BODY_TRAIT_CAUTIOUS,Cautious: +6% Shield \ -3% Speed
-TEXT_DOCUMENTATION_BODY_TRAIT_COWARDLY,Cowardly: -3% Damage \ -3% Speed
-TEXT_DOCUMENTATION_BODY_TRAIT_CREATIVE,Creative: +6% Speed \ -15% Ability Recharge Time
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_ADMIN_01,Admin I: 15% build time & cost reduction \ 5% credit income bonus
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_ADMIN_02,Admin II: 20% build time & cost reduction \ 10% credit income bonus
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_AGENT_01,Agent I: 5% build cost reduction
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_AGENT_01_SPEC,Agent I Spec: 15% build cost reduction
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_AGENT_02,Agent II: 10% build cost reduction
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_AGENT_02_SPEC,Agent II Spec: 20% build cost reduction
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_ARCHON,Archon: 10% build time & cost reduction
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_ASSISTANT_VICEPREX,Assistant Viceprex: 5% build cost reduction
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_BANKER,Banker: 80% credit income bonus
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_BARON,Baron: 5% build cost reduction
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_CHIEF_OF_STATE,Chief Of State: 25% build time & cost reduction \ 25% credit income bonus
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_CSA_AGENT,CSA Agent: 10% build cost reduction \ Galactic stealth
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_CSA_EXECUTIVE,CSA Executive: 10% build time & cost reduction \ 10% credit income bonus
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_DARAMA,Darama: 15% build time & cost reduction
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_DUKAT_01,Dukat I: 15% build time & cost reduction \ 10% credit income bonus
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_DUKAT_02,Dukat II: 20% build time & cost reduction \ 15% credit income bonus
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_EXO,ExO: 30% build time & cost reduction \ 20% credit income bonus
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_FIELD_SHAPER,Field Shaper: 5% build cost reduction
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_GRAND_MOFF,Grand Moff: 15% build time & cost reduction \ 10% credit income bonus
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_HUTT_ARCHON,Hutt Archon: 30% build time & cost reduction \ 20% credit income bonus
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_HUTT_LORD,Hutt Lord: 5% build cost reduction \ 10% credit income bonus \ Credit bonus for destroying enemy units in tactical battles
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_INDUSTRIALIST,Industrialist: 20% build time reduction \ 10% build cost reduction for listed units (stacks with Corporations)
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_INTENDANT_01,Intendant I: 60% credit income bonus
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_INTENDANT_02,Intendant II: 80% credit income bonus
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_KAJIDII,Kajidii: 10% build cost reduction \ 15% credit income bonus \ Credit bonus for destroying enemy units in tactical battles
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_LOBBYIST,Lobbyist: 10% build cost reduction \ Galactic stealth
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_MANDALORE,Mand'alor: 15% build time & cost reduction
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_MOFF,Moff: 10% build time & cost reduction \ 10% credit income bonus
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_QUEEN_MOTHER,Queen Mother: 15% build time & cost reduction
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_SENATOR,Senator: 15% build time & cost reduction \ 15% credit income bonus \ +1 Influence at current location
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_SHAPER_01,Shaper I: 15% build time & cost reduction
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_SHAPER_02,Shaper II: 20% build time & cost reduction
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_SITH_MASTER,Sith Master: 15% build time & cost reduction
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_SLAVELORD,Slavelord: 10% build time reduction \ Double credit bonus for destroying enemy units in tactical battles
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_SMUGGLER,Smuggler: 10% build cost reduction \ 10% credit income bonus \ Galactic stealth
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_SUPREME_OVERLORD,Supreme Overlord: 30% build time & cost reduction \ 20% credit income bonus
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_VICEPREX,Viceprex: 20% build time & cost reduction \ 10% credit income bonus
-TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_VICEROY,Viceroy: 20% build time & cost reduction \ 10% credit income bonus
-TEXT_DOCUMENTATION_BODY_TRAIT_FORCESENSITIVE,Force Sensitive: +6% Speed \ +20% Fog of War Reveal \ Can detect stealth units in ground tactical battles
-TEXT_DOCUMENTATION_BODY_TRAIT_INDECISIVE,Indecisive: -6% Speed
-TEXT_DOCUMENTATION_BODY_TRAIT_PROTECTIVE,Protective: +3% Defense \ +6% Fog of War Reveal
-TEXT_DOCUMENTATION_BODY_TRAIT_RECKLESS,Reckless: -6% Defense \ +6% Speed \ -10% Ability Recharge Time
-TEXT_DOCUMENTATION_BODY_TRAIT_SADISTIC,Sadistic: +6% Damage \ -6% Defense
-TEXT_DOCUMENTATION_BODY_TRAIT_SQUEAMISH,Squeamish: +3% Health \ +6% Shield \ -6% Damage
-TEXT_DOCUMENTATION_BODY_TRAIT_TIER_01,Command Tier I: +3% Damage \ +3% Defense \ +3% Speed \ +3% Fog of War Reveal
-TEXT_DOCUMENTATION_BODY_TRAIT_TIER_02,Command Tier II: +6% Damage \ +6% Defense \ +6% Speed \ +6% Fog of War Reveal
-TEXT_DOCUMENTATION_BODY_TRAIT_TIER_03,Command Tier III: +9% Damage \ +9% Defense \ +9% Speed \ +9% Fog of War Reveal
-TEXT_DOCUMENTATION_BODY_TRAIT_TIER_04,Command Tier IV: +12% Damage \ +12% Defense \ +12% Speed \ +12% Fog of War Reveal
-TEXT_DOCUMENTATION_BODY_TRAIT_TIER_05,Command Tier V: +15% Damage \ +15% Defense \ +15% Speed \ +15% Fog of War Reveal
-TEXT_DOCUMENTATION_BODY_TRAIT_TIER_06,Command Tier VI: +18% Damage \ +18% Defense \ +18% Speed \ +18% Fog of War Reveal
-TEXT_DOCUMENTATION_BODY_TRAIT_TIER_07,Command Tier VII: +21% Damage \ +21% Defense \ +21% Speed \ +21% Fog of War Reveal
-TEXT_DOCUMENTATION_BODY_TRAIT_TIER_08,Command Tier VIII: +24% Damage \ +24% Defense \ +24% Speed \ +24% Fog of War Reveal
-TEXT_DOCUMENTATION_BODY_TRAIT_TIER_09,Command Tier IX: +27% Damage \ +27% Defense \ +27% Speed \ +27% Fog of War Reveal
-TEXT_DOCUMENTATION_BODY_TRAIT_TIER_10,Command Tier X: +30% Damage \ +30% Defense \ +30% Speed \ +30% Fog of War Reveal
-TEXT_DOCUMENTATION_BODY_TRAIT_TIER_11,Command Tier XI: +33% Damage \ +33% Defense \ +33% Speed \ +33% Fog of War Reveal
-TEXT_DOCUMENTATION_BODY_TRAIT_TIER_12,Command Tier XII: +36% Damage \ +36% Defense \ +36% Speed \ +36% Fog of War Reveal
-TEXT_DOCUMENTATION_BODY_TRAIT_UNINTERESTING,None: No active traits
-TEXT_DOCUMENTATION_BODY_TRAIT_UNPREDICTABLE,Unpredictable: -6% Shield \ +6% Damage \ +3% Speed \ -15% Ability Recharge Time
-TEXT_DOCUMENTATION_BODY_TRAIT_UNYIELDING,Unyielding: +6% Defense, Disables Tactical Retreat
-TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_ANTI_PARTISAN,Anti-Partisan: While this hero is in system (on ground or in orbit), all partisans fight for the enemy. (Superseded by Labour Camp.)
-TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_BEAST_TAMER,Beast Tamer: While this hero is in system (on ground or in orbit), all animals fight on this hero's side.
-TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_BOUNTY_HUNTER,Bounty Hunter: Galactic stealth
-TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_COOPERATIVE,Cooperative: Stacking +1 command tier buff if another hero with an equal or higher command tier is deployed.
-TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_PARTISAN_RECRUITER,Partisan Recruiter: While this hero is in system (on ground or in orbit), all partisans fight on this hero's side. (Superseded by Labour Camp.)
-TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_PARTISAN_SUPPRESSOR,Partisan Suppressor: While this hero is in system (on ground or in orbit), partisans do not spawn. (Superseded by Labour Camp.)
-TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_POACHER,Poacher: While this hero is in system (on ground or in orbit), all animals fight for the enemy.
-TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_SALVAGER,Salvager: Credit bonus for destroying enemy units in tactical battles
-TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_SLAVER,Slaver: Credit bonus for destroying enemy units in tactical battles
-TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_SPY,Spy: System Spy \ Galactic Stealth
-TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_SPY_MASTER,Spy Master: System Spy \ Reveals nearby systems
-TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_STEALTH_OPERATIVE,Stealth Operative: Galactic stealth
-TEXT_DOCUMENTATION_BODY_TRAIT_VINDICTIVE,Vindictive: -6% Health \ +3% Damage
 TEXT_DOCUMENTATION_FACTION_MANDO,=== Mandalorian Clans ==================================
 TEXT_DOCUMENTATION_FACTION_REPUBLIC,=== Galactic Republic ==================================
 TEXT_DOCUMENTATION_FACTION_SITH,=== Sith Empire ======================================
@@ -370,6 +300,8 @@ TEXT_GOVERNMENT_REPUBLIC_HERO_SYSTEM_0,Active Command Staff at once (depending o
 TEXT_GOVERNMENT_REPUBLIC_HERO_SYSTEM_1,- Fleet Officers: 4
 TEXT_GOVERNMENT_REPUBLIC_HERO_SYSTEM_2,- Jedi: 3
 TEXT_GOVERNMENT_REPUBLIC_HERO_SYSTEM_HEADER,Command Staff:
+TEXT_GOVERNMENT_REPUBLIC_SECTORFORCES,Several Republic sectors are maintaining independent control of their own defenses at the moment. This faction (light blue, also indicated with the Republic's galactic roundel next to their planets) will not attack you, and will only defend their own territory. Increasing your senate support via missions will cause one of these planets to join you. Attacking them may result in negative consequences.
+TEXT_GOVERNMENT_REPUBLIC_SECTORFORCES_HEADER,Republic-Aligned Sector Forces:
 TEXT_GOVERNMENT_RULEOFTWO_ACTIVATE_JCW,Revan: The Republic has failed us... The Jedi have failed us. They have no more claim to my allegiance. From now on, I am Darth Revan – and the Galaxy will be mine!
 TEXT_GOVERNMENT_RULEOFTWO_ACTIVATE_KOTOR,Bastila Shan: Revan was heavily injured, but I've preserved their life. The Jedi do not execute prisoners, but the Council may heal Revan's wounded mind so they can atone for their actions.
 TEXT_GOVERNMENT_RULEOFTWO_ACTIVE_ACOLYTE,Sith Acolyte: %s
@@ -448,7 +380,7 @@ TEXT_GROUND_LIGHT_VEHICLE_FACTORY_MANDO,Light War Forge
 TEXT_GROUND_SITH_ADVANCED_VEHICLE_FACTORY,Sith Alchemical Laboratory
 TEXT_GROUND_SITH_BARRACKS,Barracks
 TEXT_GROUND_SITH_HEAVY_VEHICLE_FACTORY,Piloted Vehicle Factory
-TEXT_GROUND_SITH_LIGHT_VEHICLE_FACTORY,Droid Vehicle Factory
+TEXT_GROUND_SITH_LIGHT_VEHICLE_FACTORY,Droid Factory
 TEXT_HERO_AKERO,Akero
 TEXT_HERO_ALEK,Alek
 TEXT_HERO_ARVAN_CARRICK,Arvan Carrick
@@ -816,7 +748,7 @@ TEXT_MISSION_CRUMBLING_CAPITAL_SPEECH_18,Mandalore the Ultimate:  All forces, ad
 TEXT_MISSION_CRUMBLING_CAPITAL_SPEECH_19,Mandalore the Ultimate:  Crusaders, on me! Kill every Jedi you can find.
 TEXT_MISSION_CRUSHING_CATHAR_INTRO_01,The savanna of Cathar...
 TEXT_MISSION_CRUSHING_CATHAR_INTRO_02,...hours before the Basilisks rained from the sky
-TEXT_MISSION_CRUSHING_CATHAR_OBJECTIVE_MANDO_01,Cassus Fett must survive! (Reward: -2000 Credits)
+TEXT_MISSION_CRUSHING_CATHAR_OBJECTIVE_MANDO_01,Cassus Fett must survive! (Penalty: -3000 Credits)
 TEXT_MISSION_CRUSHING_CATHAR_OBJECTIVE_MANDO_02,Defeat the Cathar defenders!
 TEXT_MISSION_CRUSHING_CATHAR_OBJECTIVE_MANDO_03,Kill the Cathar Elder! (Reward: 5000 Credits)
 TEXT_MISSION_CRUSHING_CATHAR_SPEECH_01,Cathar Elder:  What brings you here, Mandalorian?  Why did you ask for this parlay?
@@ -1564,8 +1496,8 @@ TEXT_STORY_MANDALORIAN_ONSLAUGHT_MANDO_SPEECH_07,Cassus Fett:  During the surpri
 TEXT_STORY_MANDALORIAN_ONSLAUGHT_MANDO_SPEECH_07_ALT,Cassus Fett:  During the surprise attack on Vanquo, our troops captured a living Jedi and since Mand'alor's orders haven't changed, ensure that the prison transport is send to Flashpoint immediately. Demagol is waiting for another subject.
 TEXT_STORY_MANDALORIAN_ONSLAUGHT_MANDO_SPEECH_08,Mandalorian Warrior:  Sir, Flashpoint is under attack. A Republic strategist named Admiral Hierogryph has sabotaged most of our ships. We don't know how far the sabotage stretches, but the base on Flashpoint is lost. Demagol and Rohlan Dyre stayed behind but we lost contact with them.
 TEXT_STORY_MANDALORIAN_ONSLAUGHT_MANDO_SPEECH_09,Mandalore the Ultimate:  So be it. Whoever this Admiral Hierogryph is, he played his hand well, but even a few bombs won't change the fate of the Republic. Demagol's death is most unfortunate, but his clan's resources will be placed under Cassus' command to help his campaign. \n[Reward: 7000 Credits]
-TEXT_STORY_MANDALORIAN_ONSLAUGHT_MANDO_SPEECH_10,Cassus Fett:  The conquest of Taris providing a logistical nightmare...  I can see why I was brought in. The Republic doesn't need to fight back when we have our own forces slamming into each other. We will relocated our headquaters to Taris for now to properly plan the next stages of the Mando'ade.
-TEXT_STORY_MANDALORIAN_ONSLAUGHT_MANDO_SPEECH_10_ALT,Cassus Fett:  The conquest of Taris providing a logistical nightmare...  I can see why I was brought in. The Republic doesn't need to fight back when we have our own forces slamming into each other. We will relocated our headquaters to Taris for now to properly plan the next stages of the Mando'ade.
+TEXT_STORY_MANDALORIAN_ONSLAUGHT_MANDO_SPEECH_10,Cassus Fett:  The conquest of Taris has been a nightmare for our supply chains...  I can see why I was brought in. The Republic doesn't need to fight back when we have our own forces slamming into each other. I need our headquaters relocated to Taris if we want to reach Coruscant before my son has sons.
+TEXT_STORY_MANDALORIAN_ONSLAUGHT_MANDO_SPEECH_10_ALT,Cassus Fett:  The conquest of Taris has been a nightmare for our supply chains...  I can see why I was brought in. The Republic doesn't need to fight back when we have our own forces slamming into each other. I need our headquaters relocated to Taris if we want to reach Coruscant before my son has sons.
 TEXT_STORY_MANDALORIAN_ONSLAUGHT_MANDO_SPEECH_11,Pulsipher:  The death of my old master, Demagol, has left a void that this fool Cassus is trying to fill, but I, Pulsipher, have found a way to show my worth and fulfill the Mando'ade all by myself. The key for this is located on Taris.
 TEXT_STORY_MANDALORIAN_ONSLAUGHT_MANDO_SPEECH_11_ALT,Pulsipher:  The death of my old master, Demagol, has left a void that this fool Cassus is trying to fill, but I, Pulsipher, have found a way to show my worth and fulfill the Mando'ade all by myself. The key for this is located on Taris.
 TEXT_STORY_MANDALORIAN_ONSLAUGHT_MANDO_SPEECH_12,Pulsipher:  Somewhere in these ruins is the so called Muur Talisman. It is a powerful relict of the old Sith and soon it will be mine. Begin the excavation at once!
@@ -1712,9 +1644,9 @@ TEXT_STORY_MANDALORIAN_TRIUMPH_MANDO_SPEECH_17,Cassus Fett:  Bold words. Let's s
 TEXT_STORY_MANDALORIAN_TRIUMPH_MANDO_SPEECH_18,Velrugha the Hutt:  [As said before, we are businessbeings -- And everyone has a price. We know of your problems with keeping your supply chains running.] \n\n[Reward: The remaining Hutt Clans have joined you.]
 TEXT_STORY_MANDALORIAN_TRIUMPH_MANDO_SPEECH_19,[This is why we offer you our trading fleet for leaving our beloved Bootana in peace. With this you shall soon reach Coruscant itself.]
 TEXT_STORY_MANDALORIAN_TRIUMPH_MANDO_SPEECH_20,Cassus Fett:  We have forcefully conscripted a bunch of locals during the last conquest. I will place them under your command.
-TEXT_STORY_MANDALORIAN_TRIUMPH_MANDO_SPEECH_21,Hapan Pirate:  Your strength impresses us men of Mandalore, and we would forge a treaty with you.
-TEXT_STORY_MANDALORIAN_TRIUMPH_MANDO_SPEECH_21_ALT,Hapan Pirate:  Your strength impresses us men of Mandalore, and we would forge a treaty with you. Yet, first we request a sign of good faith. Strike a blow to the haughty daughters of the Lorell, and we will follow you to Coruscant and beyond.
-TEXT_STORY_MANDALORIAN_TRIUMPH_MANDO_SPEECH_22,Yet, first we request a sign of good faith. Strike a blow to the haughty daughters of the Lorell, and we will follow you to Coruscant and beyond.
+TEXT_STORY_MANDALORIAN_TRIUMPH_MANDO_SPEECH_21,Hapan Pirate:  Your strength impresses us, warriors of Mandalore, and we would forge a treaty with you.
+TEXT_STORY_MANDALORIAN_TRIUMPH_MANDO_SPEECH_21_ALT,Hapan Pirate:  Your strength impresses us, warriors of Mandalore, and we would forge a treaty with you. Yet first we request a sign of good faith. Strike a blow to the haughty daughters of the Lorell, and we will follow you to Coruscant and beyond.
+TEXT_STORY_MANDALORIAN_TRIUMPH_MANDO_SPEECH_22,Yet first we request a sign of good faith. Strike a blow to the haughty daughters of the Lorell, and we will follow you to Coruscant and beyond.
 TEXT_STORY_MANDALORIAN_TRIUMPH_MANDO_SPEECH_23,Hapan Pirate:  The Hapes cluster is at your command, honored warriors. [Reward: The remaining Hapes Consortium has joined you.]
 TEXT_STORY_MANDALORIAN_TRIUMPH_MANDO_SPEECH_24,Neimoidian Trade Monarch:  We do not wish to see our proud home burn. Our vaults are vast, and we are willing to share with you these riches if you continue your conquests without Cato's fall.
 TEXT_STORY_MANDALORIAN_TRIUMPH_MANDO_SPEECH_24_ALT,Neimoidian Trade Monarch:  We do not wish to see our proud home burn. Our vaults are vast, and we are willing to share with you these riches if you continue your conquests without Cato's fall.
@@ -1775,8 +1707,8 @@ TEXT_STORY_MANDALORIAN_TRIUMPH_REP_SPEECH_08,The Revanchist:  People of the Repu
 TEXT_STORY_MANDALORIAN_TRIUMPH_REP_SPEECH_09,Duro Senator:  This is a distress call. Mandalorian forces have entered our system. We request aid immediately!
 TEXT_STORY_MANDALORIAN_TRIUMPH_REP_SPEECH_10,The Revanchist:  Finally! An open assault on a Core world will show the Senate that the time to act is now. Protect Duro at all cost and I will make it worth your time.
 TEXT_STORY_MANDALORIAN_TRIUMPH_REP_SPEECH_10_ALT,The Revanchist:  Finally! An open assault on a Core world will show the Senate that the time to act is now. Protect Duro at all cost and I will make it worth your time.
-TEXT_STORY_MANDALORIAN_TRIUMPH_REP_SPEECH_11,Tol Cressa:  The Senate has spoken and has approved my bill to name you, Revan, Supreme Commander. The Republic military it your beck and call.
-TEXT_STORY_MANDALORIAN_TRIUMPH_REP_SPEECH_11_ALT,Tol Cressa:  The Senate has spoken and has approved my bill to name you, Revan, Supreme Commander. The Republic military it your beck and call. You take care of the Mandalorians, and I'll take care of the paperwork.
+TEXT_STORY_MANDALORIAN_TRIUMPH_REP_SPEECH_11,Tol Cressa:  The Senate has spoken and has approved my bill to name you, Revan, Supreme Commander of the Republic's military. You take care of the Mandalorians, and I'll take care of the paperwork.
+TEXT_STORY_MANDALORIAN_TRIUMPH_REP_SPEECH_11_ALT,Tol Cressa:  The Senate has spoken and has approved my bill to name you, Revan, Supreme Commander of the Republic's military. You take care of the Mandalorians, and I'll take care of the paperwork.
 TEXT_STORY_MANDALORIAN_TRIUMPH_REP_SPEECH_12,The Revanchist:  With the might of the core behind us, we need to make it battle ready. I want you to construct the following list of military hardware at once.
 TEXT_STORY_MANDALORIAN_TRIUMPH_REP_SPEECH_12_ALT,The Revanchist:  With the might of the core behind us, we need to make it battle ready. I want you to construct the following list of military hardware at once.
 TEXT_STORY_MANDALORIAN_TRIUMPH_REP_SPEECH_13,The Revanchist:  Now, it is time to drive back the Mandalorians into the pits they spawned from. We will burn their kind to the ground and end this farce once and for all. You have your targets.
@@ -1809,7 +1741,7 @@ TEXT_STORY_OUTER_RIM_WARS_MANDO_ACT_I_TITLE,Story - The New Mand'alor
 TEXT_STORY_OUTER_RIM_WARS_MANDO_ACT_II_HINT1,Certain heroes are required to advance the story!  [Mandalore the Ultimate]
 TEXT_STORY_OUTER_RIM_WARS_MANDO_ACT_II_HINT2,All major hero and government interactions can be found in the government tab, by pressing any of your planets and selecting the "POLITICS, STORY AND RESEARCH OPTIONS MENU" in the build bar. Hovering over the options will inform you, which tab is meant for what.
 TEXT_STORY_OUTER_RIM_WARS_MANDO_ACT_II_HINT3,IMPORTANT: Upgrades and interactions with heroes often require the heroes to be moved into orbit.
-TEXT_STORY_OUTER_RIM_WARS_MANDO_ACT_II_OBJECTIVE,Construct the following upgrade on the following heroes' location:
+TEXT_STORY_OUTER_RIM_WARS_MANDO_ACT_II_OBJECTIVE,Construct the following upgrade on a level three or four shipyard with Mandalore the Ultimate:
 TEXT_STORY_OUTER_RIM_WARS_MANDO_ACT_II_TITLE,Story - The Rise of Mand'alor
 TEXT_STORY_OUTER_RIM_WARS_MANDO_ACT_III_HINT1,The availiability of certain structures can vary depending on specific cases.
 TEXT_STORY_OUTER_RIM_WARS_MANDO_ACT_III_HINT2,Some structures might only be buildable once per planet and require additional conquests, while others are locked behind other structures being already constructed on said planet.
@@ -1966,7 +1898,7 @@ TEXT_TOOLTIP_AEROCHASER_WEAP1,1x Light AI Blaster Cannon: 4 / 1.0s / 200m
 TEXT_TOOLTIP_AJUUR,The Ajuur-class heavy cruiser is a longstanding backbone of the Hutt fleets, protecting numerous missile launchers under heavy plating. Unlike most Hutt designs, it has seen limited export, with occasional examples seen in many different hands.
 TEXT_TOOLTIP_AJUUR_HULL,Hull: 4200 (Capital)
 TEXT_TOOLTIP_AJUUR_HULL_CONVOY,Hull: 3000 (Capital)
-TEXT_TOOLTIP_AJUUR_MOVE,Speed: 3.0 | Accel: 0.02 | Turn: 0.25
+TEXT_TOOLTIP_AJUUR_MOVE,Speed: 3.0 | Accel: 0.02 | Turn: 0.125
 TEXT_TOOLTIP_AJUUR_SHIELD,Shields: 3200 / [16/R] (Capital)
 TEXT_TOOLTIP_AJUUR_SHIELD_CONVOY,Shields: 2400 / [12/R] (Capital)
 TEXT_TOOLTIP_AJUUR_SQUADRON,Fighters: 1 / 2 | Bombers: 0.5 / 1
@@ -2033,7 +1965,7 @@ TEXT_TOOLTIP_AXEHEAD_WEAP1,2x Heavy Turbolasers: 2 / 5.0s / 3.55km
 TEXT_TOOLTIP_AXEHEAD_WEAP2,2x Light Laser Cannons: 2 / 1.7s / 1.8km
 TEXT_TOOLTIP_AZALUS,The fearsome Azalus-class dreadnaught provides a rare centerpiece for Hutt task forces, with the characteristic heavy armor paired with an unusually heavy turbolaser armament for a Hutt vessel.
 TEXT_TOOLTIP_AZALUS_HULL,Hull: 6200 (Capital)
-TEXT_TOOLTIP_AZALUS_MOVE,Speed: 2.5 | Accel: 0.015 | Turn: 0.15
+TEXT_TOOLTIP_AZALUS_MOVE,Speed: 2.5 | Accel: 0.015 | Turn: 0.1
 TEXT_TOOLTIP_AZALUS_SHIELD,Shields: 4200 / [42/R] (Capital)
 TEXT_TOOLTIP_AZALUS_SQUADRON,Fighters: 2 / 4 | Bombers: 1 / 2
 TEXT_TOOLTIP_AZALUS_WEAP1,10x Medium Dual Turbolasers: 2 / 5.0s / 3.3km
@@ -2051,9 +1983,9 @@ TEXT_TOOLTIP_BAARUR,The smallest and least specialized of the dungeon ships boas
 TEXT_TOOLTIP_BAARUR_HULL,Hull 1450 (Frigate)
 TEXT_TOOLTIP_BAARUR_MINE,Interdiction Mines: 1 / 2
 TEXT_TOOLTIP_BAARUR_MINELAYER,A Baar'ur Dungeon Ship loaded with interdiction mines, intended to prevent the escape of targets so Mandalorian warriors can pillage and plunder with impunity before filling its cells with prisoners.
-TEXT_TOOLTIP_BAARUR_MOVE,Speed: 3.5 | Accel: 0.02 | Turn: 0.4
+TEXT_TOOLTIP_BAARUR_MOVE,Speed: 3.5 | Accel: 0.02 | Turn: 0.3
 TEXT_TOOLTIP_BAARUR_SHIELD,Shields: 1200 / [9/R] (Frigate)
-TEXT_TOOLTIP_BAARUR_TENDER,Fleet Tender: 25 / 2.0s / 0.8km
+TEXT_TOOLTIP_BAARUR_TENDER,Fleet Tender: 12.5 / 2.0s / 0.8km
 TEXT_TOOLTIP_BAARUR_WEAP1,6x Light Turbolasers: 2 / 5.0s / 2.55km
 TEXT_TOOLTIP_BANDON,Darth Bandon was a former Jedi who chafed under his Master due to his uncurbed anger and hatred, and became one of many turncoat Jedi who joined the Sith during the Jedi Civil War. His excessive cruelty drew the interest of Darth Malak, who took Bandon as his apprentice when Malak assumed control of the Sith Empire. Bandon embraced his ascension by fashioning his own double-bladed lightsaber, cutting down a score of Jedi he once called allies while setting his eyes on taking the title of Dark Lord for himself one day.
 TEXT_TOOLTIP_BANDON_ACOLYTE_HEALTH,Health: 160 [2%/5s] (Hero)
@@ -2112,9 +2044,7 @@ TEXT_TOOLTIP_BENDAK_MOVE,Speed: 1.3
 TEXT_TOOLTIP_BENDAK_WEAP1,1x Bendak's Blaster: 3 / 1.25s / 220m
 TEXT_TOOLTIP_BENDAK_WEAP2,1x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_BONUS_CANDEROUS_SELF_HEAL,Cybernetic Implants: Self Healing
-TEXT_TOOLTIP_BONUS_FORCE_DYNAMO,Rakatan Force Dynamo
 TEXT_TOOLTIP_BONUS_HK24_INFLUENCE_UNLOCK,Unlock: HK-24 Assassin Droid
-TEXT_TOOLTIP_BONUS_INFANTRY_HEAL,Kolto Pack: Infantry Healing
 TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL,Medpac: Self Healing
 TEXT_TOOLTIP_BORM,Garon Borm was a Togruta who rose to the rank of Field Marshal and reluctantly assisted Dorjander Kace with his plans, though Borm saw little reason to recruit more "Jetiise freaks".
 TEXT_TOOLTIP_BRAL_APC,A departure from the usual philosophy of fast Mandalorian vehicles, this heavily armored troop transport provides a lumbering fortress to support an infantry advance or help them survive a shameful retreat.
@@ -2129,7 +2059,7 @@ TEXT_TOOLTIP_BRALOR_MOVE,Speed: 1.4
 TEXT_TOOLTIP_BRALOR_SHIELD,Shields: 25 / [5/R] (Infantry)
 TEXT_TOOLTIP_BRALOR_WEAP1,1x Light Repeating Blaster: 5 / 1.0s / 240m
 TEXT_TOOLTIP_BRALOR_WEAP2,1x Fragmentation Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_BUILDLIMIT_INEXPUGNABLE,Build Limit: 1 | Lifetime: ∞
+TEXT_TOOLTIP_BUILDLIMIT_INEXPUGNABLE,Build Limit: 1 | Lifetime: 5
 TEXT_TOOLTIP_BUILDLIMIT_MANDO_KNIGHT,Build Limit: 1 | Total: ∞ (Requires Dorjander Kace)
 TEXT_TOOLTIP_BUURENAAR_SKIFF,This well protected and fast vehicle is favored as a command vehicle, but can also appear in unexpected places to wreak havoc with its ion cannons.
 TEXT_TOOLTIP_BUURENAAR_SKIFF_COMPANY,Company: 4x Buurenaar Skiff
@@ -2179,7 +2109,7 @@ TEXT_TOOLTIP_CAPITAL_SITH4,Mark IV Assault Droid Squad: 3 / 3
 TEXT_TOOLTIP_CAPITAL_SITH5,Krath Skiff: 3 / 3
 TEXT_TOOLTIP_CAPITAL_SITH6,Sith Strider: 1 / 1
 TEXT_TOOLTIP_CAPITAL_SITH7,Sith War Mammoth: 1 / 1
-TEXT_TOOLTIP_CARTH,Intensely loyal to the Republic and his family, Carth Onasi served in the Mandalorian Wars as an accomplished pilot. When his mentor Saul Karath betrayed the Republic and bombarded Telos, resulting in the death of his wife and presumed death of his son, Carth was devastated. From then on Carth was reluctant to open himself up to others around him, until his travels with an amnesiac Darth Revan to find the Star Forge. When this journey concluded Carth would later become an Admiral in the Republic Navy.
+TEXT_TOOLTIP_CARTH,Intensely loyal to the Republic and his family, Carth Onasi served in the Mandalorian Wars as an accomplished pilot. When his mentor Saul Karath betrayed the Republic and bombarded Telos, resulting in the death of his wife and presumed death of his son, Carth was devastated. From then on, Carth was reluctant to open himself up to others, until his travels with an amnesiac Revan to find the Star Forge renewed a sense of trust towards his new allies. After this journey concluded, Carth would become an Admiral in the Republic Navy. 
 TEXT_TOOLTIP_CARTH_JCW_HEALTH,Health: 140 (Hero)
 TEXT_TOOLTIP_CARTH_JCW_MOVE,Speed: 1.2
 TEXT_TOOLTIP_CARTH_JCW_SHIELD,Shields: 25 / [5/R] (Infantry)
@@ -2322,10 +2252,10 @@ TEXT_TOOLTIP_CORUSCANT_COURIER_PDF,Stripped down version of the Coruscant-class 
 TEXT_TOOLTIP_CORUSCANT_COURIER_PDF_HULL,Hull: 600 (Corvette)
 TEXT_TOOLTIP_CORUSCANT_COURIER_PDF_PD,Point-Defense: 1 / 1.56s / 0.625km
 TEXT_TOOLTIP_CORUSCANT_COURIER_PDF_WEAP1,1x Light Turbolaser: 1 / 5.0s / 2.55km
-TEXT_TOOLTIP_CORUSCANT_COURIER_PDF_WEAP2,2x Medium Laser Cannons: 2 / 5.0s / 1.8km
+TEXT_TOOLTIP_CORUSCANT_COURIER_PDF_WEAP2,2x Medium Rapid Laser Cannons: 6 / 5.0s / 1.8km
 TEXT_TOOLTIP_CORUSCANT_COURIER_SHIELD,Shields: 420 / [5.25/R] (Corvette)
 TEXT_TOOLTIP_CORUSCANT_COURIER_WEAP1,1x Medium Turbolaser: 1 / 5.0s / 3.05km
-TEXT_TOOLTIP_CORUSCANT_COURIER_WEAP2,3x Medium Laser Cannons: 2 / 5.0s / 1.8km
+TEXT_TOOLTIP_CORUSCANT_COURIER_WEAP2,3x Medium Rapid Laser Cannons: 6 / 5.0s / 1.8km
 TEXT_TOOLTIP_CORUSCANT_COURIER_WEAP3,1x Light Proton Torpedo: 1 / 18.75s / 2.55km
 TEXT_TOOLTIP_CORUSCANT_COURIER_WEAP4,1x Concussion Sphere: 1 / 5.0s / 2.55km
 TEXT_TOOLTIP_CRIMSON_CONDOTTIERE_COMMANDER_HEALTH,Health: 33 (Droid)
@@ -2342,7 +2272,7 @@ TEXT_TOOLTIP_DAGGERSTAR_COMPANY,Company: 6x Daggerstar
 TEXT_TOOLTIP_DAGGERSTAR_HEALTH,Health: 50 (Speeder)
 TEXT_TOOLTIP_DAGGERSTAR_MOVE,Speed: 7.0 | Turn: 4.0
 TEXT_TOOLTIP_DAGGERSTAR_WEAP1,1x AI Blaster Cannon: 4 / 1.0s / 200m
-TEXT_TOOLTIP_DALLAN_MORVIS,Dallan Morvis was a scion of a prestigious family who joined the Republic Navy in hopes to live up to their name. Morvis served under Saul Karath, but he would face harsh scrutiny following encounters with renegade Padawan Zayne Carrick. Both Morvis and Carrick would end up captured by Mandalorians and forcibly enlisted for a time, until they together helped foil Dorjander Kace's plot to kidnap Jedi children from Dantooine. Morvis would then request Carrick join him as a diplomatic aide, seeing the Jedi's personality as complementary to his own.
+TEXT_TOOLTIP_DALLAN_MORVIS,Dallan Morvis was a scion of a prestigious family who joined the Republic Navy hoping to live up to their name. He served under Saul Karath, but faced harsh scrutiny following encounters with renegade Jedi Zayne Carrick. Both Morvis and Carrick would captured by Mandalorians and forcibly enlisted, until they helped foil Dorjander Kace's plot to kidnap Jedi children. Morvis would then request Carrick as an aide, seeing the Jedi's personality as complementary to his own.
 TEXT_TOOLTIP_DALLAN_MORVIS_RESPAWN,Last Chance: Respawns in an Axehead Frigate if defeated
 TEXT_TOOLTIP_DALLAN_MORVIS_UPGRADE,Upgrade: Inexpugnable
 TEXT_TOOLTIP_DARKNON,A type of way station built around navigational beacons that were designed to help archaic hyperdrive systems travel between the stars. As these nav beacons were critical to mapping important hyperspace lanes, stations such as the Darknon would be built to cater to the needs of travelers working their way up these risky routes. While these would decay over the millenmia from disuse as hyperdrives modernized, in their time the Darknon stations offered several valuable services to spacers including plentiful hangar space and serviceable defensive emplacements.
@@ -2364,7 +2294,7 @@ TEXT_TOOLTIP_DEMAGOL,The greatest name in Mandalorian science since the Great Si
 TEXT_TOOLTIP_DEMAGOL_HEALTH,Health: 120 [2%/5s] (Hero)
 TEXT_TOOLTIP_DEMAGOL_MOVE,Speed: 1.0
 TEXT_TOOLTIP_DEMAGOL_SHIELD,Shields: 50 / [5/R] (Infantry)
-TEXT_TOOLTIP_DEMAGOL_WEAP1,1x Disruptor Pistol: 1 / 5.0s / 220m
+TEXT_TOOLTIP_DEMAGOL_WEAP1,1x Disruptor Pistol: 1 / 7.5s / 220m
 TEXT_TOOLTIP_DERN,Dern was a Czerka Corporation officer who worked in the Kashyyyk Shadowlands. Despite the danger of his posting he hoped to make a profit hunting the exotic animals of the region and harvesting their organs to sell.
 TEXT_TOOLTIP_DERN_HEALTH,Health: 140 (Hero)
 TEXT_TOOLTIP_DERN_MOVE,Speed: 1.1
@@ -2373,13 +2303,13 @@ TEXT_TOOLTIP_DERN_WEAP1,1x Zabrak Disruptor Cannon: 1 / 5.0s / 220m
 TEXT_TOOLTIP_DERN_WEAP2,1x Concussion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_DERRED,Derred was a General of the Republic who served alongside the Revanchists in the Mandalorian Wars. Like their contemporaries Saul Karath and Mon Halan, Derred forsook their oaths and joined Revan with the Sith.
 TEXT_TOOLTIP_DERRIPHAN,Derriphans were the backbone of the Old Sith Empire fleets, powerful battleships of their day that became infamous emblems of the Sith terror. However, the march of technology has relegated them to light screening vessels. 
-TEXT_TOOLTIP_DERRIPHAN_HULL,Hull: 960 (Corvette)
+TEXT_TOOLTIP_DERRIPHAN_HULL,Hull: 960 (Frigate)
 TEXT_TOOLTIP_DERRIPHAN_MOVE,Speed: 2.5 | Accel: 0.02 | Turn: 0.2
 TEXT_TOOLTIP_DERRIPHAN_PD,Point-Defense: 1 / 1.3s / 0.625km
 TEXT_TOOLTIP_DERRIPHAN_SHIELD,Shields: Unshielded
 TEXT_TOOLTIP_DERRIPHAN_SQUADRON,Fighters: 0.33 / 0.33
 TEXT_TOOLTIP_DERRIPHAN_STAR_FORGE,The Star Forge has breathed new life into the ancient Old Sith Empire Derriphan design. This new model is faster, better-armed, and more durable than its ancestors, but still lacks a shield generator - even the Star Forge has limits. As such, the Star Forge manufactured Derriphan is less obsolete than its ancient predecessor, but remains relegated to a light screening role in the Sith fleet.
-TEXT_TOOLTIP_DERRIPHAN_STAR_FORGE_HULL,Hull: 1120 (Corvette)
+TEXT_TOOLTIP_DERRIPHAN_STAR_FORGE_HULL,Hull: 1120 (Frigate)
 TEXT_TOOLTIP_DERRIPHAN_STAR_FORGE_MOVE,Speed: 2.75 | Accel: 0.025 | Turn: 0.25
 TEXT_TOOLTIP_DERRIPHAN_STAR_FORGE_WEAP,1x Medium Laser Cannon: 2 / 5.0s / 2.05km
 TEXT_TOOLTIP_DERRIPHAN_WEAP1,3x Light Rapid Laser Cannons: 6 / 2.5s / 1.55km
@@ -2390,18 +2320,19 @@ TEXT_TOOLTIP_DEZANTI_ZHUG_MOVE,Speed: 1.1
 TEXT_TOOLTIP_DEZANTI_ZHUG_WEAP1,1x Repeating Blaster Rifle: 5 / 1.0s / 240m
 TEXT_TOOLTIP_DEZANTI_ZHUG_WEAP2,1x Sonic Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_DHAGON,A doctor who served alongside Canderous Ordo, Dhagon Ghent abandoned the Mandalorians following their defeat at Malachor V. Settling on the planet Onderon in the city of Iziz, Dhagon started a clinic where he became infamous for his terrible bedside manner and pursuit of profit over his patients health. In spite of this he made a variety of friendships among the citizens of Iziz, including guard captains Riiken and Sullio. He would be jailed briefly for the accused murder of Sullio following an argument between the two, before the arrival of the Jedi Exile led to his innocence being revealed.
+TEXT_TOOLTIP_DHAGON_INFANTRY_HEAL,1x Infantry Healing: 2 / 1.0s / 96m
 TEXT_TOOLTIP_DIAS_ATHACORR,Dias Athacorr was an Arkanian who served the Galactic Republic as an officer in the Republic Navy during the Mandalorian Wars. In the aftermath of the Mandalorian assault on Vanquo, known by the Republic media as the "Onslaught," Athacorr received a promotion to the rank of commander reported in the Jimas Veltraa Memorial Edition of The Admiral's List.
 TEXT_TOOLTIP_DIAS_ATHACORR_UPGRADE,Upgrade: Stalwart [Requires Interdictor Staff]
 TEXT_TOOLTIP_DIIRN,Diirn was the chief engineer of the Theoretika, a research vessel operated by the Czerka Corporation. When the Theoretika became stranded in deep space, Vice Engineer Xarval eventually led a mutiny against Diirn, believing that Diirn was redirecting power to the labs in order to preserve hoarded food—but the power was actually to contain Specimen Gamma 19. Xarval trapped Diirn in one of the Theoretika's compartments and drained the air from the compartment, killing Diirn, but by the time the Theoretika was found, the rest of the crew was long dead as well.
 TEXT_TOOLTIP_DOL_GRENN,Dol Grenn was born on Telos IV a number of years prior to Admiral Saul Karath's devastating attack on that world. At an early age he dedicated himself to serving the law on his homeworld, joining the Telos Security Force and eventually earning the rank of lieutenant and, at some point, befriending longtime Republic star pilot and officer Carth Onasi. After the scourging of its surface by the Sith Empire under Darth Malak, Grenn continued to do the best he could to keep the peace in the few communities of native Telosians that remained.
-TEXT_TOOLTIP_DORAK,Dorak was the Chronicler of the Jedi and a member of the council at the Dantooine enclave. By the Mandalorian Wars, he would still teach new padawans foundational lessons, though his former pupil Zhar Lestin handled most training. The two would handle the mending of Revan's damaged mind following his capture by Bastila, and Dorak would help teach the amnesiac Sith Lord upon his return later.
+TEXT_TOOLTIP_DORAK,Dorak was the Chronicler of the Jedi and a member of the council at the Dantooine enclave. By the Mandalorian Wars, he would still teach new padawans foundational lessons, though his former pupil Zhar Lestin handled most training. The two would handle the mending of Revan's damaged mind following Bastila's capture of the Sith Lord, and Dorak would help teach the amnesiac Revan on their later return to the enclave.
 TEXT_TOOLTIP_DORAK_HEALTH,Health: 165 [2%/5s] (Hero)
 TEXT_TOOLTIP_DORAK_MOVE,Speed: 1.25
 TEXT_TOOLTIP_DORAK_WEAP1,1x Lightsaber: 1 / 0.2s / 1m
 TEXT_TOOLTIP_DP2_PROBE_DROID,Manufactured before the Mandalorian Wars and Jedi Civil War, the DP-2 was designed to be used by explorers and scouts who were roaming the unexplored regions of the galaxy. It had a highly sensitive sensor package that detected biological, chemical, electromagnetic and lifeform signatures.
-TEXT_TOOLTIP_DRESHDAE,The Dreshdae is a multirole ship commonly used by the Sith Empire and splinter warlords. Its original producer is unknown, with its contemporary name and association with the Sith earned from its frequent appearance over Korriban's Dreshdae settlement transporting supplies or prospective apprentices to the Sith Academy. The numerous laser emplacements allow the Dreshdae to ward off fighter threats and serve as an effective screener in Sith fleets.
+TEXT_TOOLTIP_DRESHDAE,The Dreshdae is a freighter developed by Czerka Corporation for use in supplying and defending their frontier outposts across the galaxy. Its contemporary name stems from Korriban's Dreshdae settlement, where it was commonly sighted bring in hopefuls to the Sith Academy. Its popularity amongst the Sith made it a popular purchase for a modern corvette to complement Sith naval forces especially as relations between Czerka and the Sith deepened. The numerous laser emplacements allow the Dreshdae to ward off fighter threats and serve as an effective screener in Sith fleets.
 TEXT_TOOLTIP_DRESHDAE_HULL,Hull: 525 (Corvette)
-TEXT_TOOLTIP_DRESHDAE_MOVE,Speed: 2.5 | Accel: 0.02 | Turn: 0.15
+TEXT_TOOLTIP_DRESHDAE_MOVE,Speed: 2.5 | Accel: 0.02 | Turn: 0.5
 TEXT_TOOLTIP_DRESHDAE_PD,Point-Defense: 1 / 1.04s / 0.75km
 TEXT_TOOLTIP_DRESHDAE_SHIELD,Shields: 500 / [6.25/R] (Corvette)
 TEXT_TOOLTIP_DRESHDAE_WEAP1,1x Heavy Laser Cannon: 2 / 5.0s / 2.25km
@@ -2409,12 +2340,12 @@ TEXT_TOOLTIP_DRESHDAE_WEAP2,2x Medium Dual Laser Cannons: 2 / 5.0s / 2.0km
 TEXT_TOOLTIP_DRESHDAE_WEAP3,2x Medium Rapid Laser Cannons: 6 / 1.7s / 1.75km
 TEXT_TOOLTIP_DYNAMIC_FREIGHTER,The Dynamic-class freighter was a light freighter built by a subsidiary of Core Galaxy Systems on the remote Republic world of Transel around the period of the Mandalorian Wars. A stock Dynamic-class freighter was only modestly armed and shielded; however, the ship was designed to accept modifications without compromising existing systems and most ships were therefore heavily customized by their owners.
 TEXT_TOOLTIP_DYNAMIC_FREIGHTER_ESCORT_BASE,Health: 200 | Shields: 140
-TEXT_TOOLTIP_DYNAMIC_FREIGHTER_GROUP,Group: 15x Dynamic-class Freighter
+TEXT_TOOLTIP_DYNAMIC_FREIGHTER_GROUP,Group: 20x Dynamic-class Freighter
 TEXT_TOOLTIP_DYNAMIC_FREIGHTER_HULL,Hull: 160 (Fighter)
 TEXT_TOOLTIP_DYNAMIC_FREIGHTER_MOVE,Speed: 5.0 | Accel: 2.5 | Turn: 3.0
 TEXT_TOOLTIP_DYNAMIC_FREIGHTER_ODIS_BASE,Health: 300 | Shields: 200
 TEXT_TOOLTIP_DYNAMIC_FREIGHTER_SHIELD,Shields: 75 / [1.5/R] / (Fighter)
-TEXT_TOOLTIP_DYNAMIC_FREIGHTER_SQUADRON,Squadron: 3x Dynamic-class Freighter
+TEXT_TOOLTIP_DYNAMIC_FREIGHTER_SQUADRON,Squadron: 4x Dynamic-class Freighter
 TEXT_TOOLTIP_DYNAMIC_FREIGHTER_WEAP1,2x Heavy Fighter Laser Cannons: 2 / 2.0s / 1.0km
 TEXT_TOOLTIP_EARLY_HUB,The System Hub is massive supply starbase, that can be easily converted into a command center for entire fleets when staffed with military officers. Its size and expensive upkeep however make it impractical to maintain save for rich Core Worlds that could afford the cost. Its weapons and shielding are modest as well, only seeing improvement centuries later when the Great Galactic War saw large stations of this type serve greater importance.
 TEXT_TOOLTIP_EARLY_HUB_HULL,Hull: 10000 (Capital)
@@ -2508,7 +2439,7 @@ TEXT_TOOLTIP_ESCORT_XARGA,4x Neo-Crusader Trooper Squad
 TEXT_TOOLTIP_ESCORT_ZHERRON,2x Defense Force Trooper Squad
 TEXT_TOOLTIP_ESOK,A native of Mandalore, following the wake of the Mandalorian Wars Esok settled with a group of fellow adrift warriors on Dantooine. Esok's warriors were hired as mercenaries by Azkul, with Esok seeing this as proof of their value in a galaxy where the Mandalorians had fallen far.
 TEXT_TOOLTIP_FAREY,Fa'rey was a Krath admiral who fled to a life of piracy along the Daragon Trail after the Great Sith War, where a pattern of cunning ambushes led to a reputation of almost supernatural dread among spacers.
-TEXT_TOOLTIP_FERUUN_LERN,A highly regarded and traditionalist Mandalorian crusader, Feruun Lern seized control of the Unity outpost on the planet Caillite to rally old and new members of the Mandalorian movement there. Following the defeat at Malachor V, Lern and his followers returned to Unity but found it stripped by Neo-Crusaders and other Mandalorians who abandoned their cause. Lern and his followers would then join with Canderous Ordo's army on Dxun, seeking glory during the Dark Wars against the Sith.
+TEXT_TOOLTIP_FERUUN_LERN,A highly regarded traditionalist Mandalorian crusader, Feruun Lern seized control of the Unity outpost on the planet Caillite to rally old and new members of the Mandalorian movement there. Following the defeat at Malachor V, Lern and his followers returned to Unity but found it stripped by Neo-Crusaders and other Mandalorians who abandoned their cause. Lern and his followers would then join with Canderous Ordo's army on Dxun, seeking glory during the Dark Wars against the Sith.
 TEXT_TOOLTIP_FERUUN_LERN_HEALTH,Health: 130 (Hero)
 TEXT_TOOLTIP_FERUUN_LERN_MOVE,Speed: 1.1
 TEXT_TOOLTIP_FERUUN_LERN_WEAP1,1x Slugthrower Rifle: 1 / 1.0s / 240m
@@ -2636,12 +2567,12 @@ TEXT_TOOLTIP_HAYDEL_GORAVVUS,Coming from humble beginnings, Goravvus spent his e
 TEXT_TOOLTIP_HERAKLON_HULL,Hull: 800 (Frigate)
 TEXT_TOOLTIP_HERAKLON_MINE,Interdiction Mines: 1 / 2
 TEXT_TOOLTIP_HERAKLON_MINELAYER,A version of the Heraklon-class transport, fitted with light concussion missiles and stocked with interdiction mines to lay along vital hyperspace lanes.
-TEXT_TOOLTIP_HERAKLON_MOVE,Speed: 3.5 | Accel: 0.01 | Turn: 0.2
+TEXT_TOOLTIP_HERAKLON_MOVE,Speed: 3.5 | Accel: 0.01 | Turn: 0.25
 TEXT_TOOLTIP_HERAKLON_SHIELD,Shields: 650 / [6.5/R] (Frigate)
 TEXT_TOOLTIP_HERAKLON_SQUADRON,Fighters: 0.5 / 0.5
 TEXT_TOOLTIP_HERAKLON_STOCK,The Heraklon was a popular freighter within the Galactic Republic around the time of the Dark Wars. Developed by noted transport producer Sadon Shipwrights as a successor to the older Dionad-class, it is a dedicated cargo hauler designed without any defense systems for cost efficiency. It's easily configurable nature also let it be used in a variety of different contexts, such as expanded space letting it serve as a cruise vessel around the Core and Inner Rim or as a smuggling vessel through hidden armament space.
 TEXT_TOOLTIP_HERAKLON_SUPPORT,One of many configurations of Sadon Shipwrights Heraklon transport, adding fuel tankers which grant the vessel support capabilities towards other nearby ships along with a light fighter complement for escort duties. Minor concussion missile launchers are also installed as a token defense against any starfighters attempting to interfere with resupply.
-TEXT_TOOLTIP_HERAKLON_SUPPORT_TENDER,Fleet Tender: 25 / 2.0s / 0.7km
+TEXT_TOOLTIP_HERAKLON_SUPPORT_TENDER,Fleet Tender: 12.5 / 2.0s / 0.7km
 TEXT_TOOLTIP_HERAKLON_SUPPORT_WEAP1,2x Concussion Missiles: 2 / 7.5s / 2.05km
 TEXT_TOOLTIP_HK_24,Assassin droids produced by Czerka to imitate typical protocal droid aesthetics of the time. While mass-produced, they were a financial failure for the company mostly eased by illegal corporate sales and the occasional planetary defense force. Effective against enemy infantry and VIP personnel.
 TEXT_TOOLTIP_HK_24_COMPANY,Company: 32x HK-24 Assassin Droid
@@ -2705,7 +2636,7 @@ TEXT_TOOLTIP_HUTT_GUARD_COMMANDER_HEALTH,Health: 200 (Infantry)
 TEXT_TOOLTIP_HUTT_GUARD_COMPANY,Company: 48x Hutt Guard
 TEXT_TOOLTIP_HUTT_GUARD_COMPANY_WEAP1,18x Pulse-wave Rifle: 1 / 1.5s / 240m
 TEXT_TOOLTIP_HUTT_GUARD_COMPANY_WEAP2,21x Pulse-wave Carbine: 3 / 1.25s / 220m
-TEXT_TOOLTIP_HUTT_GUARD_COMPANY_WEAP3,6x Disruptor Pistol: 1 / 5.0s / 220m
+TEXT_TOOLTIP_HUTT_GUARD_COMPANY_WEAP3,6x Disruptor Rifle: 1 / 5.0s / 220m
 TEXT_TOOLTIP_HUTT_GUARD_COMPANY_WEAP4,3x Heavy AV Missile Launcher: 1 / 9.0s / 320m
 TEXT_TOOLTIP_HUTT_GUARD_COMPANY_WEAP5,3x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_HUTT_GUARD_COMPANY_WEAP6,3x Sonic Grenade: 1 / 15.0s / 200m
@@ -2714,18 +2645,18 @@ TEXT_TOOLTIP_HUTT_GUARD_MOVE,Speed: 1.0
 TEXT_TOOLTIP_HUTT_GUARD_SQUAD,Squad: 8x Hutt Guard
 TEXT_TOOLTIP_HUTT_GUARD_SQUAD_LEADER_HEALTH,Health: 20 (Infantry)
 TEXT_TOOLTIP_HUTT_GUARD_SQUAD1_WEAP1,6x Pulse-wave Rifle: 1 / 1.5s / 240m
-TEXT_TOOLTIP_HUTT_GUARD_SQUAD1_WEAP2,1x Disruptor Pistol: 1 / 5.0s / 220m
+TEXT_TOOLTIP_HUTT_GUARD_SQUAD1_WEAP2,1x Disruptor Rifle: 1 / 5.0s / 220m
 TEXT_TOOLTIP_HUTT_GUARD_SQUAD1_WEAP3,1x Heavy AV Missile Launcher: 1 / 9.0s / 320m
 TEXT_TOOLTIP_HUTT_GUARD_SQUAD1_WEAP4,1x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_HUTT_GUARD_SQUAD2_WEAP1,7x Pulse-wave Carbine: 3 / 1.25s / 220m
-TEXT_TOOLTIP_HUTT_GUARD_SQUAD2_WEAP2,1x Disruptor Pistol: 1 / 5.0s / 220m
+TEXT_TOOLTIP_HUTT_GUARD_SQUAD2_WEAP2,1x Disruptor Rifle: 1 / 5.0s / 220m
 TEXT_TOOLTIP_HUTT_GUARD_SQUAD2_WEAP3,1x Sonic Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_HUTT_GUARD_SQUAD3_WEAP1,8x Pulse-wave Rifle: 1 / 1.5s / 240m
 TEXT_TOOLTIP_HUTT_GUARD_UNIT_LEADER_HEALTH,Health: 22 (Infantry)
 TEXT_TOOLTIP_HUTT_GUARD_WEAP1,1x Pulse-wave Lance Rifle: 1 / 1.0s / 240m
 TEXT_TOOLTIP_HUTT_GUARD_WEAP2,1x Pulse-wave Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_HUTT_GUARD_WEAP3,1x Heavy AV Missile Launcher: 1 / 9.0s / 320m
-TEXT_TOOLTIP_HUTT_GUARD_WEAP4,1x Disruptor Pistol: 1 / 5.0s / 220m
+TEXT_TOOLTIP_HUTT_GUARD_WEAP4,1x Disruptor Rifle: 1 / 5.0s / 220m
 TEXT_TOOLTIP_HUTT_GUARD_WEAP5,1x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_HUTT_GUARD_WEAP6,1x Sonic Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_HUTT_WAR_DROID,Ancient war droids used by the Hutts on Varl before they gained the servitude of their client races. Their repeating blasters and built-in grenade launchers make them a threat to infantry units, but their slow servomotors show the extent of their age.
@@ -2741,24 +2672,23 @@ TEXT_TOOLTIP_HUTT_WAR_DROID_SQUAD_WEAP2,5x Concussion Grenade: 1 / 12.0s / 240m
 TEXT_TOOLTIP_HUTT_WAR_DROID_WEAP1,1x Repeating Blaster Rifle: 2 / 1.25s / 240m
 TEXT_TOOLTIP_HUTT_WAR_DROID_WEAP2,1x Concussion Grenade: 1 / 12.0s / 240m
 TEXT_TOOLTIP_INEXPUGNABLE,This massive warship of Rendili design served in the Republic Navy as a flagship for major officers and a general command vessel for fleets. Often described as a mobile space station able to effectively organise and command dozens of other warships at once, the ship proved formidable during the Mandalorian Wars, though expensive to produce. Eventually the prohibitive cost of the ship saw it replaced by the Centurion class as command vessels.
-TEXT_TOOLTIP_INEXPUGNABLE_HULL,Hull: 23085 (Capital)
+TEXT_TOOLTIP_INEXPUGNABLE_HULL,Hull: 23085 (Super Capital)
 TEXT_TOOLTIP_INEXPUGNABLE_MOVE,Speed: 2.5 | Accel: 0.01 | Turn: 0.1
-TEXT_TOOLTIP_INEXPUGNABLE_SHIELD,Shields: 12000 / [30/R] (Capital)
+TEXT_TOOLTIP_INEXPUGNABLE_SHIELD,Shields: 12000 / [30/R] (Super Capital)
 TEXT_TOOLTIP_INEXPUGNABLE_SQUADRON,Fighters: 4 / 8 | Bombers: 1.5 / 2.5
-TEXT_TOOLTIP_INEXPUGNABLE_SUPPORT,Communication array: Combat bonus for ships
 TEXT_TOOLTIP_INEXPUGNABLE_WEAP1,10x Heavy Dual Turbolasers: 1 / 5.0s / 4.1km
 TEXT_TOOLTIP_INEXPUGNABLE_WEAP2,30x Light Dual Turbolasers: 1 / 5.0s / 3.1km
 TEXT_TOOLTIP_INEXPUGNABLE_WEAP3,30x Light Turbolasers: 1 / 5.0s / 3.1km
 TEXT_TOOLTIP_INEXPUGNABLE_WEAP4,4x Light Laser Cannons: 2 / 1.7s / 2.35km
 TEXT_TOOLTIP_INTERDICTOR_CRUISER,Warships designed as a support vessel used in the Mandalorian Wars to suppress Basilisk swarms and defend other ships vulnerable to swarms such as the Axehead.
-TEXT_TOOLTIP_INTERDICTOR_CRUISER_HERO_HULL,Hull: 2100 (Frigate)
-TEXT_TOOLTIP_INTERDICTOR_CRUISER_HULL,Hull: 1995 (Frigate)
+TEXT_TOOLTIP_INTERDICTOR_CRUISER_HERO_HULL,Hull: 2100 (Heavy Frigate)
+TEXT_TOOLTIP_INTERDICTOR_CRUISER_HULL,Hull: 1995 (Heavy Frigate)
 TEXT_TOOLTIP_INTERDICTOR_CRUISER_MOVE,Speed: 3.0 | Accel: 0.03 | Turn: 0.25
-TEXT_TOOLTIP_INTERDICTOR_CRUISER_SHIELD,Shields: 2000 / [15/R] (Frigate)
+TEXT_TOOLTIP_INTERDICTOR_CRUISER_SHIELD,Shields: 2000 / [15/R] (Heavy Frigate)
 TEXT_TOOLTIP_INTERDICTOR_CRUISER_SQUADRON,Fighters: 2 / 2 | Bombers: 1 / 2
 TEXT_TOOLTIP_INTERDICTOR_CRUISER_STAR_FORGE,When Darth Revan fed the Interdictor's schematic into the Star Forge, its foundries learned how to produce this unique variant. Compared to the original this model is better-suited to engage ships of its own size, as it boasts superior turbolasers and shields but less speed and fewer laser batteries.
 TEXT_TOOLTIP_INTERDICTOR_CRUISER_STAR_FORGE_MOVE,Speed: 2.5 | Accel: 0.035 | Turn: 0.3
-TEXT_TOOLTIP_INTERDICTOR_CRUISER_STAR_FORGE_SHIELD,Shields: 2200 / [16.5/R] (Frigate)
+TEXT_TOOLTIP_INTERDICTOR_CRUISER_STAR_FORGE_SHIELD,Shields: 2200 / [16.5/R] (Heavy Frigate)
 TEXT_TOOLTIP_INTERDICTOR_CRUISER_STAR_FORGE_WEAP1,10x Medium Turbolasers: 1 / 5.0s / 3.1km
 TEXT_TOOLTIP_INTERDICTOR_CRUISER_STAR_FORGE_WEAP2,6x Light Laser Cannons: 2 / 1.3s / 1.85km
 TEXT_TOOLTIP_INTERDICTOR_CRUISER_WEAP1,4x Medium Turbolasers: 1 / 5.0s / 3.1km
@@ -2794,13 +2724,13 @@ TEXT_TOOLTIP_JHAKA_BAKARN,Born Jhaka Bakvalen as a scion of the noble Corellian 
 TEXT_TOOLTIP_JIGGER_WRAITH,Jigger Wraith was an infamous bounty hunter who plagued the Republic years before the end of the Jedi Civil War. He wielded a personal disruptor pistol similar in design to a Mandalorian Ripper, causing thirty-seven Mandalorians to be executed under suspicion of being him until sightings declined.
 TEXT_TOOLTIP_JIGGER_WRAITH_HEALTH,Health: 155 (Hero)
 TEXT_TOOLTIP_JIGGER_WRAITH_MOVE,Speed: 1.2
-TEXT_TOOLTIP_JIGGER_WRAITH_WEAP1,1x Disruptor Pistol: 1 / 5.0s / 220m
+TEXT_TOOLTIP_JIGGER_WRAITH_WEAP1,1x Disruptor Pistol: 1 / 7.5s / 220m
 TEXT_TOOLTIP_JIGGER_WRAITH_WEAP2,1x Flame Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_JOLEE,Jolee Bindo was something of a maverick Jedi in his youth, clashing with his elders in matters such as the Ukatis blockade and if he could train a Jedi while still a padawan himself. He lost faith in the Order after a betrayal in the Great Sith War and wandered the galaxy, eventually crash-landing on Kashyyyk and finding the simple life there to his liking. 
+TEXT_TOOLTIP_JOLEE,Jolee Bindo was something of a maverick Jedi in his youth, clashing with his elders in matters such as the Ukatis blockade and if he could train a Jedi while still a padawan himself. He lost faith in the Order after a betrayal he experienced in the Great Sith War and wandered the galaxy, eventually crash-landing on Kashyyyk and finding the simple life there to his liking. Many years later fate would lead Revan towards Jolee during the former Sith Lord's search for the Star Forge, with Jolee joining their party.
 TEXT_TOOLTIP_JOLEE_HEALTH,Health: 200 [2%/5s] (Hero)
 TEXT_TOOLTIP_JOLEE_MOVE,Speed: 1.2 
 TEXT_TOOLTIP_JOLEE_WEAP1,1x Lightsaber: 1 / 0.2s / 1m
-TEXT_TOOLTIP_JORAK_ULN,Jorak Uln was an old Sith who was one of Exar Kun's original acolytes. As the Sith scattered following Kun's death, Uln was one of many loyalists who awaited the chance to rebuild the Sith Empire. The rise of Darth Revan's Sith Empire brought about this opportunity, with Uln rising to become the master of Korriban's Sith Academy, training students for the new regime. His apprentice Uthar Wynn would come to overthrow him, with his usurpation driving Uln into exile in the Tomb of Tulak Hord and gradual insanity. Even in exile Uln persisted in his sadistic teachings, kidnapping ambitious students who attempted to purloin Tulak Hord's tomb and putting them through demented tests to prove their worth as Sith. 
+TEXT_TOOLTIP_JORAK_ULN,Jorak Uln was an old Sith who was one of Exar Kun's original acolytes. As the Sith scattered following Kun's death, Uln was one of many loyalists who awaited the chance to rebuild the Sith Empire. The rise of Darth Revan brought about this opportunity, with Uln rising to become the master of Korriban's Sith Academy, training students for the new regime. His apprentice Uthar Wynn would come to overthrow him, with his usurpation driving Uln into exile in the Tomb of Tulak Hord and gradual insanity. Even in exile Uln persisted in his sadistic teachings, kidnapping ambitious students who attempted to purloin Tulak Hord's tomb and putting them through demented tests to prove their worth as Sith. 
 TEXT_TOOLTIP_JORAK_ULN_ACOLYTE_HEALTH,Health: 180 [2%/5s] (Hero)
 TEXT_TOOLTIP_JORAK_ULN_APPRENTICE_HEALTH,Health: 220 [2%/5s] (Hero)
 TEXT_TOOLTIP_JORAK_ULN_MASTER_HEALTH,Health: 260 [2%/5s] (Hero)
@@ -2818,7 +2748,7 @@ TEXT_TOOLTIP_JUGGERNAUT_DROID_SQUAD_WEAP1,5x AI Beam Cannon: 20 / 5.0s / 240m
 TEXT_TOOLTIP_JUGGERNAUT_DROID_SQUAD_WEAP2,5x Sonic Blaster Cannon: 1 / 1.5s / 240m
 TEXT_TOOLTIP_JUGGERNAUT_DROID_WEAP1,1x AI Beam Cannon: 20 / 5.0s / 240m
 TEXT_TOOLTIP_JUGGERNAUT_DROID_WEAP2,1x Sonic Blaster Cannon: 1 / 1.5s / 240m
-TEXT_TOOLTIP_JUHANI,A Cathar Jedi who fled to Taris with her family following Cathar's ravaging during the Mandalorian Wars. Tragedy would befall her further as the Mandalorians besieged Taris, leading to her fathers death from a Neo-Crusader and her mother falling into debt before succumbing to illness. Juhani was forced into slavery before she was saved by Revan. Inspired by one of his followers she would travel to Dantooine seeking tutelage under the Jedi, learning under Master Quatra. Juhani struggled with her temper and nearly succumbed to the Dark Side before the amnesiac Revan aided her. She would join Revan's journey afterwards, becoming a pillar of the light side in her resolve.
+TEXT_TOOLTIP_JUHANI,A Cathar Jedi who fled to Taris with her family following Cathar's ravaging during the Mandalorian Wars. Tragedy would befall her further as the Mandalorians besieged Taris, leading to her fathers death from a Neo-Crusader and her mother falling into debt before succumbing to illness. Juhani was forced into slavery before she was saved by Revan's intervention. Inspired by one of Revan's followers she would travel to Dantooine seeking tutelage under the Jedi, learning under Master Quatra. Juhani struggled with her temper and nearly succumbed to the Dark Side before an amnesiac Revan aided her. She would join Revan's journey afterwards, becoming a pillar of the light side in her resolve.
 TEXT_TOOLTIP_JUHANI_HEALTH,Health: 170 [2%/5s] (Hero)
 TEXT_TOOLTIP_JUHANI_MOVE,Speed: 1.5
 TEXT_TOOLTIP_JUHANI_WEAP1,1x Lightsaber: 1 / 0.2s / 1m
@@ -2860,7 +2790,7 @@ TEXT_TOOLTIP_KEMPLEX_WEAP1,8x Medium Turbolasers: 1 / 2.9s / 7.2km
 TEXT_TOOLTIP_KEMPLEX_WEAP2,10x Heavy Dual Laser Cannons: 2 / 2.5s / 5.7km
 TEXT_TOOLTIP_KEMPLEX_WEAP3,8x Concussion Spheres: 2 / 7.5s / 6.2km
 TEXT_TOOLTIP_KOA_DELKO,Koa Delko was a Quermian male who served as the Minister of Defense for the Galactic Republic during the Mandalorian Wars. He was present at the trials of Demagol and Dorjander Kace as the prosecutor.
-TEXT_TOOLTIP_KOBLUS,One of the Neo-Crusader's converts, Koblus Sornell was a Devaronian woman who passionately believed in the ways her and her family adopted. During a Republic assault on Essien her Basilisk War Droid would be shot down, but she was saved from death by the intervention of the former Jedi Zayne Carrick. She would work alongside Carrick following his conscription with the Mandalorian Knights, and supported him against Dorjander Kace for her disgust towards Kace's attempted conscription of children into his Knights.
+TEXT_TOOLTIP_KOBLUS,One of the Neo-Crusader's earliest converts, Koblus Sornell was a Devaronian woman who passionately believed in the ways her and her family adopted. During a Republic assault on Essien her Basilisk War Droid would be shot down, but she was saved from death by the intervention of the former Jedi Zayne Carrick. She would work alongside Carrick following his conscription with the Mandalorian Knights, and supported him against Dorjander Kace due to her disgust towards Kace's attempted conscription of children into his Knights.
 TEXT_TOOLTIP_KRAAKE,Kra'ake was a Togorian Mandalorian Rally Master who had a rabid zeal for fighting, leading charges against fortified positions personally regardless of injury. He was contemptous of the Jedi, looking down on the Mandalorian Knights that joined their cause and despising the conscripted Zayne Carrick in particular. Kra'ake attempted to stop Carrick and Dallan Morvis' feint to seize the dreadnaught Parjai before the duo tricked the ships crew into leaving from a false case of Jedi Brain Fever.
 TEXT_TOOLTIP_KRATH_ARTILLERY,A design used by the Krath and adopted into service by the later Sith Empire, the Krath Concussion Artillery Platform is a mobile repulsorlift platform which carries a large gun on its top. Despite being considered long obsolete, the simplicity of the system allowed it to be widely used and easily maintained while providing effective long range artillery support on the cheap. 
 TEXT_TOOLTIP_KRATH_ARTILLERY_COMPANY,Company: 1x Krath Concussion Artillery
@@ -2881,9 +2811,9 @@ TEXT_TOOLTIP_KREIA_MOVE,Speed: 1.1
 TEXT_TOOLTIP_KREIA_WEAP1,1x Lightsaber: 1 / 0.2s / 1m
 TEXT_TOOLTIP_KX12_PROBE_DROID,The MerenData KX-12 probe droid was a multi-function droid model. They could be loaded into hollowed shells and fired at an enemy planet, detonating the shell before impact and using its repulsors to brake to avoid destruction on impact with the surface.
 TEXT_TOOLTIP_KYRAMUD,The Kyramud battleship is a Basilisk-inspired vessel used by Mandalorians from the Great Sith War to the Mandalorian Wars. It includes a number of landing bays and dropships used for ground invasions or carrier space for fighters, making it a driving force in Mandalorian conquests. Its complement includes a heavy amount of turbolasers, ion cannons and missiles, the latter of which are used in excess when bombarding enemy forces in space or on planet surfaces during invasions.
-TEXT_TOOLTIP_KYRAMUD_HULL,Hull: 3780 (Heavy Frigate)
+TEXT_TOOLTIP_KYRAMUD_HULL,Hull: 3780 (Capital)
 TEXT_TOOLTIP_KYRAMUD_MOVE,Speed: 2.5 | Accel: 0.015 | Turn: 0.25
-TEXT_TOOLTIP_KYRAMUD_SHIELD,Shields: 3000 / [7.5/R] (Heavy Frigate)
+TEXT_TOOLTIP_KYRAMUD_SHIELD,Shields: 3000 / [7.5/R] (Capital)
 TEXT_TOOLTIP_KYRAMUD_SQUADRON,Fighters: 2 / 4 | Bombers: 0.5 / 1
 TEXT_TOOLTIP_KYRAMUD_WEAP1,5x Medium Dual Turbolasers: 1 / 5.0s / 3.15km
 TEXT_TOOLTIP_KYRAMUD_WEAP2,16x Medium Ion Cannons: 1 / 5.0s / 3.15km
@@ -2929,7 +2859,7 @@ TEXT_TOOLTIP_LORGAL,Lorgal was an anti-Republic radical who wished to destroy it
 TEXT_TOOLTIP_LORGAL_HEALTH,Health: 155 (Hero)
 TEXT_TOOLTIP_LORGAL_MOVE,Speed: 1.3
 TEXT_TOOLTIP_LORGAL_WEAP1,1x Thermal Grenade: 3 / 10.0s / 200m
-TEXT_TOOLTIP_MALAK,Formerly the Jedi Alek, the horrors of the Mandalorian Wars drove him to embrace a new identity and later the dark side. Upon his return to the galaxy with his master Revan, the two Dark Lords lead a new Sith armada intent on conquering the Republic. Malak would embrace tyranny as the only way to protect the galaxy, even seeing his masters methods as soft-hearted. When the Jedi captured Revan in a raid, Malak ordered his flagship to fire on Revan’s, seizing the opportunity to become the new Dark Lord of the Sith. Opportunistic and brutal in his methods, he was nevertheless skilled in the art of war.
+TEXT_TOOLTIP_MALAK,Formerly the Jedi Alek, the horrors of the Mandalorian Wars drove him to embrace a new identity and, later, the dark side. Upon his return to the galaxy with his master Revan, the two Dark Lords lead a new Sith armada intent on conquering the Republic. Malak would embrace tyranny as the only way to protect the galaxy, even seeing his master's methods as soft-hearted. When a Jedi strike team infiltrated Revan's flagship, Malak ordered fire on it, seizing the opportunity to become the new Dark Lord of the Sith. Opportunistic and brutal in his methods, he was nevertheless skilled in the art of war.
 TEXT_TOOLTIP_MALAK_APPRENTICE_HEALTH,Health: 225 [2%/5s] (Hero)
 TEXT_TOOLTIP_MALAK_MASTER_HEALTH,Health: 270 [4%/5s] (Hero)
 TEXT_TOOLTIP_MALAK_MOVE,Speed: 1.3
@@ -3053,7 +2983,7 @@ TEXT_TOOLTIP_NASRABI,Nasrabi was a warrior-queen of the Mon Calamari Kingdom, wh
 TEXT_TOOLTIP_NASRABI_HEALTH,Health: 200 (Hero)
 TEXT_TOOLTIP_NASRABI_MOVE,Speed: 1.4
 TEXT_TOOLTIP_NASRABI_WEAP1,1x Double-Bladed Sword: 1 / 0.1s / 1m
-TEXT_TOOLTIP_NAVYTROOPER,Personnel of the Navy used for internal security and boarding actions, sometimes pressed into service for terrestrial operations when the far less organized Army cannot respond. Navy troopers use light weapons that are effective against enemy infantry, but will struggle when engaging vehicles.
+TEXT_TOOLTIP_NAVYTROOPER,Personnel of the Republic Navy used for internal security and boarding actions, sometimes pressed into service for terrestrial operations when the far less organized Army cannot respond. Navy troopers are equipped with a flexible loadout that lets them fight competently in almost any situation, fielding standard issue carbines for frontal assaults with some specialized repeaters and ion guns for heavier threats. Their morale under sustained fire is low which will lead to heavy casualties if they are not properly supported.
 TEXT_TOOLTIP_NAVYTROOPER_COMPANY,Company: 48x Navy Trooper
 TEXT_TOOLTIP_NAVYTROOPER_COMPANY_WEAP1,36x Blaster Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_NAVYTROOPER_COMPANY_WEAP2,4x Light Repeating Blaster: 5 / 1.0s / 240m
@@ -3137,7 +3067,7 @@ TEXT_TOOLTIP_NEOCRUSADER_TROOPER_WEAP1,1x Mandalorian Assault Rifle: 1 / 1.0s / 
 TEXT_TOOLTIP_NEOCRUSADER_TROOPER_WEAP2,1x Baragwin Heavy Repeating Blaster: 5 / 1.0s / 280m
 TEXT_TOOLTIP_NEOCRUSADER_TROOPER_WEAP3,1x Baragwin Assault Gun: 5 / 1.0s / 240m
 TEXT_TOOLTIP_NEOCRUSADER_TROOPER_WEAP4,1x Concussion Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_NIHILUS,The Lord of Hunger, the man Darth Nihilus once was became afflicted with a hunger for Force energy after being caught within the Mass Shadow Generator. Darth Traya found and trained him in the Sith arts, with the promise to whet the appetite of the newly christened Nihilus. But this alliance ended when he and fellow apprentice Darth Sion ousted Traya. Nihilus then stalked the fringes of space hunting Jedi aboard his flagship. Due to the decay of his body from the dark side, Nihilus imbued his spirit into his robes and armor.
+TEXT_TOOLTIP_NIHILUS,The Lord of Hunger, Darth Nihilus was once a man who was afflicted with a hunger for Force energy after the Battle of Malachor V. Darth Traya found and trained him in the Sith arts, promising to whet the newly christened Nihilus' appetite. But this alliance ended when he and fellow apprentice Darth Sion ousted Traya. Nihilus then stalked the fringes of space hunting Jedi aboard his flagship. Due to the dark side decaying his body, Nihilus imbued his spirit into his armor.
 TEXT_TOOLTIP_NIHILUS_AND_SION,The two lesser members of the Triumvirate unite to overthrow their erstwhile Master and rule the Sith together.
 TEXT_TOOLTIP_NIHILUS_APPRENTICE_HEALTH,Health: 260 [2%/5s] (Hero)
 TEXT_TOOLTIP_NIHILUS_MASTER_HEALTH,Health: 300 [2%/5s] (Hero)
@@ -3167,7 +3097,7 @@ TEXT_TOOLTIP_OFFICE_SITH2,Mark I Assault Droid Squad: 1 / 2
 TEXT_TOOLTIP_OFFICE_SITH3,Mark III Assault Droid Squad: 2 / 4
 TEXT_TOOLTIP_OFFICE_SITH4,Sith Stingray: 1 / 3
 TEXT_TOOLTIP_OFFICE_SITH5,Sith Strider: 1 / 2
-TEXT_TOOLTIP_OPELLE,Opelle was the captain on the Valiant in 3951 BBY. During the Czerka Corporation's takeover of Citadel Station in their attempt to gain control over the Telosian Restoration Project. Despite conducting an inquiry into the destruction of the Peragus Mining Facility at the time, Opelle was informed of the situatuon and decided to dock the Valiant and deploy Republic soldiers to the station.
+TEXT_TOOLTIP_OPELLE,Opelle was the captain of the Republic naval vessel the Valiant. During the Dark Wars she investigated the destruction of the Peragus mining facility and visited Telos IV in her search. There she was informed of a potential hostile takeover of Citadel Station by Czerka Corporatio, leading her to station Republic soldiers aboard the station.
 TEXT_TOOLTIP_ORLEY_VANICUS,Admiral Orley Vanicus was considered a hero of the Great Sith War. A member of the Republic Navy and captain of the command ship Reliance, he was a simple man who didn't dabble in politics or bureaucracy and stuck with what he specialized at: commanding starships. At this role he encoutered the young Saul Karath and took him as his protegé.
 TEXT_TOOLTIP_ORLEY_VANICUS_HEALTH,Health: 125 (Hero)
 TEXT_TOOLTIP_ORLEY_VANICUS_MOVE,Speed: 1.1
@@ -3232,7 +3162,7 @@ TEXT_TOOLTIP_PDF_SOLDIER_WOOKIEE_WEAP1,1x Light AI Blaster: 1 / 1.0s / 360m
 TEXT_TOOLTIP_POLLARD_SEARIO,The President of Czerka Corporation, Pollard Seario served as company head from 4000 BBY for fifty years, bringing Czerka to the height of its galactic power during his tenure. He established the company's headquarters on the Sith world of Korriban, with the spaceport of Dreshdae developed around Czerka's power generators. It is unknown whether the notoriously corrupt Seario simply wanted to hide his uncountable holdings on the barren world or simply purloin the tombs of the Valley of the Dark Lords, but Seario was more than happy to ally Czerka with the Sith in the Jedi Civil War regardless.
 TEXT_TOOLTIP_PRISON_CONVOY_GALIA,Prison Convoy containing Galia Kira.
 TEXT_TOOLTIP_PRISON_CONVOY_JARAEL,Prison Convoy containing Jarael.
-TEXT_TOOLTIP_PULSIPHER,Pulsipher was a Mandalorian Neo-Crusader who served as an assistant to the mad scientist Dema'gol during the latters experiments on Jedi prisoners. Upon Dema'gol's supposed capture, Pulsipher was allowed to continue his own research on Force artifacts which he relished as a chance to make a name for himself. His search for Force artifacts led to the discovery of the ancient Sith artifact, the Muur Talisman, on Taris. Pulsipher would acquire it and several other Sith artifacts before regrouping at Jebble, where the true power of the Muur Talisman revealed itself to him.
+TEXT_TOOLTIP_PULSIPHER,Pulsipher was a Mandalorian Neo-Crusader who served as an assistant to the mad scientist Demagol during the latters experiments on Jedi prisoners. Upon Demagol's supposed capture, Pulsipher was allowed to continue his own research on Force artifacts, which he relished as a chance to make a name for himself. His search for Force artifacts led to the discovery of the ancient Sith artifact, the Muur Talisman, on Taris. Pulsipher would acquire it and several other Sith artifacts before regrouping at Jebble, where the true power of the Muur Talisman revealed itself to him.
 TEXT_TOOLTIP_PULSIPHER_HEALTH,Health: 110 (Hero)
 TEXT_TOOLTIP_PULSIPHER_MOVE,Speed: 0.9
 TEXT_TOOLTIP_PULSIPHER_WEAP1,1x Light Slugthrower Pistol: 1 / 1.5s / 220m
@@ -3261,7 +3191,7 @@ TEXT_TOOLTIP_RECON_COMMANDO_COMPANY,Company: 16x Army Recon Commando
 TEXT_TOOLTIP_RECON_COMMANDO_COMPANY_WEAP1,3x Heavy Repeating Blaster: 5 / 1.0s / 280m
 TEXT_TOOLTIP_RECON_COMMANDO_COMPANY_WEAP2,6x Light Repeating Blaster: 5 / 1.0s / 240m
 TEXT_TOOLTIP_RECON_COMMANDO_COMPANY_WEAP3,4x Blaster Sniper Rifle: 1 / 3.0s / 320m
-TEXT_TOOLTIP_RECON_COMMANDO_COMPANY_WEAP4,3x Disruptor Pistol: 1 / 5.0s / 220m
+TEXT_TOOLTIP_RECON_COMMANDO_COMPANY_WEAP4,3x Disruptor Rifle: 1 / 5.0s / 220m
 TEXT_TOOLTIP_RECON_COMMANDO_COMPANY_WEAP5,6x Concussion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_RECON_COMMANDO_COMPANY_WEAP6,3x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_RECON_COMMANDO_HEALTH,Health: 21 (Infantry)
@@ -3272,13 +3202,13 @@ TEXT_TOOLTIP_RECON_COMMANDO_SHIELD,Shields: 5 / [1/R] (Infantry)
 TEXT_TOOLTIP_RECON_COMMANDO_SQUAD,Squad: 4x Army Recon Commando
 TEXT_TOOLTIP_RECON_COMMANDO_SQUAD1_WEAP1,1x Heavy Repeating Blaster: 5 / 1.0s / 280m
 TEXT_TOOLTIP_RECON_COMMANDO_SQUAD1_WEAP2,2x Light Repeating Blaster: 5 / 1.0s / 240m
-TEXT_TOOLTIP_RECON_COMMANDO_SQUAD1_WEAP3,1x Disruptor Pistol: 1 / 5.0s / 220m
+TEXT_TOOLTIP_RECON_COMMANDO_SQUAD1_WEAP3,1x Disruptor Rifle: 1 / 5.0s / 220m
 TEXT_TOOLTIP_RECON_COMMANDO_SQUAD1_WEAP4,2x Concussion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_RECON_COMMANDO_SQUAD1_WEAP5,1x Thermal Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_RECON_COMMANDO_SQUAD2_WEAP1,4x Blaster Sniper Rifle: 1 / 3.0s / 320m
 TEXT_TOOLTIP_RECON_COMMANDO_WEAP1,1x Light Repeating Blaster: 5 / 1.0s / 240m
 TEXT_TOOLTIP_RECON_COMMANDO_WEAP2,1x Heavy Repeating Blaster: 5 / 1.0s / 280m
-TEXT_TOOLTIP_RECON_COMMANDO_WEAP3,1x Disruptor Pistol: 1 / 5.0s / 220m
+TEXT_TOOLTIP_RECON_COMMANDO_WEAP3,1x Disruptor Rifle: 1 / 5.0s / 220m
 TEXT_TOOLTIP_RECON_COMMANDO_WEAP4,1x Blaster Sniper Rifle: 1 / 3.0s / 320m
 TEXT_TOOLTIP_RECON_COMMANDO_WEAP5,1x Concussion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_RECON_COMMANDO_WEAP6,1x Thermal Grenade: 1 / 15.0s / 200m
@@ -3290,8 +3220,10 @@ TEXT_TOOLTIP_REPAIR_SATELLITE_SHIELD,Shields: 500 / [15/R] (Corvette)
 TEXT_TOOLTIP_REPUBLIC_BOMBER,A dedicated assault craft used by the Republic Navy, the Republic Bomber is a mid-range bomber by the standards of its time. Its capable loadout can cause great damage to frigate and capital sized vessels, but it suffers under dedicated pressure from hostile starfighters, making escorts recommended.
 TEXT_TOOLTIP_REPUBLIC_HEAVY_BOMBER,Deployed as a heavy bombing platform compared to its lighter sibling, this bomber design is an unusual space combatant for the era. Focussing primarily on strikes against larger capital vessels, it can cause surprising damage when escorted to the target.
 TEXT_TOOLTIP_REPUBLIC_SKIFF,A dated skiff model still capable in a variety of support roles. Its anti-infantry blasters are capable of fending off light incursions but it requires dedicated support in frontline combat due to its relative fragility.
-TEXT_TOOLTIP_REPUBLIC_SKIFF_COMPANY,Company: 5x Republic Skiff
+TEXT_TOOLTIP_REPUBLIC_SKIFF_COMPANY,Company: 4x Republic Skiff
 TEXT_TOOLTIP_REPUBLIC_SKIFF_HEALTH,Health: 100 (Speeder)
+TEXT_TOOLTIP_REPUBLIC_SKIFF_INFANTRY_HEAL,1x Infantry Healing: 2 / 1.0s / 96m
+TEXT_TOOLTIP_REPUBLIC_SKIFF_INFANTRY_HEAL_4X,4x Infantry Healing: 2 / 1.0s / 96m
 TEXT_TOOLTIP_REPUBLIC_SKIFF_MOVE,Speed: 3.0 | Turn: 4.0
 TEXT_TOOLTIP_REPUBLIC_SKIFF_WEAP1,2x Light AI Blaster Cannons: 2 / 0.5s / 200m
 TEXT_TOOLTIP_REPUBLIC_SUPPORT_SKIFF,A dated skiff model still capable in a variety of support roles. This loadout includes a medical bay with large kolto stores for a protected medic station.
@@ -3299,10 +3231,12 @@ TEXT_TOOLTIP_REPUBLIC_SUPPORT_SKIFF_COMPANY,Company: 4x Republic Support Skiff
 TEXT_TOOLTIP_RESOURCE_GARRISON,PDF Fleet Trooper Squad: 1 / 0
 TEXT_TOOLTIP_RESPAWN_SION,Eternal Hatred: Respawn chance after death (Decreases after each death)
 TEXT_TOOLTIP_RESPAWN_SION_MARAUDER,Enduring Agony: Respawns after his first death
-TEXT_TOOLTIP_REVAN,Revan was a Jedi of mysterious origin who learned from a plethora of masters. When the Mandalorian Wars broke out, Revan and fellow Jedi Malak sought to fight the invading Mandalorians against the Jedi Council's wishes. Revan’s natural charisma convinced many Jedi to follow and join the Republic military, helping push the Mandalorians back until scattering their ranks at Malachor V. Hailed as heroes, Revan and their followers then disappeared from the known galaxy, in search of a mysterious power that had been stumbled across during the war. While missing Revan and Malak stumbled on a hidden Sith Empire, before finding the lost Star Forge and declaring themselves Lords of the Sith upon their return to the galaxy.
+TEXT_TOOLTIP_REVAN,Revan was a Jedi of mysterious origin who learned from a plethora of masters. When the Mandalorian Wars broke out, Revan’s natural charisma convinced many Jedi to go against the Council's wishes and fight alongside the Republic military. Dudbed The Revanchist by the media, Revan and their followers helped turn the tide of the war, breaking the Mandalorian ranks at Malachor V and killing Mandalore The Ultimate, forcing the remainder to surrender or flee across the galaxy. Hailed as heroes, Revan and their loyalists then disappeared from the known galaxy, in search of a mysterious power in the Unknown Regions.
 TEXT_TOOLTIP_REVAN_HEALTH,Health: 240 [2%/5s] (Hero)
+TEXT_TOOLTIP_REVAN_KOTOR,Once the Dark Lord of the Sith, during a raid led by Jedi Bastila Shan Revan was betrayed by their apprentice Malak and severely injured. Bastila saved Revan's life and brought them to the Jedi enclave on Dantooine, where Bastila convinced the Council to erase Revan's memories in hopes of using them to stop the Sith. Revan's new persona was then enlisted in the Republic military, but a Sith attack led to Revan gathering a party on Taris to save Bastila. After escaping to Dantooine, Revan received Jedi training and unlocked their former Force potential. They were then sent on a journey to find the location of the Star Forge to stop the Sith.
 TEXT_TOOLTIP_REVAN_KOTOR_HEALTH,Health: 260 [2%/5s] (Hero)
 TEXT_TOOLTIP_REVAN_MOVE,Speed: 1.45
+TEXT_TOOLTIP_REVAN_SITH,Once celebrated as the savior of the Republic, Revan and their followers vanished into the Unknown Regions after the final battle. Yet when Revan and their apprentice Malak resurfaced at the helm of an armada fueled by the ancient Star Forge, they declared themselves Sith Lords and established an empire bent on conquest. Darth Revan's Sith Empire declared war on the galaxy, rallying former allies, exiled Sith, and disgruntled Jedi under its banners. Over the next two years, the Sith onslaught under Revan's leadership would steadily batter down the Republic's defences.
 TEXT_TOOLTIP_REVAN_WEAP1,1x Lightsaber: 1 / 0.1s / 1m
 TEXT_TOOLTIP_ROHLAN_DYRE,A traditional Mandalorian Crusader, Rohlan Dyre's years of leadership made him a respected warrior. But he viewed the rise of the once ridiculed Neo-Crusaders and the rigid order imposed on Mandalorian society with suspicion as he campaigned in the Outer Rim. With his questions unanswered, Rohlan went to find his own before being captured and brought back into the fold. This kept on until the Mandalorians invaded the Republic, where Dyre met with the Jedi fugitive Zayne Carrick, who helped fake his death. Ironically Mandalore the Ultimate would twist this news into the legend of 'Rohlan the Questioner,' which proclaimed Mandalorians should never question authority.
 TEXT_TOOLTIP_ROHLAN_DYRE_HEALTH,Health: 145 [1%/5s] (Hero)
@@ -3319,17 +3253,17 @@ TEXT_TOOLTIP_RONIKA_STATION_SQUADRON,Fighters: 2 / 2 | Bombers: 1 / 1 | Corvette
 TEXT_TOOLTIP_RONIKA_STATION_WEAP1,6x Medium Turbolasers: 1 / 3.0s / 7.4km
 TEXT_TOOLTIP_RONIKA_STATION_WEAP2,4x Concussion Spheres: 2 / 7.5s / 6.4km
 TEXT_TOOLTIP_RONIKA_UPGRADE,Upgrade Darknon to a Ronika. This upgrade will change the available roster of ships. Upgrading will restore any destroyed hardpoints, but they will need to be repaired.
-TEXT_TOOLTIP_ROOKS,Rooks was a captain in the Krath's navy during the Great Sith War who helmed the patrol ship of Ulic Qel-Droma and Aleema Keto when the Mandalore the Indomitable attacked Empress Teta and challenged the Dark Jedi to single combat.
+TEXT_TOOLTIP_ROOKS,Rooks was a captain in the Krath's navy during the Great Sith War. He helmed the patrol ship of Ulic Qel-Droma and Aleema Keto when Mandalore the Indomitable attacked Empress Teta and challenged the Dark Jedi to single combat.
 TEXT_TOOLTIP_RUSUR,A refinement of the dungeon ship concept whose lineage proved very long lived, what the Rusur lacks in armaments and flash, it makes up for in durability, simplicity, and inexpensive storage space.
 TEXT_TOOLTIP_RUSUR_CONVOY_HULL,Hull: 2838 (Heavy Frigate)
 TEXT_TOOLTIP_RUSUR_CONVOY_SHIELD,Shields: 1800 / [9/R] (Heavy Frigate)
 TEXT_TOOLTIP_RUSUR_CONVOY_WEAP1,2x Medium Turbolasers: 1 / 5.0s / 3.15km
 TEXT_TOOLTIP_RUSUR_CONVOY_WEAP2,8x Medium Laser Cannons: 2 / 2.5s / 2.15km
 TEXT_TOOLTIP_RUSUR_HULL,Hull 3445 (Heavy Frigate)
-TEXT_TOOLTIP_RUSUR_MOVE,Speed: 3.25 | Accel: 0.03 | Turn: 0.3
+TEXT_TOOLTIP_RUSUR_MOVE,Speed: 3.25 | Accel: 0.03 | Turn: 0.2
 TEXT_TOOLTIP_RUSUR_SHIELD,Shields: 2200 / [16.5/R] (Heavy Frigate)
 TEXT_TOOLTIP_RUSUR_SQUADRON,Fighters: 0.5 / 1.5 | Bombers: 0.33 / 1.0
-TEXT_TOOLTIP_RUSUR_TENDER,Fleet Tender: 50 / 2.0s / 1.2km
+TEXT_TOOLTIP_RUSUR_TENDER,Fleet Tender: 25 / 2.0s / 1.2km
 TEXT_TOOLTIP_RUSUR_WEAP1,10x Medium Turbolasers: 1 / 5.0s / 3.15km
 TEXT_TOOLTIP_RUTU,Rutu was a Ho'Din officer in the Republic Navy during the Mandalorian Wars. In the aftermath of the initial campaign of the war known as "the Onslaught", Rutu received a promotion to the rank of lieutenant.
 TEXT_TOOLTIP_SARNA,Sarna was a Sith junior officer who enlisted during the Jedi Civil War. Promised an exciting career serving in exotic locales, she found the reality of serving garrison duty on planets such as Taris below her expectations.
@@ -3339,7 +3273,7 @@ TEXT_TOOLTIP_SARNA_WEAP1,1x Blaster Rifle: 5 / 1.0s / 240m
 TEXT_TOOLTIP_SARNA_WEAP2,1x Concussion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_SAUL_KARATH,Once one of the Republic's finest officers, Saul Karath's faith in it was broken by Darth Revan's return. Threatened by the loss of his command, Karath betrayed the Republic by bringing the Interdictor Leviathan and several other warships to Revan's forces. He would then be ordered by Darth Malak to bombard Telos to test his loyalty, killing millions as a result. When Revan was thought dead and Malak ascended as the Sith's leader, Karath would become the highest-ranking officer in Malak's service.
 TEXT_TOOLTIP_SAUL_KARATH_PROMOTION,Promote Saul Karath to rank of Rear Admiral and grant him command of the Inexpugnable-class Courageous.
-TEXT_TOOLTIP_SAUL_KARATH_REPUBLIC,Saul Karath was a Corellian who joined the Republic Navy as an escape from the chaos of the Great Sith Wars. Initially serving as a steward for naval hero Orley Vanicus, Karath grew into a talented pilot and tactician. While he faced numerous conflicts with the bureaucracy, Karath would rebound across different positions and ships before becoming the ranking officer fighting against the Mandalorians assault on Republic space. His valor in the Mandalorian Wars earned him considerable prestige in spite of his numerous conflicts with the Jedi Order.
+TEXT_TOOLTIP_SAUL_KARATH_REPUBLIC,Saul Karath was a Corellian who joined the Republic Navy as an escape from the chaos of the Great Sith Wars. Initially serving as a steward for naval hero Orley Vanicus, Karath grew into a talented pilot and tactician. While he faced numerous conflicts with bureaucracy, Karath would rebound to different positions before becoming the ranking officer fighting off the Mandalorians. His valor in the Mandalorian Wars earned him considerable prestige in spite of his numerous conflicts with the Jedi Order.
 TEXT_TOOLTIP_SAUL_KARATH_RESPAWN,Swiftsure: Respawns in a Swiftsure-II if defeated
 TEXT_TOOLTIP_SAUL_KARATH_UPGRADE,Upgrade: Inexpugnable
 TEXT_TOOLTIP_SCHERP,Scherp is a Sith officer who rose up through underhanded politics and well-placed bribes. He lived a luxurious lifestyle in his position, purchasing a personal estate on Sernpidal and hiring private bodyguards. Scherp was entrusted with a code cylinder that held the command codes for the sensor systems of Darth Revan's flagship before Republic agents infiltrated his estate and extracted it from him. While Scherp maintains a confident demeanor, he had a cowardly persona underneath and was not willing to take risks when outnumbered.
@@ -3392,7 +3326,8 @@ TEXT_TOOLTIP_SHC_MOVE,Speed: 2.5 | Accel: 0.015 | Turn: 0.15
 TEXT_TOOLTIP_SHC_PD,Point-Defense: 1 / 0.17s / 0.625km
 TEXT_TOOLTIP_SHC_SHIELD,Shields: Unshielded
 TEXT_TOOLTIP_SHC_SQUADRON,Fighters: 0.5 / 1.0 | Bombers: 0.5 / 0.5
-TEXT_TOOLTIP_SHC_STAR_FORGE,The Star Forge reimagined the ancient Sith Carrier into a fire support platform, trading the antifighter weapons for long range turbolasers.
+TEXT_TOOLTIP_SHC_STAR_FORGE,The Star Forge reimagined the ancient Sith Carrier into a fire support platform, refitting its laser defense array into turbolasers that grant it a more active offensive role on the battlefield.
+TEXT_TOOLTIP_SHC_STAR_FORGE_MOVE,Speed: 2.5 | Accel: 0.015 | Turn: 0.2
 TEXT_TOOLTIP_SHC_STAR_FORGE_WEAP1,6x Medium Turbolaser Cannons: 1 / 5.0s / 3.55km
 TEXT_TOOLTIP_SHC_WEAP1,6x Light Rapid Laser Cannons: 6 / 1.7s / 1.55km
 TEXT_TOOLTIP_SHERRUK,Sherruk was a Mandalorian raider known for his ability to hunt down sentients, scoring several kills against Jedi and taking their lightsabers for his own. He would lead raids on the settlers of Dantooine during the Jedi Civil War with a mixed party of Mandalorian and Duros bandits.
@@ -3535,7 +3470,7 @@ TEXT_TOOLTIP_SHUKALAR_FRIGATE_SHIELD,Shields: 1100 / [11/R] (Frigate)
 TEXT_TOOLTIP_SHUKALAR_FRIGATE_WEAP1,4x Medium Turbolasers: 1 / 5.0s / 3.05km
 TEXT_TOOLTIP_SHUKALAR_FRIGATE_WEAP2,2x Heavy Laser Cannons: 2 / 2.5s / 2.3km
 TEXT_TOOLTIP_SHUKALAR_FRIGATE_WEAP3,2x Light Laser Cannons: 2 / 1.7s / 1.8km
-TEXT_TOOLTIP_SION,The Lord of Pain, Sion fought as a Sith Marauder since the Great Sith War. When he first fell in battle, Sion would surprise himself when he rose again; the dark side tethered his body together, granting him immortality at the cost of constant agony. He persisted through the Sith's collapse after the Jedi Civil War and caught the eye of Darth Traya, who took him as an apprentice. Despite learning much, Sion became disgusted with Traya's words haunting him. Conspiring with fellow apprentice Nihilus, the two stripped Traya of her power and exiled her. Sion would go on to hunt the remaining Jedi, dying countless times, but always rising again.
+TEXT_TOOLTIP_SION,The Lord of Pain, Darth Sion has fought as a Sith Marauder since the Great Sith War. When he first fell in battle, Sion would surprise himself when he rose again; the dark side tethered his body together, granting him immortality at the cost of constant agony. He persisted through the Sith's collapse after the Jedi Civil War and caught the eye of Darth Traya, who took him as an apprentice. Despite learning much, Sion became disgusted with Traya's words haunting him. Conspiring with fellow apprentice Nihilus, the two stripped Traya of her power and exiled her. Sion would go on to hunt the remaining Jedi, dying countless times but constantly rising again.
 TEXT_TOOLTIP_SION_ACOLYTE_HEALTH,Health: 200 [2%/5s] (Hero)
 TEXT_TOOLTIP_SION_APPRENTICE_HEALTH,Health: 240 [2%/5s] (Hero)
 TEXT_TOOLTIP_SION_MASTER_HEALTH,Health: 280 [2%/5s] (Hero)
@@ -3628,7 +3563,7 @@ TEXT_TOOLTIP_SITH_TROOPER_COMMANDER_SHIELD,Shields: 60 / [5/R] (Infantry)
 TEXT_TOOLTIP_SITH_TROOPER_COMPANY,Company: 36x Sith Trooper
 TEXT_TOOLTIP_SITH_TROOPER_COMPANY_WEAP1,20x Blaster Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_SITH_TROOPER_COMPANY_WEAP2,8x Heavy Blaster Pistol: 1 / 1.5s / 220m
-TEXT_TOOLTIP_SITH_TROOPER_COMPANY_WEAP3,4x Disruptor Pistol: 1 / 5.0s / 220m
+TEXT_TOOLTIP_SITH_TROOPER_COMPANY_WEAP3,4x Disruptor Rifle: 1 / 5.0s / 220m
 TEXT_TOOLTIP_SITH_TROOPER_COMPANY_WEAP4,4x Light Repeating Blaster: 5 / 1.0s / 240m
 TEXT_TOOLTIP_SITH_TROOPER_COMPANY_WEAP5,8x Concussion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_SITH_TROOPER_HEALTH,Health: 20 (Infantry)
@@ -3639,7 +3574,7 @@ TEXT_TOOLTIP_SITH_TROOPER_SQUAD,Squad: 9x Sith Trooper
 TEXT_TOOLTIP_SITH_TROOPER_SQUAD_MEDIC_WEAP1,9x Blaster Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_SITH_TROOPER_SQUAD_WEAP1,5x Blaster Carbine: 3 / 1.25s / 220m
 TEXT_TOOLTIP_SITH_TROOPER_SQUAD_WEAP2,2x Heavy Blaster Pistol: 1 / 1.5s / 220m
-TEXT_TOOLTIP_SITH_TROOPER_SQUAD_WEAP3,1x Disruptor Pistol: 1 / 5.0s / 220m
+TEXT_TOOLTIP_SITH_TROOPER_SQUAD_WEAP3,1x Disruptor Rifle: 1 / 5.0s / 220m
 TEXT_TOOLTIP_SITH_TROOPER_SQUAD_WEAP4,1x Light Repeating Blaster: 5 / 1.0s / 240m
 TEXT_TOOLTIP_SITH_TROOPER_SQUAD_WEAP5,2x Concussion Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_SITH_TROOPER_WEAP1,1x Sith Assault Gun: 3 / 1.25s / 220m
@@ -3659,10 +3594,10 @@ TEXT_TOOLTIP_SPC_PD,Point-Defense: 1 / 0.38s / 0.625km
 TEXT_TOOLTIP_SPC_SHIELD,Shields: Unshielded
 TEXT_TOOLTIP_SPC_SQUADRON,Fighters: 0.5 / 0.5 | Bombers: 0.33 / 0.66
 TEXT_TOOLTIP_SPC_WEAP1,4x Light Rapid Laser Cannons: 6 / 2.5s / 1.55km
-TEXT_TOOLTIP_STALWART,Developed shortly before the Mandalorian Wars, the Stalwart presents a link in the design philosophy between the Hammerhead and Centurion class vessels. Lessons and developments such as the armoured wedge shape and more plentiful ion weaponry are included, making it a potent ship to ship platform against often larger Mandalorian craft.
-TEXT_TOOLTIP_STALWART_HULL,Hull: 1875 (Frigate)
+TEXT_TOOLTIP_STALWART,Developed shortly before the Mandalorian Wars by Rendili, the Stalwart presents a link in the design philosophy between the Hammerhead and Centurion class vessels. Lessons and developments such as the armoured wedge shape and more plentiful ion weaponry are included, making it a potent ship to ship platform against often larger Mandalorian craft.
+TEXT_TOOLTIP_STALWART_HULL,Hull: 1875 (Heavy Frigate)
 TEXT_TOOLTIP_STALWART_MOVE,Speed: 3.5 | Accel: 0.04 | Turn: 0.35
-TEXT_TOOLTIP_STALWART_SHIELD,Shields: 1600 / [12/R] (Frigate)
+TEXT_TOOLTIP_STALWART_SHIELD,Shields: 1600 / [12/R] (Heavy Frigate)
 TEXT_TOOLTIP_STALWART_SQUADRON,Fighters: 0.5 / 0.5 | Bombers: 0.5 / 0.5
 TEXT_TOOLTIP_STALWART_WEAP1,1x Medium Dual Turbolaser: 1 / 5.0s / 3.1km
 TEXT_TOOLTIP_STALWART_WEAP2,3x Light Dual Turbolasers: 1 / 5.0s / 2.6km
@@ -3685,12 +3620,12 @@ TEXT_TOOLTIP_STAR_FORGE_SHIELD,Shields: 4000 / [30/R] (Capital)
 TEXT_TOOLTIP_STAR_FORGE_SQUADRON,Fighters: - / - | Bombers: - / -
 TEXT_TOOLTIP_SUBO,A minor crime lord who reigned on the fringes of the Outer Rim, Subo was an art collector who considered himself a Hutt of refined tastes. He grew interested in the lost planet of Endelaan, believing something there could prolong his life indefinitely so that he could inherit his fellow Hutts holdings. Subo attempted to bribe the crew of the Spiral Dancer for information on it, but the ships crew would escape his clutches.
 TEXT_TOOLTIP_SUPREMACY,Sleek warships designed by the Tetans and utilised by the Krath society. These ships were well armed and armoured, and made for excellent mobile attack platforms.
-TEXT_TOOLTIP_SUPREMACY_HULL,Hull: 1600 (Frigate)
+TEXT_TOOLTIP_SUPREMACY_HULL,Hull: 1600 (Heavy Frigate)
 TEXT_TOOLTIP_SUPREMACY_ILLUSION_WEAP1,3x ??????????: ? / ?s / ?km
 TEXT_TOOLTIP_SUPREMACY_ILLUSION_WEAP2,3x ??????????: ? / ?s / ?km
 TEXT_TOOLTIP_SUPREMACY_ILLUSION_WEAP3,5x ??????????: ? / ?s / ?km
 TEXT_TOOLTIP_SUPREMACY_MOVE,Speed: 3.0 | Accel: 0.03 | Turn: 0.3
-TEXT_TOOLTIP_SUPREMACY_SHIELD,Shields: 1300 / [9.75/R] (Frigate)
+TEXT_TOOLTIP_SUPREMACY_SHIELD,Shields: 1300 / [9.75/R] (Heavy Frigate)
 TEXT_TOOLTIP_SUPREMACY_SQUADRON,Fighters: 2 / 6 | Bombers: 1 / 3
 TEXT_TOOLTIP_SUPREMACY_WEAP1,3x Medium Dual Turbolasers: 1 / 5.0s / 3.1km
 TEXT_TOOLTIP_SUPREMACY_WEAP2,3x Heavy Ion Cannons: 1 / 5.0s / 3.6km
@@ -3698,7 +3633,7 @@ TEXT_TOOLTIP_SUPREMACY_WEAP3,5x Medium Laser Cannons: 2 / 5.0s / 2.1km
 TEXT_TOOLTIP_SURVIVOR_CONVOY_KARATH,A transport carrying Saul Karath. Send it to Omonoth to begin the meeting with Lord Arkoh Adasca.
 TEXT_TOOLTIP_SWIFTSURE,An advancement off the original concept vessel for the Inexpugnable-class, refitted following suggestions from Saul Karath by Rendili/Vanjervalis designers such as an advanced communications system. The Swiftsure-II compared to its origins would become a mass production model under the Republic Navy, acting as a smaller scale command vessel in areas its cousin design would be impractical to use. Featuring improved shielding and proton torpedoes compared to the original, the Swiftsure-II is a formidable vessel able to take on most threats of the era outside larger battlecruisers on its own.
 TEXT_TOOLTIP_SWIFTSURE_HULL,Hull: 4185 (Capital)
-TEXT_TOOLTIP_SWIFTSURE_MOVE,Speed: 3.0 | Accel: 0.02 | Turn: 0.4
+TEXT_TOOLTIP_SWIFTSURE_MOVE,Speed: 3.0 | Accel: 0.02 | Turn: 0.2
 TEXT_TOOLTIP_SWIFTSURE_PDF,Inspired by the archaic Audacious-class, the Swifsure-I is based off the small-scale concept design for the Inexpugnable-class from where it received its name. Its general deployment was extremely limited due to the Navy favoring a larger design for the Inexpugnable, leaving the Swiftsure a rare sight until refits saw it mass produced in greater numbers. While uncommon, the Swiftsure-I retains an armament befitting an intended command ship, and should not be underestimated. 
 TEXT_TOOLTIP_SWIFTSURE_PDF_SHIELD,Shields: 3400 / [42.5/R] (Capital)
 TEXT_TOOLTIP_SWIFTSURE_PDF_SQUADRON,Fighters: 2 / 3
@@ -3733,7 +3668,7 @@ TEXT_TOOLTIP_TEELO_VANG,Teelo Vang was a Coruscanti naval officer who was promot
 TEXT_TOOLTIP_TEELO_VANG_UPGRADE,Upgrade: Interdictor Cruiser [Requires Interdictor Staff]
 TEXT_TOOLTIP_TEGRIS_ORDO,Tegris Ordo was a Mandalorian warrior who served as the chieftain of Clan Ordo during the Mandalorian Wars.
 TEXT_TOOLTIP_TELETTOH,Telettoh was a Republic naval officer who became the official liaison between the Navy and the Revanchist Jedi, and was a fan of Revan's leadership. He served as Captain of the Hammerhead-class Testament, but eventually Telettoh would be promoted to the rank of Admiral. His struggles managing Malak during the latter's time aboard created the informal rule known as Telettoh's Maxim among Republic spacers, which boldly suggested not to bring Sith Lords on ones vessel for fear of the risks involved.
-TEXT_TOOLTIP_TOL_CRESSA,Tol Cressa was the Supreme Chancellor of the Galactic Republic throughout the Mandalorian Wars and the subsequent Jedi Civil War, Sith Civil War and the Dark Wars. His popularity was undesputed and managed to hold him in office for a long time. During the Mandalorian Wars, he was keen on stopping the threat at all cost which prompted him to promote the charismatic leader of the Jedi Revanchist movement to Supreme Commander.
+TEXT_TOOLTIP_TOL_CRESSA,Tol Cressa was the Supreme Chancellor of the Galactic Republic from the time of the Mandalorian Wars to the Dark Wars. His popularity was undisputed and managed to hold him in office for a long time. Cressa during the course of the Mandalorian Wars appointed Revan as Supreme Commander of the Republic's military due to their success at Duro and as a snub to the Jedi Council.
 TEXT_TOOLTIP_TOLARIS_SHIM,Tolaris Shim was a Jedi Master and active member of the Jedi Order during the time of the Great Sith War. A contemporary of Ulic Qel-Droma, Master Shim firmly believed that all Jedi at some point step along the path of the dark side of the Force, and cautioned that the concepts of redemption and atonement cannot help control a journey on the dark path. Jedi who hurt innocents under the sway of the dark side Shim believed could not be redeemed, but only atone for their actions. To that end Shim acknowledged that all Jedi must not ignore the shadows and the routes that lead to them, while also not blinding themselves to the light and taking responsibility for their own powers.
 TEXT_TOOLTIP_TOLARIS_SHIM_HEALTH,Health: 180 [2%/5s] (Hero)
 TEXT_TOOLTIP_TOLARIS_SHIM_MOVE,Speed: 1.1
@@ -3792,11 +3727,11 @@ TEXT_TOOLTIP_VERGEBUIR_HULL,Hull: 735 (Corvette)
 TEXT_TOOLTIP_VERGEBUIR_MOVE,Speed: 4.0 | Accel: 0.045 | Turn: 0.5
 TEXT_TOOLTIP_VERGEBUIR_PD,Point-Defense: 1 / 0.35s / 0.875km
 TEXT_TOOLTIP_VERGEBUIR_SHIELD,Shields: 500 / [6.25/R] (Corvette)
-TEXT_TOOLTIP_VERGEBUIR_WEAP1,6x Heavy Laser Cannons: 2 / 5.0s / 2.3km
+TEXT_TOOLTIP_VERGEBUIR_WEAP1,6x Heavy Rapid Laser Cannons: 6 / 5.0s / 2.05km
 TEXT_TOOLTIP_VIGLO,Viglo was a Sith officer that joined the Sith believing they were the future of the galaxy. He found himself stationed on Manaan in the tail end of the Jedi Civil War, a post he despised to the point he wished the Sith would just bombard the planet into a desert. Boredom led Viglo to spending most of his time at a bar on Ahto City, where he drank and womanized to his hearts content.
 TEXT_TOOLTIP_VIPER_ALPHA,Viper Alpha was a Mandalorian Crusaders squad armed with Basilisk war droids that fought at the Battle of Ossus during the Great Sith War.
 TEXT_TOOLTIP_VIPSANIS,Vipsanis was the leader of a group of supposed Mandalorians who believed that he was destined to become the new Mandalore. At one point he led a fleet headed by the battlecruiser Victus to invade the lost planet Endelaan in order to prove to his followers that he was worthy of the title. His ambition blinded Vipsanis to the atrocities he was ordering his general Akero to commit, leading to doubts over his leadership.
-TEXT_TOOLTIP_VOREN_RENSTAAL,A former Jedi trained on Ossus, Voren Renstaal fought with his master in the early Mandalorian Wars until the latter was killed in the First Battle of Onderon. This inspired Voren into joining the Revanchists, and then following their leader into the Unknown Regions. The Sith teachings which had been seeping their way into Revan's ranks since Malachor V were openly embraced at this point, with Voren being no exception. He adopted the title of Darth Voren, taking apprenticeship under one of Revan's Sith Knights, and was frequently stationed on Revan's flagship. Ambitious to ascend the ranks, Voren plotted to remove at least one of his superiors to hasten his ascension.
+TEXT_TOOLTIP_VOREN_RENSTAAL,A former Jedi trained on Ossus, Voren Renstaal fought with his master in the early Mandalorian Wars until the latter was killed in the First Battle of Onderon. This pushed Voren into joining the Revanchists, and then following Revan into the Unknown Regions. The Sith teachings which had been seeping their way into Revan's ranks since Malachor V were openly embraced by then, with Voren no exception. He adopted the title of Darth Voren, taking apprenticeship under one of Revan's Sith Knights, and was frequently stationed on Revan's flagship. Ambitious to ascend the ranks, Voren plotted to remove at least one of his superiors to hasten his ascension.
 TEXT_TOOLTIP_VOREN_RENSTAAL_ACOLYTE_HEALTH,Health: 150 [2%/5s] (Hero)
 TEXT_TOOLTIP_VOREN_RENSTAAL_APPRENTICE_HEALTH,Health: 185 [2%/5s] (Hero)
 TEXT_TOOLTIP_VOREN_RENSTAAL_MASTER_HEALTH,Health: 220 [2%/5s] (Hero)
@@ -3838,8 +3773,8 @@ TEXT_TOOLTIP_WAR_WALKER_PDF_WEAP3,4x Light AI Blaster Cannons: 2 / 1.0s / 320m
 TEXT_TOOLTIP_WAR_WALKER_WEAP1,3x AV Beam Cannons: 12 / 2.5s / 320m
 TEXT_TOOLTIP_WAR_WALKER_WEAP2,4x Light AI Blaster Cannons: 2 / 1.0s / 320m
 TEXT_TOOLTIP_WARGO,A Drovian member of the Black Vulkar swoop gang on Taris, Wargo was the muscle of the duo involving his buddy Frazznik. The two failed to shakedown the wanted Jedi Zayne Carrick and scoundrel Marn Hierogryph, but were tricked into a beating from a group of Wookiees instead. When the Mandalorians invaded Taris, Wargo eagerly joined them hoping to take part in a rampaging horde, but was disappointed at being forced to wear a uniform.
-TEXT_TOOLTIP_WELEX_KOROFU,A famous pilot, Welex Korofu trained vigorously flying on the Entymal homeworld of Endex, as was tradition for many aces. 
-TEXT_TOOLTIP_XAART,Xaart was a veteran of the Mandalorian Wars who fought alongside the Revanchists at Dagary Minor. In later years he worked a covert diplomatic operative under the orders of the Galactic Senate. During the Dark Wars, Xaart encountered one of his old Jedi comrades while doing business on Onderon's Iziz City.
+TEXT_TOOLTIP_WELEX_KOROFU,A famous Duros pilot, Welex Korofu trained vigorously flying on the Entymal homeworld of Endex, as was tradition for many aces. 
+TEXT_TOOLTIP_XAART,Xaart was a veteran of the Mandalorian Wars who fought alongside the Revanchists at Dagary Minor. In later years he worked as a covert diplomatic operative under the orders of the Galactic Senate. During the Dark Wars, Xaart encountered one of his old Jedi comrades while doing business on Onderon's Iziz City.
 TEXT_TOOLTIP_XAART_HEALTH,Health: 125 (Hero)
 TEXT_TOOLTIP_XAART_MOVE,Speed: 1.2
 TEXT_TOOLTIP_XAART_SHIELDS,Shields: 25 / [5/R] (Infantry)
@@ -3854,7 +3789,7 @@ TEXT_TOOLTIP_XARGA_WEAP2,1x Flame Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_XOR,Xor was a Twi'lek male Mandalorian slaver who fought in the Battle of Cathar prior to the Mandalorian Wars, participating in the genocide of the Cathar people. When the Mandalorian Neo-Crusaders invaded the planet Taris twenty years later, Xor murdered a Cathar male and eventually found the Cathar's daughter, Juhani, on the auction blocks on Taris. However, Jedi forces liberated Taris before the Twi'lek could purchase her.
 TEXT_TOOLTIP_XOR_HEALTH,Health: 195 (Hero)
 TEXT_TOOLTIP_XOR_MOVE,Speed: 1.3
-TEXT_TOOLTIP_XOR_WEAP1,1x Mandalorian Blaster: 3 / 1.25s / 220m
+TEXT_TOOLTIP_XOR_WEAP1,1x Mandalorian Heavy Pistol: 1 / 1.5s / 220m
 TEXT_TOOLTIP_XOR_WEAP2,1x Wrist Flamer: 10 / 7.5s / 220m
 TEXT_TOOLTIP_XQ5,Lightly armed station but provides minimal defensive power against a dedicated assault.
 TEXT_TOOLTIP_XQ5_HULL,Hull: 1260 (Heavy Frigate)
@@ -3863,7 +3798,7 @@ TEXT_TOOLTIP_XQ5_SQUADRON,Fighters: 0.5 / 0.5 | Bombers: 1 / 1 | Corvettes: 1 / 
 TEXT_TOOLTIP_XQ5_WEAP1,3x Medium Dual Turbolasers: 1 / 5.0s / 1.8km
 TEXT_TOOLTIP_XQ5_WEAP2,3x Medium Dual Laser Cannons: 1 / 2.5s / 1.3km
 TEXT_TOOLTIP_YUN_GENDA,Yun Genda was a Sith junior officer who enlisted during the Jedi Civil War. Promised an exciting career serving in exotic locales, he found the reality of serving garrison duty on planets such as Taris below his expectations.
-TEXT_TOOLTIP_YUSANIS,The feared Echani General Yusanis was known for both his skills as a warrior and his sponsorship of Echani advancements. He had fathered five daughters to his sworn partner, yet he was in love with the Jedi Master Arren Kae. The twos tryst birthed a daughter, leading to Kae's exile from the Order and joining the Revanchists against the Mandalorians. Yusanis left his family to fight alongside her, and he became known as a hero for his valor in the war. But Kae's death at Malachor V shattered Yusanis' spirit, causing him to retire and enter politics after the wars end.
+TEXT_TOOLTIP_YUSANIS,The feared Echani General Yusanis was known for both his skills as a warrior and his sponsorship of Echani advancements. He had fathered five daughters to his sworn partner, yet he was in love with the Jedi Master Arren Kae. The twos tryst birthed a daughter, leading to Kae being exiled from the Order and joining the Revanchists against the Mandalorians. Yusanis left his family to fight alongside her, and he became known as a hero for his valor in the war. But Kae's death at Malachor V shattered Yusanis' spirit, causing him to retire and enter politics after the wars end.
 TEXT_TOOLTIP_YUSANIS_HEALTH,Health: 175 [1%/5s] (Hero)
 TEXT_TOOLTIP_YUSANIS_MOVE,Speed: 1.3
 TEXT_TOOLTIP_YUSANIS_WEAP1,1x Yusanis' Brand: 1 / 0.1s / 1m
@@ -3893,7 +3828,7 @@ TEXT_TOOLTIP_ZHERRON_HEALTH,Health: 130 (Hero)
 TEXT_TOOLTIP_ZHERRON_MOVE,Speed: 1.0
 TEXT_TOOLTIP_ZHERRON_WEAP1,1x Heavy Blaster Pistol: 1 / 1.0s / 240m
 TEXT_TOOLTIP_ZHERRON_WEAP2,1x Sonic Grenade: 1 / 15.0s / 200m
-TEXT_TOOLTIP_ZUKA,Zuka was a Mandalorian who joined with Canderous Ordo on Dxun. Unlike many Mandalorians, Zuka took pride in not just fighting but in maintaining and repairing weapons, finding honor in their use in battle. Canderous valued his abilities and entrusted him with the security and vehicles of their outpost. Zuka would later take part in the boarding of the Ravager during the Battle of Telos, leading a team of Mandalorians in placing proton charges in its hull.
+TEXT_TOOLTIP_ZUKA,Zuka was a Mandalorian who joined with Canderous Ordo's movement on Dxun. Unlike many Mandalorians, Zuka took pride in not just fighting but in maintaining and repairing weapons, finding honor in their use in battle. Canderous valued his abilities and entrusted him with the security and vehicles of their outpost. Zuka would later take part in the boarding of the Ravager during the Battle of Telos, leading a team of Mandalorians in placing proton charges within its hull.
 TEXT_TOOLTIP_ZUKA_HEALTH,Health: 145 (Hero)
 TEXT_TOOLTIP_ZUKA_MOVE,Speed: 1.2
 TEXT_TOOLTIP_ZUKA_SHIELD,Shields: 25 / [5/R] (Infantry)

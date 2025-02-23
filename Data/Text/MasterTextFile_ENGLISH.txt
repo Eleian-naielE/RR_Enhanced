@@ -139,12 +139,9 @@ MP_TEXT_ENCYCLOPEDIA_ARMS_DEPOT_UNDERWORLD_PAD_00,CLICK to construct Hand Light 
 MP_TEXT_ENCYCLOPEDIA_ASTEROID_MINING_FACILITY_PAD_00,CLICK to construct Asteroid Mining Facility.
 MP_TEXT_ENCYCLOPEDIA_BARRACKS_PAD_00,CLICK to construct Barracks
 MP_TEXT_ENCYCLOPEDIA_COMM_ARRAY_00,Deciphers battlefield information from orbital sensors in real-time. When destroyed or power is lost, radar display ceases to function.
+MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_00,The Command Center serves as the primary hub for all ground forces. Command Centers allow the recruitment of hero units.
 MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_01,Upgrades: Technology Levels 1-3
-MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_CIS_00,The central structure of operations for CIS ground based forces. Command Centers allow the recruitment of hero units.
-MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_EMPIRE_00,Dark and menacing, the Imperial Command Center serves as the primary hub of all land based activities. Command Centers allow the recruitment of hero units.
 MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_PAD_00,CLICK to construct Command Center
-MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_REBEL_00,The central structure of operations for New Republic ground based forces. Command Centers allow the recruitment of hero units.
-MP_TEXT_ENCYCLOPEDIA_COMMAND_CENTER_REPUBLIC_00,The Republic Command Center serves as the primary hub of all land based activities. Command Centers allow the recruitment of hero units.
 MP_TEXT_ENCYCLOPEDIA_DROID_WORKS_UNDERWORLD_PAD_00,CLICK to construct Consortium Droid Works
 MP_TEXT_ENCYCLOPEDIA_HEAVY_FACTORY_PAD_00,CLICK to construct Heavy Vehicle Factory
 MP_TEXT_ENCYCLOPEDIA_LIGHT_FACTORY_PAD_00,CLICK to construct Light Vehicle Factory
@@ -189,17 +186,17 @@ STAT_NET_CREDITS,Income after upkeep: %s
 STAT_PLANET_COUNT,Planets owned: %s
 STAT_RESOURCE_MANAGER,Resource Information
 STAT_RESOURCE_MANAGER_DESCRIPTION,This page tracks resources in your faction. These resources are gathered in different ways and have different effects within your faction. Each one explains its sources and effects.
-STAT_SHIPCREWS_1,Influence - 5: +2
-STAT_SHIPCREWS_10,Naval Academy: +25
-STAT_SHIPCREWS_11,Cloning Facility: +25
-STAT_SHIPCREWS_2,Influence - 6: +4
-STAT_SHIPCREWS_3,Influence - 7: +6
-STAT_SHIPCREWS_4,Influence - 8: +8
-STAT_SHIPCREWS_5,Influence - 9: +10
-STAT_SHIPCREWS_6,Influence - 10: +12
-STAT_SHIPCREWS_7,Golan-I Space Colony: +5
-STAT_SHIPCREWS_8,Golan-II Space Colony: +10
-STAT_SHIPCREWS_9,Faction Capital: +25
+STAT_SHIPCREWS_1,Influence - 5: +6
+STAT_SHIPCREWS_10,Naval Academy: +75
+STAT_SHIPCREWS_11,Cloning Facility: +75
+STAT_SHIPCREWS_2,Influence - 6: +12
+STAT_SHIPCREWS_3,Influence - 7: +18
+STAT_SHIPCREWS_4,Influence - 8: +24
+STAT_SHIPCREWS_5,Influence - 9: +30
+STAT_SHIPCREWS_6,Influence - 10: +36
+STAT_SHIPCREWS_7,Golan-I Space Colony: +15
+STAT_SHIPCREWS_8,Golan-II Space Colony: +30
+STAT_SHIPCREWS_9,Faction Capital: +75
 STAT_SHIPCREWS_DESCRIPTION,Ship crews are required to build any type of ship and larger ships require more ship crews. Your overall ship crews are generated at the end of every cycle, sourced from planets above a certain influence level and structures such as Naval Academies, Faction Capital and Cloning Facilities.
 STAT_SHIPCREWS_FLOW,Ship Crews Trained Per Cycle: %s
 STAT_SHIPCREWS_INCOME,Ship Crew Income:
@@ -737,10 +734,10 @@ TEXT_DOCUMENTATION_BODY_ANTI_VEHICLE_BLASTER_HEADER,Anti-Vehicle Blaster:
 TEXT_DOCUMENTATION_BODY_ANTI_VEHICLE_BLASTER_SHIELD,| 1.00x | 0.75x | 0.50x | 0.75x | - Against Shield Types
 TEXT_DOCUMENTATION_BODY_ARMOR_HEADER,| Armor Types |
 TEXT_DOCUMENTATION_BODY_ARMOR_TYPES,| Infantry | Droid | Hero | Light Vehicle | Medium Vehicle | Heavy Vehicle | Speeder | Heavy Speeder | Structure |
-TEXT_DOCUMENTATION_BODY_BONUSCOMMSARRAY,Communication array: +5% Defense\+5% Speed (Corvettes/Frigates/Capitals Only) [Stacking bonus]
-TEXT_DOCUMENTATION_BODY_BONUSDROIDCONTROLSHIP,Droid Control Ship: +5% Health\+5% Shield\+5% Damage\+5% Speed (Fighters/Bombers Only) [Stacking bonus]
-TEXT_DOCUMENTATION_BODY_BONUSMTCSENSORFIGHTER,Observation Module: +5% Health\+5% Shield\+5% Damage\+5% Speed (Fighters/Bombers Only)
-TEXT_DOCUMENTATION_BODY_BONUSMTCSENSORPROBEDROID,Observation Module: 30% cost and build time reduction on Probe Droids
+TEXT_DOCUMENTATION_BODY_BONUS_COMMUNICATION_SHIP,Communications Ship: +5% Defense\+5% Speed to listed units [Stacking bonus]
+TEXT_DOCUMENTATION_BODY_BONUS_DROIDCONTROLSHIP,Droid Control Ship: +5% Health\+5% Shield\+5% Damage\+5% Speed (Fighters/Bombers Only) [Stacking bonus]
+TEXT_DOCUMENTATION_BODY_BONUS_MTCSENSORFIGHTER,Observation Module: +5% Health\+5% Shield\+5% Damage\+5% Speed (Fighters/Bombers Only)
+TEXT_DOCUMENTATION_BODY_BONUS_MTCSENSORPROBEDROID,Observation Module: 30% cost and build time reduction on Probe Droids
 TEXT_DOCUMENTATION_BODY_CONCUSSION_1,| 3   | - Concussion Rifle
 TEXT_DOCUMENTATION_BODY_CONCUSSION_2,| 3   | - Wrist Rocket
 TEXT_DOCUMENTATION_BODY_CONCUSSION_3,| 4   | - Light Concussion Grenade
@@ -951,7 +948,7 @@ TEXT_DOCUMENTATION_BODY_THERMAL_4,| 90 | - Artillery Cannon
 TEXT_DOCUMENTATION_BODY_THERMAL_ARMOR,| 1.00x | 1.00x | 0.25x | 1.00x | 0.75x | 0.50x | 1.00x | 0.75x | 1.00x | - Against Armor Types
 TEXT_DOCUMENTATION_BODY_THERMAL_HEADER,Thermal Warhead:
 TEXT_DOCUMENTATION_BODY_THERMAL_SHIELD,| 1.00x | 1.00x | 1.00x | 1.00x | - Against Shield Types
-TEXT_DOCUMENTATION_BODY_TIERSANDTRAITS,Heroes in EaWX are assigned a command tier indicated in their description (I being best, V being worst) which has a set of bonuses for units based on that tier. Each character can also have a set of traits which can positively or negatively impact their command bonus. Below is every tier and trait and its effect. Unless stated otherwise hero bonuses do not stack with one another. If a faction has more than one hero with a bonus present in battle the highest value in each category will be applied. Stacking bonuses are added on top of the highest nonstacking bonus and cannot stack with another copy of themselves. Heroes do not apply their bonuses to themselves.
+TEXT_DOCUMENTATION_BODY_TIERSANDTRAITS,Heroes in EaWX are assigned a command tier indicated in their description (XII being best, I being worst) which has a set of bonuses for units based on that tier. Each character can also have a set of traits which can positively or negatively impact their command bonus. Below is every tier and trait and its effect. Unless stated otherwise hero bonuses do not stack with one another. If a faction has more than one hero with a bonus present in battle the highest value in each category will be applied. Stacking bonuses are added on top of the highest nonstacking bonus and cannot stack with another copy of themselves. Heroes do not apply their bonuses to themselves.
 TEXT_DOCUMENTATION_BODY_TORPEDO_1,| 10 | - Fighter Proton Torpedo
 TEXT_DOCUMENTATION_BODY_TORPEDO_2,| 17 | - Heavy Fighter Proton Torpedo
 TEXT_DOCUMENTATION_BODY_TORPEDO_3,| 20 | - Light Proton Rocket
@@ -964,83 +961,94 @@ TEXT_DOCUMENTATION_BODY_TORPEDO_9,| 18 | - Mass Driver
 TEXT_DOCUMENTATION_BODY_TORPEDO_ARMOR,| 1.00x | 1.00x | 0.90x | 0.90x | 0.80x | 0.80x | 0.75x | 0.75x | - Against Armor Types
 TEXT_DOCUMENTATION_BODY_TORPEDO_HEADER,Torpedoes & Mass Drivers:
 TEXT_DOCUMENTATION_BODY_TORPEDO_SHIELD,| 1.00x | 1.00x | 1.00x | 1.00x | 1.00x | 1.00x | 1.00x | 1.00x | - Against Shield Types
+TEXT_DOCUMENTATION_BODY_TRAIT_AGGRESSIVE,Aggressive: -3% Health \ +3% Damage \ +3% Speed
+TEXT_DOCUMENTATION_BODY_TRAIT_ARROGANT,Arrogant: -3% Damage \ -3% Defense 
+TEXT_DOCUMENTATION_BODY_TRAIT_BATTLE_MEDITATION,Battle Meditation: +9% Damage \ +9% Defense \ +9% Speed \ +9% Fog of War Reveal
+TEXT_DOCUMENTATION_BODY_TRAIT_CAUTIOUS,Cautious: +6% Shield \ -3% Speed
+TEXT_DOCUMENTATION_BODY_TRAIT_COWARDLY,Cowardly: -3% Damage \ -3% Speed
+TEXT_DOCUMENTATION_BODY_TRAIT_CREATIVE,Creative: +6% Speed \ -15% Ability Recharge Time
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_ADMIN_01,Admin I: 15% build cost & time reduction \ 5% planet income bonus
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_ADMIN_02,Admin II: 20% build cost & time reduction \ 10% planet income bonus
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_AGENT_01,Agent I: 5% build cost reduction
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_AGENT_01_SPEC,Agent I Spec: 15% build cost reduction
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_AGENT_02,Agent II: 10% build cost reduction
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_AGENT_02_SPEC,Agent II Spec: 20% build cost reduction
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_ARCHON,Archon: 10% build cost & time reduction
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_ASSISTANT_VICEPREX,Assistant Viceprex: 5% build cost reduction
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_BANKER,Banker: 80% planet income bonus
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_BARON,Baron: 5% build cost reduction
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_CHIEF_OF_STATE,Chief Of State: 25% build cost & time reduction \ 25% planet income bonus
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_CSA_AGENT,CSA Agent: 10% build cost reduction \ Galactic stealth
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_CSA_EXECUTIVE,CSA Executive: 10% build cost & time reduction \ 10% planet income bonus
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_DARAMA,Darama: 15% build cost & time reduction
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_DUKAT_01,Dukat I: 15% build cost & time reduction \ 10% planet income bonus
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_DUKAT_02,Dukat II: 20% build cost & time reduction \ 15% planet income bonus
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_EXO,ExO: 30% build cost & time reduction \ 20% planet income bonus
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_FIELD_SHAPER,Field Shaper: 5% build cost reduction
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_GRAND_MOFF,Grand Moff: 15% build cost & time reduction \ 10% planet income bonus
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_HUTT_ARCHON,Hutt Archon: 30% build cost & time reduction \ 20% planet income bonus
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_HUTT_LORD,Hutt Lord: 5% build cost reduction \ 10% planet income bonus \ Credit bonus for destroying enemy units in tactical battles
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_INDUSTRIALIST,Industrialist: 20% build time reduction \ 10% build cost reduction for company units (stacks with Corporations)
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_INTENDANT_01,Intendant I: 60% planet income bonus
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_INTENDANT_02,Intendant II: 80% planet income bonus
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_KAJIDII,Kajidii: 10% build cost reduction \ 15% planet income bonus \ Credit bonus for destroying enemy units in tactical battles
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_LOBBYIST,Lobbyist: 10% build cost reduction \ Galactic stealth
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_MANDALORE,Mand'alor: 15% build cost & time reduction
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_MOFF,Moff: 10% build cost & time reduction \ 10% planet income bonus
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_QUEEN_MOTHER,Queen Mother: 15% build cost & time reduction
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_SENATOR,Senator: 15% build cost & time reduction \ 15% planet income bonus \ +1 Influence at current location
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_SHAPER_01,Shaper I: 15% build cost & time reduction
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_SHAPER_02,Shaper II: 20% build cost & time reduction
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_SITH_MASTER,Sith Master: 15% build cost & time reduction
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_SLAVELORD,Slavelord: 10% build time reduction \ Double credit bonus for destroying enemy units in tactical battles
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_SMUGGLER,Smuggler: 10% build cost reduction \ 10% planet income bonus \ Galactic stealth
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_SUPREME_OVERLORD,Supreme Overlord: 30% build cost & time reduction \ 20% planet income bonus
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_SYNDICATE_HEAD,Syndicate Head: 5% build cost reduction \ 10% planet income bonus \ Credit bonus for destroying enemy units in tactical battles
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_VICEPREX,Viceprex: 20% build cost & time reduction \ 10% planet income bonus
+TEXT_DOCUMENTATION_BODY_TRAIT_ECONOMIC_VICEROY,Viceroy: 20% build cost & time reduction \ 10% planet income bonus
+TEXT_DOCUMENTATION_BODY_TRAIT_FORCESENSITIVE,Force Sensitive: +6% Speed \ +20% Fog of War Reveal \ Can detect stealth units in ground tactical battles
 TEXT_DOCUMENTATION_BODY_TRAIT_HUTTLORD,Hutt Lord: +5% Shield\+5% Damage\+5% Speed [Stacking bonus], grants credit bonus for destroyed enemy units
-TEXT_DOCUMENTATION_BODY_TRAITACEPILOT,Ace Pilot: +10% Health\+10% Speed (Fighters/Bombers and Air Speeders Only)
-TEXT_DOCUMENTATION_BODY_TRAITADMINISTRATOR,Administrator: Price reduction bonus
-TEXT_DOCUMENTATION_BODY_TRAITAGGRESSIVE,Aggressive: +5% Damage
-TEXT_DOCUMENTATION_BODY_TRAITAIRCOMMANDER,Air Commander: +10% Health\+10% Speed (Air Speeders Only) [Stacking bonus]
-TEXT_DOCUMENTATION_BODY_TRAITALOOF,Aloof: -5% Health\-5% Damage
-TEXT_DOCUMENTATION_BODY_TRAITAMBUSHER,Ambusher: Increased rate of fire for a short duration after entering the battlefield.
-TEXT_DOCUMENTATION_BODY_TRAITARROGANT,Arrogant: -10% Damage\-5% Speed
-TEXT_DOCUMENTATION_BODY_TRAITARTILLERYENGINEER,Artillery Engineer: +10% Damage (Artillery Only) [Stacking bonus]
-TEXT_DOCUMENTATION_BODY_TRAITARTLOVER,Art Lover: +10% Damage
-TEXT_DOCUMENTATION_BODY_TRAITBLACKMARKETEER,Black Marketeer: Galactic credit stream bonus at current location. Grants a stacking 5% build time reduction.
-TEXT_DOCUMENTATION_BODY_TRAITBLOCKADE,Blockade Enforcer: +10% Health\-10% Speed
-TEXT_DOCUMENTATION_BODY_TRAITBOUNTYHUNTER,Bounty Hunter: Galactic Stealth, Limited System Spy
-TEXT_DOCUMENTATION_BODY_TRAITCAUTIOUS,Cautious: +10% Defense\-5% Speed
-TEXT_DOCUMENTATION_BODY_TRAITCLAIRVOYANT,Clairvoyant: Allows retreat even if raid fleets are present
-TEXT_DOCUMENTATION_BODY_TRAITCLONELORD,Clone Lord: 15% build time reduction for Clone Platoons
-TEXT_DOCUMENTATION_BODY_TRAITCLONEOBSERVER,Clone Training Overseer: 10% cost reduction on Clone Trooper platoons
-TEXT_DOCUMENTATION_BODY_TRAITCLONEPREJUDICE,Clone Prejudice: -20% Health (Clones Only, including heroes) [Stacking bonus]
-TEXT_DOCUMENTATION_BODY_TRAITCOLLECTION,Collections Operator: -10% Speed\-10% Ability Recharge Time
-TEXT_DOCUMENTATION_BODY_TRAITCOMMANDOTRAINER,Commando Trainer: 30% cost and build time reduction on special forces units
-TEXT_DOCUMENTATION_BODY_TRAITCOMMANDOTRANSPORT,Commando Transport: 30% cost and build time reduction on special forces units
-TEXT_DOCUMENTATION_BODY_TRAITCOMMERCE,Commerce Raider: -10% Health\+5% Damage\+10% Speed
-TEXT_DOCUMENTATION_BODY_TRAITCOMMERCIALACUMEN,Commercial Acumen: Galactic credit stream bonus at current location.
-TEXT_DOCUMENTATION_BODY_TRAITCOWARDLY,Cowardly: -5% Damage\+5% Speed
-TEXT_DOCUMENTATION_BODY_TRAITCREATIVE,Creative: +5% Speed\-5% Ability Recharge Time
-TEXT_DOCUMENTATION_BODY_TRAITDEFENSIVE,Defensive: +5% Defense
-TEXT_DOCUMENTATION_BODY_TRAITDEFENSIVEEXPERT,Defensive Expert: +10% Health\+5% Shield\+10% Damage\+5% Defense (Golan Structures Only)
-TEXT_DOCUMENTATION_BODY_TRAITEMPERORREBORN,Emperor Reborn: +10% Health [Stacking bonus]
-TEXT_DOCUMENTATION_BODY_TRAITENDOR,Hero of Endor: +5% Shield\+5% Damage\+5% Speed [Stacking bonus]
-TEXT_DOCUMENTATION_BODY_TRAITENGINEER,Engineering Specialist: -10% Health\+5% Shield\+5% Damage\+5% Speed
-TEXT_DOCUMENTATION_BODY_TRAITFIGHTERCOMMANDER,Fighter Commander: +10% Health\+10% Damage\+10% Speed (Fighters/Bombers Only)
-TEXT_DOCUMENTATION_BODY_TRAITFORCESENSITIVE,Force Sensitive: +10% Speed\+30% Fog of War Reveal. Can detect stealth units in ground tactical battles.
-TEXT_DOCUMENTATION_BODY_TRAITGUNNERYLEAD,Gunnery Lead: +10% Damage
-TEXT_DOCUMENTATION_BODY_TRAITINDECISIVE,Indecisive: -10% Speed
-TEXT_DOCUMENTATION_BODY_TRAITINTELLIGENCEOFFICER,Intelligence Officer: Full System Spy
-TEXT_DOCUMENTATION_BODY_TRAITINTERDICTORCOMMANDER,Immobilizer Commander: +10% Health\+5% Shield\+10% Damage\+5% Defense (Immobilizer Cruisers Only) [Stacking bonus]
-TEXT_DOCUMENTATION_BODY_TRAITKUATOFKUAT,Kuat of Kuat: +5% Health\+5% Shield (KDY Products Only), 10% cost reduction on all KDY Products
-TEXT_DOCUMENTATION_BODY_TRAITMANDOHATE,Hatred Through The Centuries: -20% Health (Mandalorians Only, including heroes) [Stacking bonus]
-TEXT_DOCUMENTATION_BODY_TRAITOVERSEER,Overseer: Time reduction bonus
-TEXT_DOCUMENTATION_BODY_TRAITPARTISANRECRUITER,While this hero is in system (on ground or in orbit), all partisans fight on this hero's side. (Superseded by Labour Camp.)
-TEXT_DOCUMENTATION_BODY_TRAITPERSONALCOMBATENTHUSIAST,Personal Combat Enthusiast: +5% Health\+10% Damage\+10% Speed (Infantry Only)
-TEXT_DOCUMENTATION_BODY_TRAITPOLITICALANIMAL,Political Animal: 10% build time reduction, 10% build cost increase
-TEXT_DOCUMENTATION_BODY_TRAITPROTECTIVE,Protective: -15% Damage\+15% Defense
-TEXT_DOCUMENTATION_BODY_TRAITRECKLESS,Reckless: -20% Health\+15% Speed
-TEXT_DOCUMENTATION_BODY_TRAITRISKTAKER,Risk Taker: -10% Health\+10% Damage\+10% Speed
-TEXT_DOCUMENTATION_BODY_TRAITRUTHLESS,Ruthless: +10% Damage
-TEXT_DOCUMENTATION_BODY_TRAITSADISTIC,Sadistic: +15% Damage\-15% Defense
-TEXT_DOCUMENTATION_BODY_TRAITSHIPDESIGNER,Ship Designer: 20% cost reduction on Raider-Is, Victory-Is, Venators, ISD-Is, Executors
-TEXT_DOCUMENTATION_BODY_TRAITSIEGESPECIALIST,Siege Specialist: Reveals ground structures
-TEXT_DOCUMENTATION_BODY_TRAITSKYWATCHER,Skywatcher: +30% Health\+30% Damage\+30% Defense (Anakin Skywalker Only), Reveals nearby systems [Stacking bonus]
-TEXT_DOCUMENTATION_BODY_TRAITSLAVELORD,Slavelord: 10% build time reduction, Grants 2% credit value for destroyed enemy units
-TEXT_DOCUMENTATION_BODY_TRAITSLAVER,Slaver: Grants 1% credit value for destroyed enemy units
-TEXT_DOCUMENTATION_BODY_TRAITSMALLSHIPS,Small Ship Commander: +15% Health\+15% Damage\+5% Speed (Corvettes/Frigates Only), -15% Health\-15% Damage\-5% Speed (Capital/Super Capital Only) [Stacking bonus]
-TEXT_DOCUMENTATION_BODY_TRAITSMUGGLER,Smuggler: Galactic Stealth, System Spy
-TEXT_DOCUMENTATION_BODY_TRAITSOROSUUB,SoroSuub Chairman: +5% Health\+5% Shield (SoroSuub Products Only), 15% cost reduction on Dauntless Heavy Cruiser, Liberator Cruiser, and Bulwark-III Battlecruiser
-TEXT_DOCUMENTATION_BODY_TRAITSPLITPERSONALITY,Split Personality: -15% Speed
-TEXT_DOCUMENTATION_BODY_TRAITSPY,Spy: Galactic Stealth, Limited System Spy
-TEXT_DOCUMENTATION_BODY_TRAITSPYMASTER,Spy Master: Galactic Stealth, Full System Spy
-TEXT_DOCUMENTATION_BODY_TRAITSPYNETWORK,Spy Network: Reveals nearby systems
-TEXT_DOCUMENTATION_BODY_TRAITSQUEAMISH,Squeamish: +10% Health\+5% Shield\-15% Damage
-TEXT_DOCUMENTATION_BODY_TRAITSTEALTH,Stealth: Galactic Stealth
-TEXT_DOCUMENTATION_BODY_TRAITSTEALTHOPS,Stealth Operations: Galactic Stealth
-TEXT_DOCUMENTATION_BODY_TRAITSTORMCOMMANDO,Storm Commando: Galactic Stealth, Full System Spy
-TEXT_DOCUMENTATION_BODY_TRAITSTORMTROOPER_COMMANDER,Stormtrooper Commander: 20% cost reduction on Stormtrooper Platoons
-TEXT_DOCUMENTATION_BODY_TRAITSUPERWEAPON_DESIGNER,Superweapon Designer: 30% cost and build time reduction on SD-10s & XR85s; can build a new World Devastator Frigate in orbit of any planet with a capital shipyard if the active Frigate or Destroyer is destroyed [ Only once ].
-TEXT_DOCUMENTATION_BODY_TRAITTIERI,Tier I: +20% Health\+20% Shield\+20% Damage\+20% Defense\+15% Speed\+30% Fog of War Reveal
-TEXT_DOCUMENTATION_BODY_TRAITTIERII,Tier II: +15% Health\+15% Shield\+15% Damage\+15% Defense\+10% Speed\+15% Fog of War Reveal
-TEXT_DOCUMENTATION_BODY_TRAITTIERIII,Tier III: +10% Health\+10% Shield\+10% Damage\+10% Defense\+5% Speed
-TEXT_DOCUMENTATION_BODY_TRAITTIERIV,Tier IV: +5% Health\+5% Shield\+5% Damage\+5% Defense
-TEXT_DOCUMENTATION_BODY_TRAITTIERV,Tier V: +5% Health
-TEXT_DOCUMENTATION_BODY_TRAITUNINTERESTING,None: No active traits
-TEXT_DOCUMENTATION_BODY_TRAITUNPREDICTABLE,Unpredictable: -5% Health\-5% Defense\+5% Speed\-5% Ability Recharge Time
-TEXT_DOCUMENTATION_BODY_TRAITUNYIELDING,Unyielding: +10% Defense, Disables Tactical Retreat
-TEXT_DOCUMENTATION_BODY_TRAITVINDICTIVE,Vindictive: +10% Damage\-5% Defense
-TEXT_DOCUMENTATION_BODY_TRAITWARLORD,Warlord: +5% Shield\+5% Damage\+5% Speed [Stacking bonus]
-TEXT_DOCUMENTATION_BODY_TRAITWARYOFTRAPS,Wary of Traps: +10% Defense\+30% Fog of War Reveal
-TEXT_DOCUMENTATION_BODY_TRAITWESSEXFAMILY,Designer's Spouse: 10% cost reduction on Venators, Victory-Is
+TEXT_DOCUMENTATION_BODY_TRAIT_INDECISIVE,Indecisive: -6% Speed
+TEXT_DOCUMENTATION_BODY_TRAIT_PROTECTIVE,Protective: +3% Defense \ +6% Fog of War Reveal
+TEXT_DOCUMENTATION_BODY_TRAIT_RECKLESS,Reckless: -6% Defense \ +6% Speed \ -10% Ability Recharge Time
+TEXT_DOCUMENTATION_BODY_TRAIT_SADISTIC,Sadistic: +6% Damage \ -6% Defense
+TEXT_DOCUMENTATION_BODY_TRAIT_SPECIALIZATION_AIR_COMMAND,Air Command Specialist: Command Tier I bonus for aerial units. [Stacking bonus]
+TEXT_DOCUMENTATION_BODY_TRAIT_SPECIALIZATION_ARTILLERY,Artillery Specialist: Command Tier I bonus for artillery. [Stacking bonus]
+TEXT_DOCUMENTATION_BODY_TRAIT_SPECIALIZATION_CLONE_HATRED,Clone Prejudice: Clone infantry / heroes unaffected by innate command tier and receive a negative Tier I debuff. [Stacking bonus]
+TEXT_DOCUMENTATION_BODY_TRAIT_SPECIALIZATION_FORTIFICATION,Fortification Specialist: Command Tier I bonus for structures. [Stacking bonus]
+TEXT_DOCUMENTATION_BODY_TRAIT_SPECIALIZATION_INFANTRY,Infantry Specialist: Command Tier I bonus for infantry. [Stacking bonus]
+TEXT_DOCUMENTATION_BODY_TRAIT_SPECIALIZATION_MANDO_HATRED,Hatred Through The Centuries: Mandalorian infantry / heroes unaffected by innate command tier and receive a negative Tier I debuff. [Stacking bonus]
+TEXT_DOCUMENTATION_BODY_TRAIT_SPECIALIZATION_SMALL_SHIP,Small Ship Specialist: Command Tier I bonus for corvettes and frigates. [Stacking bonus]
+TEXT_DOCUMENTATION_BODY_TRAIT_SPECIALIZATION_STARFIGHTER,Starfighter Specialist: Command Tier I bonus for fighters and bombers. [Stacking bonus]
+TEXT_DOCUMENTATION_BODY_TRAIT_SQUEAMISH,Squeamish: +3% Health \ +6% Shield \ -6% Damage
+TEXT_DOCUMENTATION_BODY_TRAIT_TIER_01,Command Tier I: +3% Damage \ +3% Defense \ +3% Speed \ +3% Fog of War Reveal
+TEXT_DOCUMENTATION_BODY_TRAIT_TIER_02,Command Tier II: +6% Damage \ +6% Defense \ +6% Speed \ +6% Fog of War Reveal
+TEXT_DOCUMENTATION_BODY_TRAIT_TIER_03,Command Tier III: +9% Damage \ +9% Defense \ +9% Speed \ +9% Fog of War Reveal
+TEXT_DOCUMENTATION_BODY_TRAIT_TIER_04,Command Tier IV: +12% Damage \ +12% Defense \ +12% Speed \ +12% Fog of War Reveal
+TEXT_DOCUMENTATION_BODY_TRAIT_TIER_05,Command Tier V: +15% Damage \ +15% Defense \ +15% Speed \ +15% Fog of War Reveal
+TEXT_DOCUMENTATION_BODY_TRAIT_TIER_06,Command Tier VI: +18% Damage \ +18% Defense \ +18% Speed \ +18% Fog of War Reveal
+TEXT_DOCUMENTATION_BODY_TRAIT_TIER_07,Command Tier VII: +21% Damage \ +21% Defense \ +21% Speed \ +21% Fog of War Reveal
+TEXT_DOCUMENTATION_BODY_TRAIT_TIER_08,Command Tier VIII: +24% Damage \ +24% Defense \ +24% Speed \ +24% Fog of War Reveal
+TEXT_DOCUMENTATION_BODY_TRAIT_TIER_09,Command Tier IX: +27% Damage \ +27% Defense \ +27% Speed \ +27% Fog of War Reveal
+TEXT_DOCUMENTATION_BODY_TRAIT_TIER_10,Command Tier X: +30% Damage \ +30% Defense \ +30% Speed \ +30% Fog of War Reveal
+TEXT_DOCUMENTATION_BODY_TRAIT_TIER_11,Command Tier XI: +33% Damage \ +33% Defense \ +33% Speed \ +33% Fog of War Reveal
+TEXT_DOCUMENTATION_BODY_TRAIT_TIER_12,Command Tier XII: +36% Damage \ +36% Defense \ +36% Speed \ +36% Fog of War Reveal
+TEXT_DOCUMENTATION_BODY_TRAIT_UNINTERESTING,None: No active traits
+TEXT_DOCUMENTATION_BODY_TRAIT_UNPREDICTABLE,Unpredictable: -6% Shield \ +6% Damage \ +3% Speed \ -15% Ability Recharge Time
+TEXT_DOCUMENTATION_BODY_TRAIT_UNYIELDING,Unyielding: +6% Defense, Disables Tactical Retreat
+TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_ANTI_PARTISAN,Anti-Partisan: While this hero is in system (on ground or in orbit), all partisans fight for the enemy. (Superseded by Labour Camp.)
+TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_BEAST_TAMER,Beast Tamer: While this hero is in system (on ground or in orbit), all animals fight on this hero's side.
+TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_BOUNTY_HUNTER,Bounty Hunter: Galactic stealth
+TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_COOPERATIVE,Cooperative: +1 command tier buff applied if another hero with an equal or higher command tier is deployed. [Stacking bonus]
+TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_PARTISAN_RECRUITER,Partisan Recruiter: While this hero is in system (on ground or in orbit), all partisans fight on this hero's side. (Superseded by Labour Camp.)
+TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_PARTISAN_SUPPRESSOR,Partisan Suppressor: While this hero is in system (on ground or in orbit), partisans do not spawn. (Superseded by Labour Camp.)
+TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_POACHER,Poacher: While this hero is in system (on ground or in orbit), all animals fight for the enemy.
+TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_SALVAGER,Salvager: Credit bonus for destroying enemy units in tactical battles
+TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_SLAVER,Slaver: Credit bonus for destroying enemy units in tactical battles
+TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_SPY,Spy: System Spy \ Galactic Stealth
+TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_SPY_MASTER,Spy Master: System Spy \ Reveals nearby systems
+TEXT_DOCUMENTATION_BODY_TRAIT_UTILITY_STEALTH_OPERATIVE,Stealth Operative: Galactic stealth
+TEXT_DOCUMENTATION_BODY_TRAIT_VINDICTIVE,Vindictive: -6% Health \ +3% Damage
 TEXT_DOCUMENTATION_BODY_TURBOLASER_1,| 2       | - Fighter Turbolaser / Megamaser
 TEXT_DOCUMENTATION_BODY_TURBOLASER_10,| 120   | - Medium Quad Turbolaser / Megamaser
 TEXT_DOCUMENTATION_BODY_TURBOLASER_11,| 240   | - Medium Octuple Turbolaser / Megamaser
@@ -1081,6 +1089,7 @@ TEXT_DOCUMENTATION_HEADER_INFLUENCE_FIGHTERS,Local fighters (fight with defender
 TEXT_DOCUMENTATION_HEADER_INFLUENCE_LOYALTY,Planet Loyalty:
 TEXT_DOCUMENTATION_HEADER_INTERVENTION_MISSIONS,=== Intervention Missions (Available to all factions) ======================
 TEXT_DOCUMENTATION_HEADER_REVOLTS,=== Revolts ==========================================
+TEXT_DOCUMENTATION_HEADER_SPECIALIATION_TRAITS,Specialization Traits and Bonuses:
 TEXT_DOCUMENTATION_HEADER_STATS,=== Unit Stats =========================================
 TEXT_DOCUMENTATION_HEADER_STORYOVERVIEW,Guide: Story Events and Missions
 TEXT_DOCUMENTATION_HEADER_TIERSANDTRAITS,=== Hero Tiers and Traits ==============================
@@ -1147,12 +1156,14 @@ TEXT_ECONOMY_SMUGGLER,Smuggler - Income
 TEXT_ECONOMY_STRUCTURE_UPKEEP,Structure - Upkeep
 TEXT_ECONOMY_SUMMARY_DESCRIPTION,Hint: Shows Economy for planets owned by you. Sort by clicking on column titles.
 TEXT_ECONOMY_SUPREME_OVERLORD,Supreme Overlord - Income
+TEXT_ECONOMY_SYNDICATE_HEAD,Syndicate Head - Income
 TEXT_ECONOMY_TAX_COLLECTION_AGENCIES,Tax Collection Agency - Income
 TEXT_ECONOMY_TOTAL_INCOME,Total Income
 TEXT_ECONOMY_TRADE_PORT,Trade Port - Income
 TEXT_ECONOMY_TRADE_PORT_HUB,Trade Port (Trade Hub) - Income
 TEXT_ECONOMY_UNIT_UPKEEP,Unit Upkeep
 TEXT_ECONOMY_VICEPREX,Viceprex - Income
+TEXT_ECONOMY_VICEROY,Viceroy - Income
 TEXT_EMAIL_ADDRESS,Email Address
 TEXT_EMPIRE_FORCES,Empire Forces
 TEXT_EMPIRE_STAR_BASE_2,Star Base
@@ -1168,7 +1179,7 @@ TEXT_ENCYCLOPEDIA_CANTINA_SMUGGLERS,Cantinas allow the production of smugglers, 
 TEXT_ENCYCLOPEDIA_CLASS_ACCOUNTANT,Accountant
 TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL,Admiral
 TEXT_ENCYCLOPEDIA_CLASS_ADVANCE,Technology Upgrade
-TEXT_ENCYCLOPEDIA_CLASS_ADVISOR,Imperial Advisor
+TEXT_ENCYCLOPEDIA_CLASS_ADVISOR,Advisor
 TEXT_ENCYCLOPEDIA_CLASS_AGENT,Agent
 TEXT_ENCYCLOPEDIA_CLASS_ARCHON,Archon
 TEXT_ENCYCLOPEDIA_CLASS_ARMY_OFFICER,Army Officer
@@ -1278,7 +1289,9 @@ TEXT_ENCYCLOPEDIA_CLASS_HIGH_ADMIRAL,High Admiral
 TEXT_ENCYCLOPEDIA_CLASS_HIGH_COLONEL,High Colonel
 TEXT_ENCYCLOPEDIA_CLASS_HIGH_EMPEROR,High Emperor
 TEXT_ENCYCLOPEDIA_CLASS_HIGH_GENERAL,High General
+TEXT_ENCYCLOPEDIA_CLASS_HIGH_JEDI_GENERAL,High Jedi General
 TEXT_ENCYCLOPEDIA_CLASS_HUNTER,Hunter
+TEXT_ENCYCLOPEDIA_CLASS_IMPERIAL_ADVISOR,Imperial Advisor
 TEXT_ENCYCLOPEDIA_CLASS_IMPOSTER,Imposter
 TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS_ACTIVE,Active Indigenous
 TEXT_ENCYCLOPEDIA_CLASS_INFANTRY,Infantry
@@ -1293,6 +1306,7 @@ TEXT_ENCYCLOPEDIA_CLASS_INTELLIGENCE,Intelligence Agent
 TEXT_ENCYCLOPEDIA_CLASS_INTELLIGENCE_DIRECTOR,Imperial Intelligence Director
 TEXT_ENCYCLOPEDIA_CLASS_INTERFACE,Interface
 TEXT_ENCYCLOPEDIA_CLASS_IRREGULAR,Irregular
+TEXT_ENCYCLOPEDIA_CLASS_JEDI_GENERAL,Jedi General
 TEXT_ENCYCLOPEDIA_CLASS_JEDI_GRAND,Grand Master
 TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT,Jedi Knight
 TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT_AND_PADAWAN,Jedi Knight & Jedi Padawan
@@ -1343,7 +1357,6 @@ TEXT_ENCYCLOPEDIA_CLASS_OPTIONS,Game Option
 TEXT_ENCYCLOPEDIA_CLASS_OVERSEER,Overseer
 TEXT_ENCYCLOPEDIA_CLASS_PILOT,Pilot
 TEXT_ENCYCLOPEDIA_CLASS_PIRATE,Pirate
-TEXT_ENCYCLOPEDIA_CLASS_POLITICAL,Political Officer
 TEXT_ENCYCLOPEDIA_CLASS_POLITICIAN,Politician
 TEXT_ENCYCLOPEDIA_CLASS_PRESIDENTE,Presidente
 TEXT_ENCYCLOPEDIA_CLASS_PRIMATE,Primate
@@ -1370,7 +1383,10 @@ TEXT_ENCYCLOPEDIA_CLASS_ROYAL_HOME,Royal Home
 TEXT_ENCYCLOPEDIA_CLASS_ROYALTY,Royal Family
 TEXT_ENCYCLOPEDIA_CLASS_SCIENTIST,Scientist
 TEXT_ENCYCLOPEDIA_CLASS_SCOUT,Scout
+TEXT_ENCYCLOPEDIA_CLASS_SECTOR_COMMANDER,Sector Army Commander
 TEXT_ENCYCLOPEDIA_CLASS_SENATOR,Senator
+TEXT_ENCYCLOPEDIA_CLASS_SENIOR_COMMANDER,Senior Commander
+TEXT_ENCYCLOPEDIA_CLASS_SENIOR_JEDI_GENERAL,Senior Jedi General
 TEXT_ENCYCLOPEDIA_CLASS_SERGEANT,Sergeant
 TEXT_ENCYCLOPEDIA_CLASS_SERGEANT_MAJOR,Sergeant Major
 TEXT_ENCYCLOPEDIA_CLASS_SHIP_MASTER,Ship-Master
@@ -1497,7 +1513,9 @@ TEXT_ENCYCLOPEDIA_SECONDARY_FACTORY,An abandoned vehicle factory. If captured, t
 TEXT_ENCYCLOPEDIA_SECONDARY_FUEL_PUMP,An abandoned fuel pumping station. If captured, provides a movement speed bonus to your vehicles and aircraft.
 TEXT_ENCYCLOPEDIA_SECONDARY_MINING,An abandoned mining facility. If captured, the mining facility gives a one-time cash bonus to the capturing faction.
 TEXT_ENCYCLOPEDIA_SECONDARY_MSU,An abandoned facility for infantry medical care. If captured, this structure will heal multiple nearby infantry.
+TEXT_ENCYCLOPEDIA_SECONDARY_MSU_DEPOT_HEAL,1x Infantry Healing: 5 / 1.0s / 240m
 TEXT_ENCYCLOPEDIA_SECONDARY_REPAIR_DEPOT,An abandoned facility for vehicle field repairs. If captured, this structure will repair nearby vehicles.
+TEXT_ENCYCLOPEDIA_SECONDARY_REPAIR_DEPOT_REPAIR,1x Vehicle Repair: 15 / 1.0s / 240m
 TEXT_ENCYCLOPEDIA_SECONDARY_RESEARCH_FACILITY,An abandoned research facility. If captured, provides a small damage bonus to your forces.
 TEXT_ENCYCLOPEDIA_SECONDARY_SENSOR,An abandoned Sensor Array. Capturing this structure will reveal an area of the Fog of War and allow sensor pings.
 TEXT_ENCYCLOPEDIA_SECONDARY_TURBOLASER,An abandoned Turbolaser Tower. If captured, this turbolaser tower will fire on enemy units. Must keep a unit nearby to maintain control.
@@ -2055,7 +2073,7 @@ TEXT_INTERNET_GAME_TYPE,Game Type
 TEXT_INTERNET_GAME_TYPE_BUTTON,Type
 TEXT_INTERNET_HOME_TITLE,Empire at War Online
 TEXT_INTERNET_HOST_GAME_OPTIONS,Host Game Settings
-TEXT_INTERNET_HOST_GAME_TITLE,Empire at War Online - Host Game Setup
+TEXT_INTERNET_HOST_GAME_TITLE,Empire at War Online - Game Setup (All players must be using 4:3 or 16:9 resolution)
 TEXT_INTERNET_INCORRECT_EMAIL,The e-mail address provided is incorrect.
 TEXT_INTERNET_INCORRECT_NICKNAME,The nickname provided is incorrect.
 TEXT_INTERNET_INCORRECT_NICKNAME_INUSE,The nickname provided is already in use.
@@ -2498,6 +2516,7 @@ TEXT_OBJECT_STAR_SYSTEM_ARDA,Arda
 TEXT_OBJECT_STAR_SYSTEM_ARDIS,Ardis
 TEXT_OBJECT_STAR_SYSTEM_ARGAZDA,Argazda
 TEXT_OBJECT_STAR_SYSTEM_ARGOVIA,Argovia
+TEXT_OBJECT_STAR_SYSTEM_ARGUL,Argul
 TEXT_OBJECT_STAR_SYSTEM_ARIZED,Arized
 TEXT_OBJECT_STAR_SYSTEM_ARKANIA,Arkania
 TEXT_OBJECT_STAR_SYSTEM_ARUZA,Aruza
@@ -2817,6 +2836,7 @@ TEXT_OBJECT_STAR_SYSTEM_KATARR,Katarr
 TEXT_OBJECT_STAR_SYSTEM_KATTADA,Kattada
 TEXT_OBJECT_STAR_SYSTEM_KAURON,Kauron
 TEXT_OBJECT_STAR_SYSTEM_KAYRI,Kayri
+TEXT_OBJECT_STAR_SYSTEM_KELRODO,Kelrodo-Ai
 TEXT_OBJECT_STAR_SYSTEM_KEM_STOR_AI,Kem Stor Ai
 TEXT_OBJECT_STAR_SYSTEM_KERKOIDIA,Kerkoidia
 TEXT_OBJECT_STAR_SYSTEM_KESH,Kesh
@@ -2920,6 +2940,7 @@ TEXT_OBJECT_STAR_SYSTEM_MUUNILINST,Muunilinst
 TEXT_OBJECT_STAR_SYSTEM_MYGEETO,Mygeeto
 TEXT_OBJECT_STAR_SYSTEM_MYRKR,Myrkr
 TEXT_OBJECT_STAR_SYSTEM_MYTUS,Mytus VII
+TEXT_OBJECT_STAR_SYSTEM_NAALOL,Naalol
 TEXT_OBJECT_STAR_SYSTEM_NABOO,Naboo
 TEXT_OBJECT_STAR_SYSTEM_NADIRI,Nadiri
 TEXT_OBJECT_STAR_SYSTEM_NAL_HUTTA,Nal Hutta
@@ -2966,6 +2987,7 @@ TEXT_OBJECT_STAR_SYSTEM_ODRYN,Odryn
 TEXT_OBJECT_STAR_SYSTEM_OJOM,Ojom
 TEXT_OBJECT_STAR_SYSTEM_OMONOTH,Omonoth
 TEXT_OBJECT_STAR_SYSTEM_ONDERON,Onderon
+TEXT_OBJECT_STAR_SYSTEM_ORAX,Orax
 TEXT_OBJECT_STAR_SYSTEM_ORD_BINIIR,Ord Biniir
 TEXT_OBJECT_STAR_SYSTEM_ORD_CANTRELL,Ord Cantrell
 TEXT_OBJECT_STAR_SYSTEM_ORD_CESTUS,Ord Cestus
@@ -3067,6 +3089,7 @@ TEXT_OBJECT_STAR_SYSTEM_ROTHANA,Rothana
 TEXT_OBJECT_STAR_SYSTEM_ROXULI,Roxuli
 TEXT_OBJECT_STAR_SYSTEM_RUDRIG,Rudrig
 TEXT_OBJECT_STAR_SYSTEM_RUGOSA,Rugosa
+TEXT_OBJECT_STAR_SYSTEM_RUTAN,Rutan
 TEXT_OBJECT_STAR_SYSTEM_RUURIA,Ruuria
 TEXT_OBJECT_STAR_SYSTEM_RUUSAN,Ruusan
 TEXT_OBJECT_STAR_SYSTEM_RYLOTH,Ryloth
@@ -3275,6 +3298,7 @@ TEXT_OBJECT_STAR_SYSTEM_ZONAMA,Zonama Sekot
 TEXT_OBJECT_STAR_SYSTEM_ZONAMA_30BBY,Zonama Sekot
 TEXT_OBJECT_STAR_SYSTEM_ZONGORLU,Zongorlu
 TEXT_OBJECT_STAR_SYSTEM_ZOSHA,Zosha
+TEXT_OBJECT_STAR_SYSTEM_ZXK_100,ZXK-100346.6a
 TEXT_OBJECT_STAR_SYSTEM_ZYGERRIA,Zygerria
 TEXT_OBJECT_STAR_SYSTEM_ZYZEK,Zyzek
 TEXT_OBJECT_TEAM,Team
@@ -3409,10 +3433,10 @@ TEXT_PLANET_INFO_ALDERAAN_GRAVEYARD_REVOLT_OWNER,New Republic | Independent Forc
 TEXT_PLANET_INFO_ALDERAAN_HISTORY,A peaceful, utopian Core World that serves as the spiritual heart of the galaxy. Alderaan boasts vast skies and plains that support more than 8 000 subspecies of grass, numerous wildflowers and a wealth of unique species. The people of Alderaan love the land and work with it, rather than destroy it. Their society is immersed in high culture and education, and is founded on ecological principles that protect the planet's natural beauty. The horrors of the Clone Wars were taken to heart and the people of Alderaan adopted pacifism, banning all weapons from the planet’s surface.
 TEXT_PLANET_INFO_ALDERAAN_INFLUENCE_REWARD,None
 TEXT_PLANET_INFO_ALDERAAN_POPULATION,Demonym: Alderaani / Alderaanian\nNative: Killik\nImmigrated: Human
-TEXT_PLANET_INFO_ALEEN_FAUNA,TODO
-TEXT_PLANET_INFO_ALEEN_HISTORY,TODO
-TEXT_PLANET_INFO_ALEEN_INFLUENCE_REWARD,TODO
-TEXT_PLANET_INFO_ALEEN_POPULATION,TODO
+TEXT_PLANET_INFO_ALEEN_FAUNA,Bogwing | Can-cell | Sagcatcher | Scatalpen
+TEXT_PLANET_INFO_ALEEN_HISTORY,A rocky, temperate world located within the Mid Rim, Aleen is the original homeworld of the Aleena, a reptlian species known to be friendly and boisterous, and the Kindalo, a subterrean species based around anarchic consensus. Aleena had a long history of expansion and technological advancement, before a cataclysmic war with the Kindalo in the early days of the Republic forced the them into a compact of rigid separation between the two peoples, which took form in the Great Seal that rested in the ruins of a Jedi chapter house. From then on the Aleena embraced a pastoral, low-tech lifestyle out of their spiritual beliefs, while maintaining a proficiency with technology to the surprise of many travelers. Both Aleena and Kindalo harvest mineral-vegetable arbozoic trees, the only thing that ties their societies together, as the trees crystalsconsidered sacred to both of their faiths.
+TEXT_PLANET_INFO_ALEEN_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_ALEEN_POPULATION,Native: Aleena\n18 Million | Kindalo
 TEXT_PLANET_INFO_ALLANTEEN_FAUNA,Various
 TEXT_PLANET_INFO_ALLANTEEN_HISTORY,Allanteen VI was situated in the Tynna sector of the Expansion Region and located at the intersection of the Corellian Run and the Shipwrights' Trace, in the 77 Sectors. A major naval hub since the restoration of the Republic Navy circa 15,000 BBY, Allanteen IV's shipyards have been building Republic fleets throughout its history, until it joined the Empire and proved to be a vital supplier of ships for the new regime as well.
 TEXT_PLANET_INFO_ALLANTEEN_INFLUENCE_REWARD,None
@@ -3501,6 +3525,10 @@ TEXT_PLANET_INFO_ARGAZDA_FAUNA,None
 TEXT_PLANET_INFO_ARGAZDA_HISTORY,Argazda was a forested world colonized by humans from the Core in the early history of the Republic. Contact was lost and it diverged into a distinct population where Vianism was still practiced. By 4200 BBY, the Republic had expanded to the Rim, and Argazda petitioned to join for protection from Ereesi marauders and slavers. Despite this, the Argazdan puritans held the Republic in contempt and seceded once they had built up a fleet and the Republic was distracted by the Mandalorians. The resulting Kanz Disorders ravaged the sector for centuries before the Jedi ended the Argazdan Redoubt.
 TEXT_PLANET_INFO_ARGAZDA_INFLUENCE_REWARD,None
 TEXT_PLANET_INFO_ARGAZDA_POPULATION,Demonym: Argazdan\nNative: Argazdans
+TEXT_PLANET_INFO_ARGUL_FAUNA,Unknown
+TEXT_PLANET_INFO_ARGUL_HISTORY,Argul was a Mid Rim planet located near the Corellian Trade Spine, home to the near-Human Argullians. The planet is mostly known as a commercial hub for travelers, and the Argullians have created vast warehousing for trade goods to support the flow of credits. During the Clone Wars the planet sided with the Republic, but a blockade enacted by the Separatists forced its surrender. The Republic responded with an invasion which led to the devastation of most Argul's major cities. leading to a general evacuation of these cities was ordered by Supreme Chancellor Palpatine. Reinforcements brought in by Master Yoda beat back the Separatists and allowed the Argullians to evacuate.
+TEXT_PLANET_INFO_ARGUL_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_ARGUL_POPULATION,Demonym: Argullians\nNative: Argullians
 TEXT_PLANET_INFO_ARIZED_FAUNA,None
 TEXT_PLANET_INFO_ARIZED_HISTORY,The Arized were a group that included engineers, who designed the Surfeik cruisers. After the extermination of the Arized homeworld carried out by the Vagaari Empire, the Vagaari species claimed the cruisers as their own and eventually incorporated them into their fleet.
 TEXT_PLANET_INFO_ARIZED_INFLUENCE_REWARD,None
@@ -3806,6 +3834,10 @@ TEXT_PLANET_INFO_CARRIVAR_FAUNA,None
 TEXT_PLANET_INFO_CARRIVAR_HISTORY,Carrivar was a planet in the Unknown Regions' Carrivar system. The sentient species Hemes Arbora was native to Carrivar but eventually abandoned the celestial body. The Hemes Arbora migrated first to the planet Umaren'k in the Umaren'k system and later to the planet Osseriton. In 80 BBY, Succate, a chronicler from Carrivar, assembled the largest collection of information on the Sorcerers of Rhand, a group of beings who believed in the philosophical concept known as the Dark.
 TEXT_PLANET_INFO_CARRIVAR_INFLUENCE_REWARD,None
 TEXT_PLANET_INFO_CARRIVAR_POPULATION,Native: Hemes Arbora (extinct)
+TEXT_PLANET_INFO_CARTAO_FAUNA,Dokrik | Fluttery
+TEXT_PLANET_INFO_CARTAO_HISTORY,Cartao was a major trading center in the Prackla Sector. It was home to the insectoid Cranscoc species, who were able to produce nearly any item they wished at the Spaarti Creations factory at higher quality than similar products. In 21 BBY Supreme Chancellor Palpatine ordered the factory to begin a new series of cloning tubes based off Kaminoan designs. A Separatist invasion to stop this led to a battle ending in the destruction of Spaarti Creations, blamed on supposed Jedi interference. In reality it was a ruse arranged by Darth Sidious' minion Kinman Doriana, who then transferred the remaining Spaarti cloning cylinders to a secret facility on Wayland at the behest of the Supreme Chancellor.
+TEXT_PLANET_INFO_CARTAO_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_CARTAO_POPULATION,Native: Cranscoc\n50,000 \nImmigrated: Human
 TEXT_PLANET_INFO_CASFIELD_FAUNA,None
 TEXT_PLANET_INFO_CASFIELD_HISTORY,Casfield 6 was a planet in the Casfield system. Incoming starship traffic was managed by droids. A six-ship collision resulted in the death of the 6 000 year old Queen of the Offens.
 TEXT_PLANET_INFO_CASFIELD_INFLUENCE_REWARD,None
@@ -3813,7 +3845,7 @@ TEXT_PLANET_INFO_CASFIELD_POPULATION,Immigrated: Human | Other
 TEXT_PLANET_INFO_CASTELL_FAUNA,None
 TEXT_PLANET_INFO_CASTELL_HISTORY,Castell was a planet located in the Castell system of the Colonies, situated along the Perlemian Trade Route. The Commerce Guild had interests on Castell and their Presidente Shu Mai hailed from the planet. Castell sided with the Confederacy of Independent Systems during the Clone Wars during which it was defended by Diamond-class cruisers, Recusant-class Commerce Guild destroyers, as well as Commerce Guild Bombers and Commerce Guild corvettes.
 TEXT_PLANET_INFO_CASTELL_INFLUENCE_REWARD,None
-TEXT_PLANET_INFO_CASTELL_POPULATION,Native: Glossam\n10 - 100 Million
+TEXT_PLANET_INFO_CASTELL_POPULATION,Native: Gossam\n10 - 100 Million
 TEXT_PLANET_INFO_CATHAR_FAUNA,Giant horned hopper | Kiltik
 TEXT_PLANET_INFO_CATHAR_HISTORY,Cathar was the homeworld of the Cathar species, filled with many ecological niches and huge insect predators. The natives lived in city-trees, while wide areas of the planet were made barren by kiltik beetles. The Giant horned hoppers were often killed by the Cathar species in blood hunts. The planet was conquered by the Mandalorians during the Battle of Cathar, leading to the enslavement and near-extinction of the Cathar species. The few survivors were forced to flee offworld to survive.
 TEXT_PLANET_INFO_CATHAR_INFLUENCE_REWARD,None
@@ -4589,10 +4621,10 @@ TEXT_PLANET_INFO_HOXIM_FAUNA,Woodland creature
 TEXT_PLANET_INFO_HOXIM_HISTORY,Hoxim was a terrestrial world with many forests and grasslands, rivers and lakes, mountain ranges and even some deserts. The atmosphere was breathable to at least the Chiss and Agbui species. Various woodland creatures lived in the forests of Hoxim. The soil of Hoxim was too acidic to support plants edible to Chiss. As part of a plan to orchestrate the demise of the Chiss Ascendancy, Haplif of the Agbui led three Chiss Great Families to believe that the Agbui possessed an otherwise unowned mining settlement on Hoxim that mined nyix, a valuable metal used to fortify the hulls of warships, and that the Agbui were ignorant of the metal's value.
 TEXT_PLANET_INFO_HOXIM_INFLUENCE_REWARD,None
 TEXT_PLANET_INFO_HOXIM_POPULATION,Immigrated: Agbui
-TEXT_PLANET_INFO_HRATTH_FAUNA,Various
-TEXT_PLANET_INFO_HRATTH_HISTORY,TODO
+TEXT_PLANET_INFO_HRATTH_FAUNA,Unknown
+TEXT_PLANET_INFO_HRATTH_HISTORY,H'ratth was a planet located in the Inner Rim, hosting vast, lush landscapes and barren deserts. Jedi Master Chamma took up residence there after leaving Ossus and founded a Jedi academy there, where he hoped to teach young Jedi of the challenges they may face. The planet became a haven for Jedi healers to practice their curative trade for many millenia.
 TEXT_PLANET_INFO_HRATTH_INFLUENCE_REWARD,None
-TEXT_PLANET_INFO_HRATTH_POPULATION,TODO
+TEXT_PLANET_INFO_HRATTH_POPULATION,Immigrated: Human | Devaronian
 TEXT_PLANET_INFO_HUK_FAUNA,Unknown
 TEXT_PLANET_INFO_HUK_HISTORY,Huk, located in Wild Space, is the forest homeworld of the sentient insectoid Yam'rii. Once sufficiently technologically advanced the Yam'rii became avaricious and expansionist, pushing outwards to colonise other planets in the vicinity of their homeworld. The Yam'rii had no respect for the indigenous sentient species they encountered on their new colonies and were known to enslave, trade and sometimes even eat members of species such as the Quor'sav and Kaleesh. Eventually the Kaleesh rose up against their oppressors and the Yam'rii were almost wiped out by their former livestock in what came to be known as the Huk Wars - until they managed to twist the facts and persuade the Republic to intervene on their behalf as the victims of Kaleesh aggression.
 TEXT_PLANET_INFO_HUK_INFLUENCE_REWARD,None
@@ -4788,6 +4820,10 @@ TEXT_PLANET_INFO_KAYRI_FAUNA,Unknown
 TEXT_PLANET_INFO_KAYRI_HISTORY,Kayri III was a planet in the freestanding subsector portion of the southern Expansion Regions. It was colonised by a group of less than three dozen warriors and bio-scientists of the normally otherspace-dwelling Charon people. At the center of the colony lay an artifact venerated as the Void Stone, a meteorite from otherspace that had the ability to dampen the Force powers of Force-sensitive individuals.
 TEXT_PLANET_INFO_KAYRI_INFLUENCE_REWARD,None
 TEXT_PLANET_INFO_KAYRI_POPULATION,Immigrated: Charon
+TEXT_PLANET_INFO_KELRODO_FAUNA,Tentacle egg creatures
+TEXT_PLANET_INFO_KELRODO_HISTORY,Kelrodo-Ai was a volcanic world within the Outer Rim famous for its water sculptures formed from gelatin mined on its surface. Following the end of the Clone Wars, it remained in the hands of Separatist holdouts, making it a target for the Empire's Western Reaches Operation. Shea Hublin's Sword Squadron launched a successful assault on the ancient fortreess known as the Citadel of Axes, leading to the Empire's victory. By 12 ABY the planets mines would be under the control of Baron-Administrator Drom Guldi.
+TEXT_PLANET_INFO_KELRODO_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_KELRODO_POPULATION,Demonym: Kelrodoan\nNative: Kelrodoan
 TEXT_PLANET_INFO_KEM_STOR_AI_FAUNA,Various
 TEXT_PLANET_INFO_KEM_STOR_AI_HISTORY,Kem Stor Ai was a planet located in the Tennuutta sector of the Mid Rim. Kem Stor Ai talked of war with the planet Murkhana during the turmoil of the Second Galactic Civil War. The eruption of a conflict between the two worlds was of great concern for the Verpine who thought that Murkhana could use this conflict to attack the Roche asteroid field.
 TEXT_PLANET_INFO_KEM_STOR_AI_INFLUENCE_REWARD,None
@@ -5188,6 +5224,10 @@ TEXT_PLANET_INFO_MYTUS_FAUNA,None
 TEXT_PLANET_INFO_MYTUS_HISTORY,Located at the edge of the galaxy, Mytus VII was remote, even by the standards of Wild Space. For this reason, Corporate Sector Authority Viceprex Mirkovig Hirken chose the planet as the location of his secret political prison, Stars' End. Hirken's paranoia ultimately became his undoing, for the more "trouble makers" he kidnapped to interrogate, the more enemies he made. In 2 BBY, a small resistance group lead by Rekkon and Han Solo infiltrated Stars' End, freeing all the prisoners. During the chaos, Stars' End was launched high into the low gravity atmosphere, eventually crashing to the surface. Though the tower's impressive molecularly bonded armor shell survived the impact, all those within were killed, including Hirken's wife after she shot the Viceprex in the back for attempting to leave her behind.
 TEXT_PLANET_INFO_MYTUS_INFLUENCE_REWARD,None
 TEXT_PLANET_INFO_MYTUS_POPULATION,Immigrated: Human | Other 24 000 (Suspended animation)
+TEXT_PLANET_INFO_NAALOL_FAUNA,TODO
+TEXT_PLANET_INFO_NAALOL_HISTORY,TODO
+TEXT_PLANET_INFO_NAALOL_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_NAALOL_POPULATION,TODO
 TEXT_PLANET_INFO_NABOO_FAUNA,Kaadu | falumpaset | fambaa | gualama | shaak | colo claw fish | tusk cat
 TEXT_PLANET_INFO_NABOO_HISTORY,A temperate planet in the Chommell Sector of the Mid Rim, Naboo is covered by thick swamps, rolling plains, and green hills. Unlike many other planets, Naboo lacks a molten core. Instead, the planet's innards are composed of a massive honeycomb structure filled with water. The planet is also home to numerous animal species and is inhabited by the peaceful Naboo and the more warlike Gungans. The Naboo typically populate striking cities such as Theed, while the Gungans dwell in exotic bubble cities hidden in lakes and swamps.
 TEXT_PLANET_INFO_NABOO_INFLUENCE_REWARD,None
@@ -5365,6 +5405,10 @@ TEXT_PLANET_INFO_ONDERON_FAUNA,Boma | Drexl | Other
 TEXT_PLANET_INFO_ONDERON_HISTORY,This large, temperate world, originally home to a primitive race of humanoids, has four moons: Dagri, Evas, Suthre, and Dxun – the last of which is so close to the planet that beasts can fly between the planet and the moon. Huge walled cities and a dark side theocracy emerged to protect the people from the beasts, but exiled prisoners learned to control the beasts and overthrew the dark side rulers, effectively firing the opening shots of the Great Sith War. Despite eventual victory for the light side, Onderon has always been a focus of dark energy. It was here that Darth Bane established the Rule of Two, setting in motion the forces that would eventually lead to Sidious’ emergence as Dark Lord of the Sith. A single colossal fortification of Iziz survives, and it now covers a good chunk of the continent. While it is now safe to venture onto the cleared plains where Unifras shrines attract offworlders, pilgrims are warned never to penetrate the tree line: it is still considered a quick way to be eaten.
 TEXT_PLANET_INFO_ONDERON_INFLUENCE_REWARD,None
 TEXT_PLANET_INFO_ONDERON_POPULATION,Immigrated: Human | Devaronian | Twi'lek | Sullustan | Bith | Quarren | Nikto | Aqualish\n4 Million
+TEXT_PLANET_INFO_ORAX_FAUNA,TODO
+TEXT_PLANET_INFO_ORAX_HISTORY,TODO
+TEXT_PLANET_INFO_ORAX_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_ORAX_POPULATION,TODO
 TEXT_PLANET_INFO_ORD_BINIIR_FAUNA,Various
 TEXT_PLANET_INFO_ORD_BINIIR_HISTORY,A small canyon covered world in the Outer Rim, Ord Biniir was originally an Ordnance/Regional Depot for the Old Republic, resulting in the "Ord" prefix to the planet's name. Like much of the galactic north, Ord Biniir aligned itself with the Confederacy of Independent Systems during the Clone Wars. During the Galactic Civil War, the planet was briefly freed by the Rebel Alliance before being reclaimed by the 181st Imperial Fighter Group a few days later. The minor victory was widely celebrated by Imperial propaganda to distract from the Empire's stunning loss at the Battle of Yavin, which had occurred on the same day.
 TEXT_PLANET_INFO_ORD_BINIIR_INFLUENCE_REWARD,None
@@ -5769,6 +5813,10 @@ TEXT_PLANET_INFO_RUGOSA_FAUNA,Coral forests
 TEXT_PLANET_INFO_RUGOSA_HISTORY,Rugosa, also known as the coral moon, was a temperate moon in the Sanbra sector. It was one of the worlds that made up the Infinite Empire, a galactic power led by the Rakatan species in approximately 30 000 BBY. The moon was later discovered by Toydarian scouts working near the Balmorra Run, and because of its attractive climate and warm oceans, it became a Toydarian vacation spot that they kept secret from their Hutt masters. Once the Hutts discovered the Toydarians' duplicity, they punished them by releasing a plague onto the moon, drying up all its oceans and exposing vast expanses of coral.
 TEXT_PLANET_INFO_RUGOSA_INFLUENCE_REWARD,None
 TEXT_PLANET_INFO_RUGOSA_POPULATION,Immigrated: Rakata  (extinct) | Toydarian
+TEXT_PLANET_INFO_RUTAN_FAUNA,TODO
+TEXT_PLANET_INFO_RUTAN_HISTORY,TODO
+TEXT_PLANET_INFO_RUTAN_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_RUTAN_POPULATION,TODO
 TEXT_PLANET_INFO_RUUSAN_FAUNA,Drugon | Monk
 TEXT_PLANET_INFO_RUUSAN_HISTORY,The Mid Rim world of Ruusan was central to the two-year military campaign which finally brought an end to the New Sith Wars in 1000 BBY, culminated in the seventh and final Battle of Ruusan, the last stand of the Sith Brotherhood of Darkness against the Jedi Army of Light where Sith Lord Skere Kaan detonated the thought bomb superweapon and wiped out all Force-sensitive life in the vicinity. The galactic repercussions of the campaign were enormous: the Ruusan Reformation mandated the de-militarization of the Jedi and a restructured Galactic Senate. Ruusan itself, devastated by the conflict, slowly faded from memory and into myth as shifting nebulae eroded hyperspace routes and left the planet isolated and largely inaccessible from the wider galaxy. The memorial created at the site of the last battle became known as the legendary Valley of the Jedi.
 TEXT_PLANET_INFO_RUUSAN_INFLUENCE_REWARD,None
@@ -6554,6 +6602,10 @@ TEXT_PLANET_INFO_ZOSHA_FAUNA,Unknown
 TEXT_PLANET_INFO_ZOSHA_HISTORY,Zosha was a planet located in the Unknown Regions. It was a rather uninteresting planet covered with green land masses and lakes. During the Great Galactic Wars, it was the sight of multiple battles between Republic and Sith Imperial forces. During one of those battles Republic forces managed to disable the Harrower-type cruiser 'Scream of Ragnos', dealing a severe blow to the Sith Empire.
 TEXT_PLANET_INFO_ZOSHA_INFLUENCE_REWARD,None
 TEXT_PLANET_INFO_ZOSHA_POPULATION,Unknown
+TEXT_PLANET_INFO_ZXK_100_FAUNA,None
+TEXT_PLANET_INFO_ZXK_100_HISTORY,ZXK-100346.6a was the designation given to the sixth planet in the ZXK-100346 Outer Rim system by the Galactic Empire. It is a small, frigid world of ice with a relatively flat surface. Jedi Masters hid the Soulsaber, an ancient weapon of the dark side, on its surface. They constructed a location known as the Cavern of the Light, surrendering their bodies to form a light side barrier around the Soulsaber. The Dark Jedi adept Thaum Rystra attempted to locate and steal the Soulsaber during the Galactic Civil War.
+TEXT_PLANET_INFO_ZXK_100_INFLUENCE_REWARD,None
+TEXT_PLANET_INFO_ZXK_100_POPULATION,None
 TEXT_PLANET_INFO_ZYGERRIA_FAUNA,Brezak
 TEXT_PLANET_INFO_ZYGERRIA_HISTORY,The planet experienced success during the thousands of years the Zygerrians maintained their slave labor industry, but after the Jedi cracked down on the slaving operations, it faded from glory. Slavery was brought up again when the Zygerrians collaborated with the Separatists during the Clone Wars. During the Zygerrian Slave Empire's height, the population had fortresses and cities built on top of the mesas scattered throughout the planet, using slave labor. After the empire's collapse, these buildings remained impressive sights to tourists, bringing visitors even from Alderaan. Aside from being a major slavery world, it hosted several podraces annually, which attracted large numbers of spectators.
 TEXT_PLANET_INFO_ZYGERRIA_INFLUENCE_REWARD,None
@@ -6913,15 +6965,15 @@ TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_WAMPA_SWAMP_ENEMY,Swamp Wampa: Swamp Wampas a
 TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_WAMPA_SWAMP_FRIENDLY,Swamp Wampa: Swamp Wampas are vicious hunters but can be tamed. Use them to attack our enemies.
 TEXT_TACTICAL_INFORMATION,Tactical Information:
 TEXT_TACTICAL_LAND_BATTLE_IS_PENDING,: PLANETARY INVASION IMMINENT!
-TEXT_TACTICAL_OBJECTIVE_PARTISANS_ACTIVE_ENEMY,Local Partisans: The local insurgents have risen up to fight for the enemy.
-TEXT_TACTICAL_OBJECTIVE_PARTISANS_ACTIVE_FRIENDLY,Local Partisans: The local freedom fighters have risen up to fight on our side.
-TEXT_TACTICAL_OBJECTIVE_PARTISANS_ACTIVE_THIRD_PARTY,Local Partisans: The local insurgents have risen up and joined the fray as a third party.
-TEXT_TACTICAL_OBJECTIVE_PARTISANS_IMPRISONED_ENEMY,Local Partisans: The local insurgents are in league with the enemy. They cannot rise up while their leaders are held in the labor camp.
-TEXT_TACTICAL_OBJECTIVE_PARTISANS_IMPRISONED_FRIENDLY,Local Partisans: The local freedom fighters are willing to help us. They cannot rise up while their leaders are held in the labor camp.
-TEXT_TACTICAL_OBJECTIVE_PARTISANS_IMPRISONED_THIRD_PARTY,Local Partisans: The local insurgents are hostile to us and the enemy alike. They cannot rise up while their leaders are held in the labor camp.
-TEXT_TACTICAL_OBJECTIVE_PARTISANS_SUPPRESSED_ENEMY,Local Partisans: The local insurgents are in league with the enemy, but they are suppressed by the presence of a hero.
-TEXT_TACTICAL_OBJECTIVE_PARTISANS_SUPPRESSED_FRIENDLY,Local Partisans: The local freedom fighters are willing to help us, but they are suppressed by the presence of a hero.
-TEXT_TACTICAL_OBJECTIVE_PARTISANS_SUPPRESSED_THIRD_PARTY,Local Partisans: The local insurgents are hostile to us and the enemy alike, but they are suppressed by the presence of a hero.
+TEXT_TACTICAL_OBJECTIVE_PARTISANS_ACTIVE_ENEMY,Local Partisans: Insurgents have risen up to fight for the enemy.
+TEXT_TACTICAL_OBJECTIVE_PARTISANS_ACTIVE_FRIENDLY,Local Partisans: Insurgents have risen up to fight on our side.
+TEXT_TACTICAL_OBJECTIVE_PARTISANS_ACTIVE_THIRD_PARTY,Local Partisans: Insurgents have risen up and joined the fray as a third party.
+TEXT_TACTICAL_OBJECTIVE_PARTISANS_IMPRISONED_ENEMY,Local Partisans: Insurgents are in league with the enemy. They cannot rise up while their leaders are held in the labor camp.
+TEXT_TACTICAL_OBJECTIVE_PARTISANS_IMPRISONED_FRIENDLY,Local Partisans: Insurgents are willing to help us. They cannot rise up while their leaders are held in the labor camp.
+TEXT_TACTICAL_OBJECTIVE_PARTISANS_IMPRISONED_THIRD_PARTY,Local Partisans: Insurgents are hostile to us and the enemy alike. They cannot rise up while their leaders are held in the labor camp.
+TEXT_TACTICAL_OBJECTIVE_PARTISANS_SUPPRESSED_ENEMY,Local Partisans: Insurgents are in league with the enemy, but they are suppressed by the presence of a hero.
+TEXT_TACTICAL_OBJECTIVE_PARTISANS_SUPPRESSED_FRIENDLY,Local Partisans: Insurgents are willing to help us, but they are suppressed by the presence of a hero.
+TEXT_TACTICAL_OBJECTIVE_PARTISANS_SUPPRESSED_THIRD_PARTY,Local Partisans: Insurgents are hostile to us and the enemy alike, but they are suppressed by the presence of a hero.
 TEXT_TACTICAL_OVERVIEW,Tactical Overview
 TEXT_TACTICAL_PLANETARY_CREDIT_BONUS,Winning this battle will give you a base influence of 5 on this planet.
 TEXT_TACTICAL_PLANETARY_SHIELD_DEFEND_DESCRIPTION,Planetary Shield: Prevents Bombing Run, Orbital Bombardment and Victory Point Conquest. Defend this structure for a tactical advantage.
@@ -7413,6 +7465,7 @@ TEXT_TOOLTIP_BACKWATER_SOLDIER_WEAP2,1x Slug Light Machine Gun: 5 / 2.0s / 240m
 TEXT_TOOLTIP_BACKWATER_SOLDIER_WEAP3,1x Light Concussion Rocket: 1 / 9.0s / 280m
 TEXT_TOOLTIP_BACKWATER_SOLDIER_WEAP4,1x Fragmentation Grenade: 1 / 15.0s / 200m
 TEXT_TOOLTIP_BACTA_HEALTH,Health: 125 (Structure)
+TEXT_TOOLTIP_BACTA_INFANTRY_HEAL,1x Infantry Healing: 12 / 1.0s / 120m
 TEXT_TOOLTIP_BANK_RESERVE,Usually located at a bank's headquaters, the federal reserves of a bank are located inside these vaults, generating money through interests.
 TEXT_TOOLTIP_BARRACKS,Allows training of infantry units. A list of available units can be found in the Era Unit Tree.
 TEXT_TOOLTIP_BARRACKS_HEALTH,Health: 500 (Structure)
@@ -7439,9 +7492,9 @@ TEXT_TOOLTIP_BONUS_BLOCK_VP,Ground Support: Prevents Victory Point Conquest
 TEXT_TOOLTIP_BONUS_BOARDING,Can board frigates and capital ships.
 TEXT_TOOLTIP_BONUS_BOARDING_COST,Ship Crews per boarding attempt: 25
 TEXT_TOOLTIP_BONUS_CLONING_FACILITY,Price: -50% | Time: +100%
-TEXT_TOOLTIP_BONUS_COMMUNICATION_ARRAY,Communication array: Combat bonus for ships
-TEXT_TOOLTIP_BONUS_COMMUNICATION_ARRAY_SMALL,Communication array: Combat bonus for fighters
-TEXT_TOOLTIP_BONUS_DEADLY_SIGHT,Deadly Sight: Passively smites enemy units.
+TEXT_TOOLTIP_BONUS_COMMUNICATION_SHIP,Communications Ship: 5% bonus to ships
+TEXT_TOOLTIP_BONUS_COMMUNICATION_SHIP_SMALL,Communications Ship: 5% bonus to fighters
+TEXT_TOOLTIP_BONUS_DEADLY_SIGHT,Deadly Sight: Passively smites enemy units
 TEXT_TOOLTIP_BONUS_DEATH_EXPLOSION,Reactor Explosion: After death deals damage to ALL units in a large area around this ship 
 TEXT_TOOLTIP_BONUS_DISCOUNT_COMPANY,Price: -30% | Time: -30%
 TEXT_TOOLTIP_BONUS_DISCOUNT_COMPANY_LOW,Price: -20% | Time: -20%
@@ -7453,13 +7506,28 @@ TEXT_TOOLTIP_BONUS_FIGHTER_POOL,Private Fighters: Fighters drawn randomly from a
 TEXT_TOOLTIP_BONUS_FLEET_TENDER,Fleet Tender: Repairs ships
 TEXT_TOOLTIP_BONUS_FLEET_TENDER_BIG,Huge Fleet Tender: Repairs multiple ships
 TEXT_TOOLTIP_BONUS_FLEET_TENDER_FIGHTERS,Fleet Tender: Repairs fighters
-TEXT_TOOLTIP_BONUS_FORCE_DYNAMO,Rakatan Force Dynamo: Minor chance to deflect infantry blasters
-TEXT_TOOLTIP_BONUS_FORCE_PLOT,Hidden Potential: Chance to absorb infantry blasters
+TEXT_TOOLTIP_BONUS_FORCE_DYNAMO,Rakatan Force Dynamo: 5% chance to deflect infantry blaster fire
+TEXT_TOOLTIP_BONUS_FORCE_PLOT_05,Hidden Potential: 5% chance to absorb infantry blaster fire
+TEXT_TOOLTIP_BONUS_FORCE_PLOT_20,Hidden Potential: 20% chance to absorb infantry blaster fire
 TEXT_TOOLTIP_BONUS_FORCE_SELF_HEAL,Force Restoration: Self Healing
-TEXT_TOOLTIP_BONUS_FORCE_TRAINING,Force Training: Chance to absorb infantry blasters
+TEXT_TOOLTIP_BONUS_FORCE_TRAINING,Force Training: chance redirect and absorb infantry blaster fire
+TEXT_TOOLTIP_BONUS_FORCE_TRAINING_10,Force Training: 10% chance to absorb infantry blaster fire
+TEXT_TOOLTIP_BONUS_FORCE_TRAINING_20,Force Training: 20% chance to absorb infantry blaster fire
+TEXT_TOOLTIP_BONUS_FORCE_TRAINING_20_10,Force Training: 20% chance to redirect and 10% chance to absorb infantry blaster fire
+TEXT_TOOLTIP_BONUS_FORCE_TRAINING_25_10,Force Training: 25% chance to redirect and 10% chance to absorb infantry blaster fire
+TEXT_TOOLTIP_BONUS_FORCE_TRAINING_25_20,Force Training: 25% chance to redirect and 20% chance to absorb infantry blaster fire
+TEXT_TOOLTIP_BONUS_FORCE_TRAINING_30_10,Force Training: 30% chance to redirect and 10% chance to absorb infantry blaster fire
+TEXT_TOOLTIP_BONUS_FORCE_TRAINING_30_20,Force Training: 30% chance to redirect and 20% chance to absorb infantry blaster fire
+TEXT_TOOLTIP_BONUS_FORCE_TRAINING_40_20,Force Training: 40% chance to redirect and 20% chance to absorb infantry blaster fire
+TEXT_TOOLTIP_BONUS_FORCE_TRAINING_50_10,Force Training: 50% chance to redirect and 10% chance to absorb infantry blaster fire
+TEXT_TOOLTIP_BONUS_FORCE_TRAINING_50_20,Force Training: 50% chance to redirect and 20% chance to absorb infantry blaster fire
+TEXT_TOOLTIP_BONUS_FORCE_TRAINING_50_30,Force Training: 50% chance to redirect and 30% chance to absorb infantry blaster fire
+TEXT_TOOLTIP_BONUS_FORCE_TRAINING_60_05,Force Training: 60% chance to redirect and 5% chance to absorb infantry blaster fire
+TEXT_TOOLTIP_BONUS_FORCE_TRAINING_60_30,Force Training: 60% chance to redirect and 30% chance to absorb infantry blaster fire
 TEXT_TOOLTIP_BONUS_HUTT_EATING,Gluttony: Can eat infantry
-TEXT_TOOLTIP_BONUS_INFANTRY_HEAL,Bacta Pack: Infantry Healing
-TEXT_TOOLTIP_BONUS_INFANTRY_REFLEC,Reflec Coating: Chance to deflect infantry blasters
+TEXT_TOOLTIP_BONUS_INFANTRY_HEAL,1x Infantry Healing: 5 / 1.0s / 80m
+TEXT_TOOLTIP_BONUS_INFANTRY_HEAL_2X,2x Infantry Healing: 5 / 1.0s / 80m
+TEXT_TOOLTIP_BONUS_INFANTRY_REFLEC,Reflec Coating: 20% chance to deflect infantry blaster fire
 TEXT_TOOLTIP_BONUS_INFANTRY_REPULSOR,Repulsorlift Boots: Hover movement type
 TEXT_TOOLTIP_BONUS_INFANTRY_SELF_HEAL,Bacta Pack: Self Healing
 TEXT_TOOLTIP_BONUS_INFLUENCE_MINUS_2,Influence: -2
@@ -7470,26 +7538,35 @@ TEXT_TOOLTIP_BONUS_INFRASTRUCTURE_PLUS_1,Infrastructure: +1
 TEXT_TOOLTIP_BONUS_LABOUR_CAMP_PARTISAN_EFFECT,Control: During tactical battles, prevents all partisan spawns. If destroyed, partisans will spawn on the attacker's side (some planets are exceptions).
 TEXT_TOOLTIP_BONUS_LOCAL_BUFF_CRONAL,All units | -10% Fire Rate, -20% Damage, -30% Speed
 TEXT_TOOLTIP_BONUS_LOCAL_BUFF_EXF,All units | +15% Fire Rate, +20% Damage, +20% Speed
-TEXT_TOOLTIP_BONUS_MEDIC_HEAL_REPAIR,Specialist: Infantry Healing and Vehicle Repair
-TEXT_TOOLTIP_BONUS_MELEE_BLOCK,Berserker: Chance to block infantry blasters
-TEXT_TOOLTIP_BONUS_MOLECULAR_SHIELDING,Molecular Shielding: Chance to absorb and redirect blaster fire
-TEXT_TOOLTIP_BONUS_MTC_SENSOR_FIGHTER,Observation Module: Combat bonus for all fighters
-TEXT_TOOLTIP_BONUS_MTC_SENSOR_PROBE_DROID,Observation Module: Production bonus for Probe Droids
+TEXT_TOOLTIP_BONUS_MEDIC_HEAL_REPAIR,1x Infantry Healing and Vehicle Repair: 5 / 1.0s / 80m
+TEXT_TOOLTIP_BONUS_MELEE_BLOCK,Berserker: 50% chance to block infantry blaster fire
+TEXT_TOOLTIP_BONUS_MOLECULAR_SHIELDING,Molecular Shielding: 20% chance to absorb and 10% chance to redirect blaster fire
+TEXT_TOOLTIP_BONUS_MTC_SENSOR_FIGHTER,Observation Module: 5% Combat bonus for all fighters
+TEXT_TOOLTIP_BONUS_MTC_SENSOR_PROBE_DROID,Observation Module: 30% Production bonus for Probe Droids
 TEXT_TOOLTIP_BONUS_OFF_GRID,Local Power Grid: This structure is not tied to the base power generator and can continue to function even after its destruction.
 TEXT_TOOLTIP_BONUS_PRICE_ALL,Price reduction for all units, ships and structures:
 TEXT_TOOLTIP_BONUS_PRICE_CLONING_FACILITY,This company provides a cost reduction in exchange for a longer build time for:
 TEXT_TOOLTIP_BONUS_PRICE_TIME_ALL,Price and time reduction for all units, ships and structures:
 TEXT_TOOLTIP_BONUS_PRICE_TIME_COMPANY,This company provides a cost and time reduction for:
-TEXT_TOOLTIP_BONUS_REFLECTIVE_ARMOR,Reflective Armor: Chance to deflect blaster fire
+TEXT_TOOLTIP_BONUS_REFLECTIVE_ARMOR_10,Reflective Armor: 10% chance to deflect blaster fire
+TEXT_TOOLTIP_BONUS_REFLECTIVE_ARMOR_15,Reflective Armor: 15% chance to deflect blaster fire
+TEXT_TOOLTIP_BONUS_REFLECTIVE_ARMOR_20,Reflective Armor: 20% chance to deflect blaster fire
+TEXT_TOOLTIP_BONUS_REFLECTIVE_ARMOR_40,Reflective Armor: 40% chance to deflect blaster fire
+TEXT_TOOLTIP_BONUS_REFLECTIVE_ARMOR_50,Reflective Armor: 50% chance to deflect blaster fire
+TEXT_TOOLTIP_BONUS_REFLECTIVE_ARMOR_60,Reflective Armor: 60% chance to deflect blaster fire
 TEXT_TOOLTIP_BONUS_SECONDARY_ABANDONED_MINING,Credit Income: +800
 TEXT_TOOLTIP_BONUS_SECONDARY_COMMS_ARRAY,+50% FoW Reveal
 TEXT_TOOLTIP_BONUS_SECONDARY_FUEL_PUMP,+10% Speed
 TEXT_TOOLTIP_BONUS_SECONDARY_RESEARCH_FACILITY,+5% Damage
-TEXT_TOOLTIP_BONUS_SITH_ALCHEMY_HULL,Sith Alchemy Hull: Chance to absorb fighter fire
+TEXT_TOOLTIP_BONUS_SITH_ALCHEMY,Sith Alchemy: 20% chance to absorb infantry blaster fire
+TEXT_TOOLTIP_BONUS_SITH_ALCHEMY_HEAL,Sith Alchemy: Self Healing
+TEXT_TOOLTIP_BONUS_SITH_ALCHEMY_HULL,Sith Alchemy Hull: 10% chance to absorb fighter fire
 TEXT_TOOLTIP_BONUS_SMUGGLER,Smuggling: Steals credits
 TEXT_TOOLTIP_BONUS_SMUGGLER_LIMIT,Only one smuggler may be added per planet in a given cycle.
 TEXT_TOOLTIP_BONUS_SPY_NETWORK,Reveals enemy units and structures on nearby planets.
-TEXT_TOOLTIP_BONUS_VEHICLE_REPAIR,Repair Kit: Vehicle Repair
+TEXT_TOOLTIP_BONUS_VEHICLE_REPAIR,1x Vehicle Repair: 5 / 1.0s / 80m
+TEXT_TOOLTIP_BONUS_VEHICLE_REPAIR_2X,2x Vehicle Repair: 5 / 1.0s / 80m
+TEXT_TOOLTIP_BONUS_VEHICLE_REPAIR_3X,3x Vehicle Repair: 5 / 1.0s / 80m
 TEXT_TOOLTIP_BONUS_VEHICLE_SELF_REPAIR,Repair Kit: Self Repair
 TEXT_TOOLTIP_BONUS_YSALAMIRI_EQUIPMENT,Ysalamiri: Disables all Force-based special abilities in a radius
 TEXT_TOOLTIP_BOOTANA_HUTTA,Sends unit to Bootana Hutta. In tactical defensive battles, ships in Bootana Hutta may be called to assist from the Hutt shipyards.
@@ -7536,7 +7613,7 @@ TEXT_TOOLTIP_CHEAT_GIVE_CREDITS,Gives player $100k
 TEXT_TOOLTIP_CHEAT_GIVE_UNIT,Spawns a supremely powerful ground & space unit over the selected planet (orbit must be secure)
 TEXT_TOOLTIP_CHEAT_GIVE_VISION,Gives galactic vision (toggleable)
 TEXT_TOOLTIP_CHEAT_INFLUENCE,Sets Influence to 10 on your planets (toggleable)
-TEXT_TOOLTIP_CHEAT_INFRA_AND_DISCOUNT,Gives 99% discount to build time & cost for everything; gives +10k pop cap per planet; turns off Infrastructure effects (toggleable)
+TEXT_TOOLTIP_CHEAT_INFRA_AND_DISCOUNT,Gives 99% discount to build cost & time for everything; gives +10k pop cap per planet; turns off Infrastructure effects (toggleable)
 TEXT_TOOLTIP_CHEAT_KILL_ALL,Kills all units and structures for non-player factions, except heroes and primary starbases.
 TEXT_TOOLTIP_CHEAT_TURN_OFF_CREWS,Turns off crew requirements (toggleable)
 TEXT_TOOLTIP_CHEAT_UNIT,A ground & space unit that is supremely powerful in tactical & auto-resolve battles. Stacking too many of these could cause combat power overflow.
@@ -7616,7 +7693,8 @@ TEXT_TOOLTIP_FIELD_EMPLACEMENT_HEALTH,Health: 350 (Structure)
 TEXT_TOOLTIP_FIELD_EMPLACEMENT_SCRAMBLER,A converted SLD-14 shield generator equipped with powerful electronic scrambling systems. These are capable of redirecting guided missiles and jamming orbiting sensors.
 TEXT_TOOLTIP_FIELD_EMPLACEMENT_SENSOR,A sensor tower that reveals a large area of surrounding fog of war. Smaller calibrated sensors allow it to temporarily reveal a smaller area further away from the main tower.
 TEXT_TOOLTIP_FIELD_EMPLACEMENT_SHIELD,A specialized variant of the standard SLD-14 shield generator, designed to cover a small area. With only one focusing dish, it cannot generate a complete shield. Prevents hostile energy-based weaponry from passing through.
-TEXT_TOOLTIP_FIELD_EMPLACEMENT_SUPPORT,A repair station equipped to fix damaged vehicles within a large operational radius.
+TEXT_TOOLTIP_FIELD_EMPLACEMENT_SUPPORT,A repair station equipped to heal infantry and fix damaged vehicles within a large operational radius.
+TEXT_TOOLTIP_FIELD_EMPLACEMENT_SUPPORT_MEDIC_HEAL_REPAIR,1x Infantry Healing and Vehicle Repair: 10 / 1.0s / 240m
 TEXT_TOOLTIP_FIELD_EMPLACEMENT_TURBOLASER,A modified version of the XX-10 turbolaser tower, featuring a single turbolaser and reduced armour. While it remains effective against armored vehicles, it will struggle against a mass assault or units that get too close.
 TEXT_TOOLTIP_FILTER_LARGE,Construct capital ships, battleships and dreadnoughts.
 TEXT_TOOLTIP_FILTER_SMALL,Construct frigates and cruisers.
@@ -7901,6 +7979,7 @@ TEXT_TOOLTIP_REINFORCEMENTS,Request Reinforcements
 TEXT_TOOLTIP_REP_TURRET,Vehicle repair station capable of repairing damaged vehicles.
 TEXT_TOOLTIP_REP_TURRET_SPACE,Orbital repair station capable of repairing damaged ships. Cannot repair hard points that have been completely destroyed.
 TEXT_TOOLTIP_REPAIR_HEALTH,Health: 100 (Structure)
+TEXT_TOOLTIP_REPAIR_VEHICLE_REPAIR,1x Vehicle Repair: 10 / 1.0s / 120m
 TEXT_TOOLTIP_RESEARCH,A small station which allows the development of doctrines and improvements for the current skirmish
 TEXT_TOOLTIP_RESEARCH_HULL,Hull: 1600 (Capital)
 TEXT_TOOLTIP_RESEARCH_SHIELD,Shields: 1600 / [30/R] (Capital)
@@ -8002,8 +8081,6 @@ TEXT_TOOLTIP_SHIPYARD_ALL_4_SHIELD,Shields: 4000 / [100/R] (Capital)
 TEXT_TOOLTIP_SHIPYARD_ALL_4_WEAP1,8x Medium Turbolasers: 2 / 4.0s / 8.1km
 TEXT_TOOLTIP_SHIPYARD_ALL_4_WEAP2,10x Light Turbolasers: 2 / 4.0s / 7.1km
 TEXT_TOOLTIP_SHIPYARD_ALL_4_WEAP3,4x Light Dual Laser Cannons: 2 / 1.0s / 5.6km
-TEXT_TOOLTIP_SITH_ALCHEMY,Sith Alchemy: Chance to absorb infantry blasters
-TEXT_TOOLTIP_SITH_ALCHEMY_HEAL,Sith Alchemy: Self Healing
 TEXT_TOOLTIP_SITH_DOOR_DESCRIPTION,These stones have been fueled with the dark side and can't be breached by force.
 TEXT_TOOLTIP_SITH_WAR_BEHEMOTH,These large herd beasts were one of dozens of different creatures that were used to augment the battle legions of the Sith. They were notable for being amongst the most impressive of these animals and were massive creatures that were used to transport troops, carry heavy weapons and break through enemy fortifications.
 TEXT_TOOLTIP_SITH_WAR_BEHEMOTH_COMPANY,Company: 2x Sith War Behemoth
@@ -8081,27 +8158,27 @@ TEXT_TOOLTIP_TRADESTATION,An orbital trade port that provides bonus income to th
 TEXT_TOOLTIP_TRADESTATION_SQUADRON,Fighters: 1 / 2
 TEXT_TOOLTIP_TRAIT_ACEPILOT,Ace Pilot
 TEXT_TOOLTIP_TRAIT_ADMIN_KOOLOOTA,Administrator (-30%, Corvettes; -20%, Frigates)
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_ADMIN_01,Admin I
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_ADMIN_02,Admin II
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_ARCHON,Archon
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_BANKER,Banker
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_CHIEF_OF_STATE,Chief Of State
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_CSA_EXECUTIVE,CSA Executive
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_DUKAT_01,Dukat I
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_DUKAT_02,Dukat II
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_EXO,ExO
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_GRAND_MOFF,Grand_Moff
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_HUTT_ARCHON,Hutt Archon
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_INTENDANT_01,Intendant I
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_INTENDANT_02,Intendant II
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_MOFF,Moff
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_QUEEN_MOTHER,Queen_Mother
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_SENATOR,Senator
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_SHAPER_01,Shaper I
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_SHAPER_02,Shaper II
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_SLAVELORD,Slavelord
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_SUPREME_OVERLORD,Supreme Overlord
-TEXT_TOOLTIP_TRAIT_ADMIN_TIER_VICEPREX,Viceprex
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_ADMIN_01,Admin I (-15% cost / time, +5% income)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_ADMIN_02,Admin II (-20% cost / time, +10% income)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_ARCHON,Archon (-30% cost / time, +20% income)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_BANKER,Banker (+80% income)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_CHIEF_OF_STATE,Chief Of State (-25% cost / time, +25% income)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_CSA_EXECUTIVE,CSA Executive (-25% cost / time, +25% income)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_DUKAT_01,Dukat I (-15% cost / time, +10% income)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_DUKAT_02,Dukat II (-20% cost / time, +15% income)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_EXO,ExO (-30% cost / time, +20% income)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_GRAND_MOFF,Grand_Moff (-15% cost / time, +10% income)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_HUTT_ARCHON,Hutt Archon (-30% cost / time, +20% income)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_INTENDANT_01,Intendant I (+60% income)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_INTENDANT_02,Intendant II (+80% income)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_MOFF,Moff (-10% cost / time, +10% income)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_QUEEN_MOTHER,Queen_Mother (-15% cost / time, +15% income)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_SENATOR,Senator (-15% cost / time, +15% income, +1 influence)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_SHAPER_01,Shaper I (-15% cost / time)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_SHAPER_02,Shaper II (-20% cost / time)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_SUPREME_OVERLORD,Supreme Overlord (-30% cost / time, +20% income)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_VICEPREX,Viceprex (-20% cost / time, +10% income)
+TEXT_TOOLTIP_TRAIT_ADMIN_TIER_VICEROY,Viceroy (-20% cost / time, +10% income)
 TEXT_TOOLTIP_TRAIT_ADMIN1,Administrator (-30%, All)
 TEXT_TOOLTIP_TRAIT_ADMIN1_ATAT,Administrator (-30%, AT-ATs)
 TEXT_TOOLTIP_TRAIT_ADMIN2,Administrator (-25%, All)
@@ -8121,23 +8198,27 @@ TEXT_TOOLTIP_TRAIT_ADMIN5_GROUNDUNITS,Administrator (-10%, Ground Units)
 TEXT_TOOLTIP_TRAIT_ADMIN5_HEAVYFACTORYUNITS,Administrator (-10%, Heavy Factory Units)
 TEXT_TOOLTIP_TRAIT_ADMIN5_INFANTRY,Administrator (-10%, Infantry Units)
 TEXT_TOOLTIP_TRAIT_ADMIN5_STRUCTURES,Administrator (-10%, Structures)
-TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_01,Agent I
-TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_01_SPEC,Agent I Spec
-TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02,Agent II
-TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02_SPEC,Agent II Spec
-TEXT_TOOLTIP_TRAIT_AGENT_TIER_ASSISTANT_VICEPREX,Assistant Viceprex
-TEXT_TOOLTIP_TRAIT_AGENT_TIER_BARON,Baron
-TEXT_TOOLTIP_TRAIT_AGENT_TIER_CSA_AGENT,CSA Agent
-TEXT_TOOLTIP_TRAIT_AGENT_TIER_DARAMA,Darama
-TEXT_TOOLTIP_TRAIT_AGENT_TIER_FIELD_SHAPER,Field Shaper
-TEXT_TOOLTIP_TRAIT_AGENT_TIER_HUTT_LORD,Hutt Lord
-TEXT_TOOLTIP_TRAIT_AGENT_TIER_INDUSTRIALIST,Industrialist
-TEXT_TOOLTIP_TRAIT_AGENT_TIER_INDUSTRIALIST_CZERKA,Czerka products: HK-24 Assassin Droid, Assault Droid-variants.
-TEXT_TOOLTIP_TRAIT_AGENT_TIER_INDUSTRIALIST_LHOSAN,Lhosan products: AeroChaser, Daggerstar, and Civil Authority Gunship
-TEXT_TOOLTIP_TRAIT_AGENT_TIER_KAJIDII,Kajidii
-TEXT_TOOLTIP_TRAIT_AGENT_TIER_MANDALORE,Mand'alor
-TEXT_TOOLTIP_TRAIT_AGENT_TIER_SITH_MASTER,Sith Master
-TEXT_TOOLTIP_TRAIT_AGENT_TIER_SMUGGLER,Smuggler
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_01,Agent I (-5% cost)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_01_SPEC,Agent I Spec (-5% cost)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02,Agent II (-10% cost)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_AGENT_02_SPEC,Agent II Spec (-10% cost)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_ASSISTANT_VICEPREX,Assistant Viceprex (-5% cost)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_BARON,Baron (-5% cost)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_CSA_AGENT,CSA Agent (-10% cost)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_DARAMA,Darama (-15% cost / time)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_FIELD_SHAPER,Field Shaper (-5% cost)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_HUTT_LORD,Hutt Lord (-5% cost, +10% income)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_INDUSTRIALIST,Industrialist (-20% cost, -10% time)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_INDUSTRIALIST_CZERKA,Czerka Industrialist (-20% cost, -10% time)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_INDUSTRIALIST_KDY,KDY Industrialist (-20% cost, -10% time)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_INDUSTRIALIST_LHOSAN,Lhosan Industrialist (-20% cost, -10% time)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_INDUSTRIALIST_TECHNO_UNION,Techno Union Industrialist (-20% cost, -10% time)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_KAJIDII,Kajidii (-10% cost, +15% income)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_MANDALORE,Mand'alor (-15% cost / time)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_SITH_MASTER,Sith Master (-15% cost / time)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_SLAVELORD,Slavelord (-10% build time)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_SMUGGLER,Smuggler (-10% cost, +10% income)
+TEXT_TOOLTIP_TRAIT_AGENT_TIER_SYNDICATE_HEAD,Syndicate Head (-5% cost, +10% income)
 TEXT_TOOLTIP_TRAIT_AGGRESSIVE,Aggressive
 TEXT_TOOLTIP_TRAIT_AIRCOMMANDER,Air Commander
 TEXT_TOOLTIP_TRAIT_ALOOF,Aloof
@@ -8148,37 +8229,46 @@ TEXT_TOOLTIP_TRAIT_ARTLOVER,Art Lover
 TEXT_TOOLTIP_TRAIT_BANKER,Banker
 TEXT_TOOLTIP_TRAIT_BLACK_MARKETEER_15P,Black Marketeer (+15%)
 TEXT_TOOLTIP_TRAIT_BLACK_MARKETEER_20P,Black Marketeer (+20%)
-TEXT_TOOLTIP_TRAIT_BOUNTY_HUNTER,Bounty Hunter
 TEXT_TOOLTIP_TRAIT_CAUTIOUS,Cautious
 TEXT_TOOLTIP_TRAIT_CHANCELLOR,Chancellor
 TEXT_TOOLTIP_TRAIT_CHIEF_OF_STATE,Chief of State
 TEXT_TOOLTIP_TRAIT_CLAIRVOYANT,Clairvoyant
 TEXT_TOOLTIP_TRAIT_CLONE_LORD,Clone Lord
-TEXT_TOOLTIP_TRAIT_CLONEOBSERVER,Clone Training Overseer
-TEXT_TOOLTIP_TRAIT_CLONEPREJUDICE,Clone Prejudice
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_LAND,Command Tier I (Land)
+TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_LAND_SPACE,Command Tier I (Land / Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_01_SPACE,Command Tier I (Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND,Command Tier II (Land)
+TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_LAND_SPACE,Command Tier II (Land / Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_02_SPACE,Command Tier II (Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND,Command Tier III (Land)
+TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_LAND_SPACE,Command Tier III (Land / Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_03_SPACE,Command Tier III (Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND,Command Tier IV (Land)
+TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_LAND_SPACE,Command Tier IV (Land / Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_04_SPACE,Command Tier IV (Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_05_LAND,Command Tier V (Land)
+TEXT_TOOLTIP_TRAIT_COMMAND_TIER_05_LAND_SPACE,Command Tier V (Land / Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_05_SPACE,Command Tier V (Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_LAND,Command Tier VI (Land)
+TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_LAND_SPACE,Command Tier VI (Land / Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_06_SPACE,Command Tier VI (Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND,Command Tier VII (Land)
+TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_LAND_SPACE,Command Tier VII (Land / Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_07_SPACE,Command Tier VII (Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_08_LAND,Command Tier VIII (Land)
+TEXT_TOOLTIP_TRAIT_COMMAND_TIER_08_LAND_SPACE,Command Tier VIII (Land / Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_08_SPACE,Command Tier VIII (Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_09_LAND,Command Tier IX (Land)
+TEXT_TOOLTIP_TRAIT_COMMAND_TIER_09_LAND_SPACE,Command Tier IX (Land / Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_09_SPACE,Command Tier IX (Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_10_LAND,Command Tier X (Land)
+TEXT_TOOLTIP_TRAIT_COMMAND_TIER_10_LAND_SPACE,Command Tier X (Land / Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_10_SPACE,Command Tier X (Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND,Command Tier XI (Land)
+TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_LAND_SPACE,Command Tier XI (Land / Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_11_SPACE,Command Tier XI (Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_12_LAND,Command Tier XII (Land)
+TEXT_TOOLTIP_TRAIT_COMMAND_TIER_12_LAND_SPACE,Command Tier XII (Land / Space)
 TEXT_TOOLTIP_TRAIT_COMMAND_TIER_12_SPACE,Command Tier XII (Space)
 TEXT_TOOLTIP_TRAIT_COMMAND1_LAND,Command Tier I (Land)
 TEXT_TOOLTIP_TRAIT_COMMAND1_LANDSPACE,Command Tier I (Land/Space)
@@ -8196,7 +8286,6 @@ TEXT_TOOLTIP_TRAIT_COMMAND5_LAND,Command Tier V (Land)
 TEXT_TOOLTIP_TRAIT_COMMAND5_LANDSPACE,Command Tier V (Land/Space)
 TEXT_TOOLTIP_TRAIT_COMMAND5_SPACE,Command Tier V (Space)
 TEXT_TOOLTIP_TRAIT_COMMANDO_TRAINER,Commando Trainer
-TEXT_TOOLTIP_TRAIT_COMMANDO_TRANSPORT,Commando Transport
 TEXT_TOOLTIP_TRAIT_COMMERCIAL_10P_150,Commercial Acumen (+10%, +150)
 TEXT_TOOLTIP_TRAIT_COMMERCIAL_20P,Commercial Acumen (+20%)
 TEXT_TOOLTIP_TRAIT_COMMERCIAL_30P,Commercial Acumen (+30%)
@@ -8221,9 +8310,7 @@ TEXT_TOOLTIP_TRAIT_INDECISIVE,Indecisive
 TEXT_TOOLTIP_TRAIT_INDUSTRIALIST,Industrialist
 TEXT_TOOLTIP_TRAIT_INTELLIGENCEOFFICER,Intelligence Officer
 TEXT_TOOLTIP_TRAIT_INTERDICTOR_COMMANDER,Immobilizer Commander
-TEXT_TOOLTIP_TRAIT_KUAT_OF_KUAT,Kuat of Kuat
 TEXT_TOOLTIP_TRAIT_LOBBYIST,Lobbyist
-TEXT_TOOLTIP_TRAIT_MANDO_HATE,Hatred Through The Centuries
 TEXT_TOOLTIP_TRAIT_OVERSEER_KOOLOOTA,Overseer (-30%, Corvettes; -20% Frigates)
 TEXT_TOOLTIP_TRAIT_OVERSEER_SLAVELORD,Slavelord (-35%, All)
 TEXT_TOOLTIP_TRAIT_OVERSEER2_GOLAN,Overseer (-25%, Golans)
@@ -8241,6 +8328,14 @@ TEXT_TOOLTIP_TRAIT_SLAVER,Slaver
 TEXT_TOOLTIP_TRAIT_SMALL_SHIPS,Small Ship Commander
 TEXT_TOOLTIP_TRAIT_SMUGGLER,Smuggler
 TEXT_TOOLTIP_TRAIT_SOROSUUB,SoroSuub Chairman
+TEXT_TOOLTIP_TRAIT_SPECIALIZATION_AIR_COMMAND,Air Command Specialist
+TEXT_TOOLTIP_TRAIT_SPECIALIZATION_ARTILLERY,Artillery Specialist
+TEXT_TOOLTIP_TRAIT_SPECIALIZATION_CLONE_HATRED,Clone Prejudice
+TEXT_TOOLTIP_TRAIT_SPECIALIZATION_FORTIFICATION,Fortification Specialist
+TEXT_TOOLTIP_TRAIT_SPECIALIZATION_INFANTRY,Infantry Specialist
+TEXT_TOOLTIP_TRAIT_SPECIALIZATION_MANDO_HATRED,Hatred Through The Centuries
+TEXT_TOOLTIP_TRAIT_SPECIALIZATION_SMALL_SHIP,Small Ship Specialist
+TEXT_TOOLTIP_TRAIT_SPECIALIZATION_STARFIGHTER,Starfighter Specialist
 TEXT_TOOLTIP_TRAIT_SPLITPERSONALITY,Split Personality
 TEXT_TOOLTIP_TRAIT_SPY,Spy
 TEXT_TOOLTIP_TRAIT_SPY_NETWORK,Spy Network
@@ -8257,19 +8352,18 @@ TEXT_TOOLTIP_TRAIT_SUPERWEAPON_DESIGNER,Superweapon Designer (30%, XR-85 & SD-10
 TEXT_TOOLTIP_TRAIT_UNINTERESTING,No active traits
 TEXT_TOOLTIP_TRAIT_UNPREDICTABLE,Unpredictable
 TEXT_TOOLTIP_TRAIT_UNYIELDING,Unyielding
-TEXT_TOOLTIP_TRAIT_UTILITY_TRAIT_ANTI_PARTISAN,Anti-Partisan
-TEXT_TOOLTIP_TRAIT_UTILITY_TRAIT_BEAST_TAMER,Beast Tamer
-TEXT_TOOLTIP_TRAIT_UTILITY_TRAIT_BOUNTY_HUNTER,Bounty Hunter
-TEXT_TOOLTIP_TRAIT_UTILITY_TRAIT_COOPERATIVE,Cooperative
-TEXT_TOOLTIP_TRAIT_UTILITY_TRAIT_PARTISAN_RECRUITER,Partisan Recruiter
-TEXT_TOOLTIP_TRAIT_UTILITY_TRAIT_PARTISAN_SUPPRESSOR,Partisan Suppressor
-TEXT_TOOLTIP_TRAIT_UTILITY_TRAIT_POACHER,Poacher
-TEXT_TOOLTIP_TRAIT_UTILITY_TRAIT_SALVAGER,Salvager
-TEXT_TOOLTIP_TRAIT_UTILITY_TRAIT_SLAVER,Slaver
-TEXT_TOOLTIP_TRAIT_UTILITY_TRAIT_SPY,Spy
-TEXT_TOOLTIP_TRAIT_UTILITY_TRAIT_SPYMASTER,Spymaster
-TEXT_TOOLTIP_TRAIT_UTILITY_TRAIT_STEALTH_OPERATIVE,Stealth Operative
-TEXT_TOOLTIP_TRAIT_VICEROY,Viceroy
+TEXT_TOOLTIP_TRAIT_UTILITY_ANTI_PARTISAN,Anti-Partisan
+TEXT_TOOLTIP_TRAIT_UTILITY_BEAST_TAMER,Beast Tamer
+TEXT_TOOLTIP_TRAIT_UTILITY_BOUNTY_HUNTER,Bounty Hunter
+TEXT_TOOLTIP_TRAIT_UTILITY_COOPERATIVE,Cooperative
+TEXT_TOOLTIP_TRAIT_UTILITY_PARTISAN_RECRUITER,Partisan Recruiter
+TEXT_TOOLTIP_TRAIT_UTILITY_PARTISAN_SUPPRESSOR,Partisan Suppressor
+TEXT_TOOLTIP_TRAIT_UTILITY_POACHER,Poacher
+TEXT_TOOLTIP_TRAIT_UTILITY_SALVAGER,Salvager
+TEXT_TOOLTIP_TRAIT_UTILITY_SLAVER,Slaver
+TEXT_TOOLTIP_TRAIT_UTILITY_SPY,Spy
+TEXT_TOOLTIP_TRAIT_UTILITY_SPYMASTER,Spymaster
+TEXT_TOOLTIP_TRAIT_UTILITY_STEALTH_OPERATIVE,Stealth Operative
 TEXT_TOOLTIP_TRAIT_VINDICTIVE,Vindictive
 TEXT_TOOLTIP_TRAIT_WARLORD,Warlord
 TEXT_TOOLTIP_TRAIT_WARYOFTRAPS,Wary of Traps
@@ -8619,6 +8713,10 @@ TEXT_UNIT_WAMPA_SWAMP,Swamp Wampa
 TEXT_UNIT_WAMPA_SWAMP_ALPHA,Alpha Swamp Wampa
 TEXT_UNIT_WAMPA_SWAMP_COMPANY,Swamp Wampa Pack
 TEXT_UNIT_WOMPRAT,Womp Rat
+TEXT_UNIT_WOMPRAT_CANYON,Canyon Womp Rat
+TEXT_UNIT_WOMPRAT_ICE,Ice Womp Rat
+TEXT_UNIT_WOMPRAT_SCAVENGER,Scavenger Womp Rat
+TEXT_UNIT_WOMPRAT_SWAMP,Swamp Womp Rat
 TEXT_UNIT_WOOKFLUTTER,Raddaugh Gnasp Fluttercraft
 TEXT_UNIT_WOOKFLUTTER_COMPANY,Raddaugh Gnasp Fluttercraft Company
 TEXT_UNIT_X_WING,X-wing
@@ -8781,6 +8879,7 @@ TEXT_WAVES_SURVIVED,You have survived %s waves!
 TEXT_WAYPOINT,Waypoint
 TEXT_WEAPON_A_CONCUSSIONMISSILE,Assault Concussion Missile Launcher
 TEXT_WEAPON_CONCUSSIONMISSILE,Concussion Missile Launcher
+TEXT_WEAPON_CONCUSSIONMISSILE_LIGHT,Light Concussion Missile Launcher
 TEXT_WEAPON_CONCUSSIONSPHERE,Concussion Sphere
 TEXT_WEAPON_ION_PULSE,Ion Pulse Cannon
 TEXT_WEAPON_IONCANNON,Medium Ion Cannon Battery
