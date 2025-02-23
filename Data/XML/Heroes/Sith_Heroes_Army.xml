@@ -314,6 +314,8 @@
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>FOW_REVEAL_PING</Type>
@@ -560,6 +562,8 @@
 		<Highlight_Blob_Material_Name>Highlight_Sith_Hero</Highlight_Blob_Material_Name>
 
 		<AI_Combat_Power>61</AI_Combat_Power>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -909,6 +913,8 @@
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Mara_Jade </SFXEvent_Health_Critical_Warning>
 		<Death_SFXEvent_Start_Die> Unit_Defeat_Mara_Jade </Death_SFXEvent_Start_Die>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>SPREAD_OUT</Type>
@@ -1067,6 +1073,8 @@
 		
 		<Property_Flags>GTSImmune | GoodInfantryCrusher | CanContainGarrison | IsSupercrusher</Property_Flags>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1180,6 +1188,8 @@
 		<Starting_Spawned_Units_Tech_0>Sith_Trooper_Squad, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1202,6 +1212,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</HeroUnit>
+	
 	<HeroCompany Name="Viglo_Team">
 		<Text_ID>TEXT_HERO_VIGLO</Text_ID>
 		<Encyclopedia_Text> 
@@ -1293,6 +1304,8 @@
 		<Starting_Spawned_Units_Tech_0>Krath_Skiff, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>0.0</Spawned_Squadron_Delay_Seconds>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_07_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
@@ -1315,6 +1328,7 @@
 			</Battlefield_Modifier_Ability>
 		</Abilities>
 	</HeroUnit>
+
 	<HeroCompany Name="Vulpe_Team">
 		<Text_ID>TEXT_HERO_VULPE</Text_ID>
 		<Encyclopedia_Text> 
@@ -1404,6 +1418,8 @@
 		<Highlight_Blob_Material_Name>Highlight_Sith_Hero</Highlight_Blob_Material_Name>
 
 		<Property_Flags> GTSImmune | CanContainGarrison | GarrisonCanFire </Property_Flags>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_01_Combat_Bonus">
