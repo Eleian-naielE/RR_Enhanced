@@ -14,7 +14,8 @@
 	<SuperCapital>      0x00000040		</SuperCapital>
 
 	<Infantry>			0x00000080		</Infantry>
-	<Droid></Droid>
+	<Organic>			0x100000000		</Organic>
+	<Droid>				0x200000000		</Droid>
 	<Vehicle>			0x00000100		</Vehicle>
 	<Air>				0x00000200		</Air>
 	<Structure>			0x00000400		</Structure>
@@ -43,8 +44,7 @@
 
 	<!-- Data definitions for "Hero", "all" and "none" -->
 	<Hero>				0x1C000000	</Hero>						<!-- 0011 1000 0000 0000 0000 0000 0000 0000 -->
-	<All>				0xFFFFFFFF	</All>
+	<All>				0xFFFFFFFFFFFFFFFF		</All>
 	<None>				0x00000000	</None>
 
 </EnumDefinition>
-

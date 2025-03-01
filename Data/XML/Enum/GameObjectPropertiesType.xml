@@ -1,7 +1,8 @@
 <?xml version="1.0" ?>
 <EnumDefinition>
 
-	<HealsInfantry>			0x00000001	</HealsInfantry>
+	<HealsOrganics>			0x00000001	</HealsOrganics>	
+	<HealsDroids>			0x01000000	</HealsDroids>
 	<HealsVehicles>			0x00000002	</HealsVehicles>
 	<Turret>				0x00000004	</Turret>
 	<TacticalStructure>		0x00000008	</TacticalStructure>
