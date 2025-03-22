@@ -28,6 +28,8 @@
 		<Land_Model_Anim_Override_Name>RegularInfantry.ALO</Land_Model_Anim_Override_Name>
 		
 		<Ranking_In_Category> 5 </Ranking_In_Category>
+		
+		<CategoryMask> LandHero  | Droid</CategoryMask>
 
 		<Tactical_Health>145</Tactical_Health>
 
@@ -146,7 +148,7 @@
 
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Rebel</Affiliation>
-		<CategoryMask>LandHero</CategoryMask>
+		<CategoryMask>LandHero | Droid</CategoryMask>
 		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Herald_Landing_Craft</Company_Transport_Unit>
