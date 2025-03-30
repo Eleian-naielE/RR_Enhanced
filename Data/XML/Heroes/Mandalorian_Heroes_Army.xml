@@ -35,7 +35,7 @@
 
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 
-		<CategoryMask>LandHero</CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
@@ -389,7 +389,7 @@
 		
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 		
-		<CategoryMask>LandHero</CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
@@ -739,7 +739,7 @@
 		
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 		
-		<CategoryMask>LandHero</CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SHIELDED, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
@@ -1020,9 +1020,10 @@
 		
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 
+		<CategoryMask>Organic | LandHero</CategoryMask>
+
 		<Scale_Factor>1.1</Scale_Factor>
 
-		<CategoryMask>LandHero</CategoryMask>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
@@ -1495,6 +1496,8 @@
 		
 		<Affiliation>Underworld</Affiliation>
 		
+		<CategoryMask>Organic | LandHero </CategoryMask>
+
 		<Targeting_Max_Attack_Distance>280.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>HP_Hero_Mandalorian_LMG</HardPoints>
@@ -1709,7 +1712,7 @@
 
 		<Affiliation>Underworld</Affiliation>
 		
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask>Organic | LandHero </CategoryMask>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
@@ -2114,6 +2117,8 @@
 
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 
+		<CategoryMask>Organic | LandHero </CategoryMask>
+
 		<Tactical_Health>180</Tactical_Health>
 		<Shield_Points>25</Shield_Points>
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
@@ -2309,6 +2314,8 @@
 		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
 		<Ranking_In_Category> 1 </Ranking_In_Category>
+
+		<CategoryMask>Organic | LandHero </CategoryMask>
 
 		<Tactical_Health>200</Tactical_Health>
 		<Shield_Points>50</Shield_Points>
@@ -2532,6 +2539,8 @@
 
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 
+		<CategoryMask>Organic | LandHero </CategoryMask>
+
 		<Tactical_Health>145</Tactical_Health>
 		<Shield_Points>25</Shield_Points>
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
@@ -2728,6 +2737,8 @@
 		
 		<Ranking_In_Category> 2 </Ranking_In_Category>
 		
+		<CategoryMask>Organic | LandHero </CategoryMask>
+
 		<Lua_Script>ObjectScript_SensorPing</Lua_Script>
 
 		<Tactical_Health>160</Tactical_Health>
@@ -2932,6 +2943,8 @@
 		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 		
 		<Ranking_In_Category> 6 </Ranking_In_Category>
+
+		<CategoryMask>Organic | LandHero </CategoryMask>
 
 		<Tactical_Health>140</Tactical_Health>
 		<Shield_Points>25</Shield_Points>
@@ -3298,6 +3311,8 @@
 		
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 
+		<CategoryMask>Organic | LandHero </CategoryMask>
+
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 
 		<Lua_Script>GroundHero</Lua_Script>
@@ -3435,6 +3450,8 @@
 		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
 		<Ranking_In_Category> 3 </Ranking_In_Category>
+
+		<CategoryMask>Organic | LandHero </CategoryMask>
 
 		<Tactical_Health>130</Tactical_Health>
 		<Shield_Points>50</Shield_Points>
@@ -3657,6 +3674,8 @@
 		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
 		<Ranking_In_Category> 6 </Ranking_In_Category>
+
+		<CategoryMask>Organic | LandHero </CategoryMask>
 
 		<Tactical_Health>110</Tactical_Health>
 

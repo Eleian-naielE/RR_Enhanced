@@ -288,7 +288,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 
 		<Lua_Script>LightsaberSwap</Lua_Script>
 
@@ -588,7 +588,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SUPREME_COMMANDER </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_REVAN_LIGHT_SIDE_C.tga</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 		<Population_Value>1</Population_Value>
 
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
@@ -811,7 +811,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_REVAN_LIGHT_SIDE_A.tga</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 		<Population_Value>1</Population_Value>
 
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
@@ -880,7 +880,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 
 		<!-- Lightsaber holstering data -->
@@ -1177,7 +1177,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_KNIGHT </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_ALEK.tga</Icon_Name>
 
-		<CategoryMask>LandHero</CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 		<Population_Value>1</Population_Value>
 		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
@@ -1244,7 +1244,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
 		<Lua_Script>ObjectScript_ForceSight</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 
 		<!-- Lightsaber holstering data -->
@@ -1510,7 +1510,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_KREIA.tga</Icon_Name>
 
-		<CategoryMask>LandHero</CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 		<Population_Value>1</Population_Value>
 
 		<Is_Dummy>Yes</Is_Dummy>
@@ -1577,7 +1577,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>LURE, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 
 		<!-- Lightsaber holstering data -->
@@ -1856,7 +1856,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_PADAWAN </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_bastila_shan.tga</Icon_Name>
 
-		<CategoryMask>LandHero</CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 		<Population_Value>1</Population_Value>
 
 		<Is_Dummy>Yes</Is_Dummy>
@@ -1923,7 +1923,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 
 		<!-- Lightsaber holstering data  -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
@@ -2177,7 +2177,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_PADAWAN </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_juhani.tga</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 		<Population_Value>1</Population_Value>
 		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
@@ -2245,7 +2245,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 		
 		<Select_Box_Scale>27</Select_Box_Scale>
 		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
@@ -2519,7 +2519,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_PADAWAN </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_JOLEE_BINDO.tga</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 		<Population_Value>1</Population_Value>
 		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
@@ -2662,7 +2662,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 
 		<!-- Lightsaber holstering data -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
@@ -2929,7 +2929,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_ZHAR_LESTIN.tga</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 		<Population_Value>1</Population_Value>
 		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
@@ -3050,7 +3050,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
 		<Lua_Script>ObjectScript_ForceSight</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 
 		<!-- Lightsaber holstering data  -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
@@ -3330,7 +3330,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_RAANA_TEY.TGA</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Population_Value>1</Population_Value>
 		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
@@ -3442,7 +3442,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, IMPOSING_PRESENCE, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 
 		<!-- Lightsaber holstering data -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
@@ -3716,7 +3716,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_VROOK_LAMAR.TGA</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Population_Value>1</Population_Value>
 		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
@@ -3825,7 +3825,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>LURE, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>
 
 		<!-- Lightsaber holstering data -->
@@ -4121,7 +4121,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_VANDAR.TGA</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Population_Value>1</Population_Value>
 		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
@@ -4231,7 +4231,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, IMPOSING_PRESENCE, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 
 		<!-- Lightsaber holstering data -->
@@ -4477,7 +4477,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_dorak.tga</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Population_Value>1</Population_Value>
 		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
@@ -4583,7 +4583,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 
 		<!-- Lightsaber holstering data -->
@@ -4839,7 +4839,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_tolaris_shim.tga</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Population_Value>1</Population_Value>
 
 		<Is_Dummy>Yes</Is_Dummy>
@@ -4947,7 +4947,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 
 		<!-- Lightsaber holstering data -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
@@ -5232,7 +5232,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_APPRENTICE </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_VOREN_RENSTAAL.tga</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Population_Value>1</Population_Value>
 		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>

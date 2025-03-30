@@ -158,7 +158,7 @@ function Service_Heal(object, health_threshold)
     -- Try to find the nearest healing structure appropriate for this unit
     local fs_healer_property_flag = Get_Special_Healer_Property_Flag(object)
     if not fs_healer_property_flag then
-        if object.Is_Category("Organic") or object.Is_Category("LandHero") then
+        if object.Is_Category("Organic") then
             fs_healer_property_flag = "HealsOrganics"
         elseif object.Is_Category("Droid") or object.Is_Category("Vehicle") or object.Is_Category("Air") then
             fs_healer_property_flag = "HealsVehicles"
@@ -197,7 +197,7 @@ function Service_Garrison(object)
     end
 
     local garrison_needs_heals = false
-    garrison_healer = Find_Nearest(object, "HealsInfantry", PlayerObject, true)
+    garrison_healer = Find_Nearest(object, "HealsOrganics | HealsDroids", PlayerObject, true)
     garrison_capture = Find_Nearest(object, "IsRushTarget")
     local garrison_enemy = Find_Nearest(object, PlayerObject, false)
     local eject_before_destroyed = (object.Get_Hull() < 0.2)

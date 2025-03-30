@@ -624,7 +624,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask> Infantry | AntiInfantry </CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry </CategoryMask>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
 		<Stealth_Capable>No</Stealth_Capable>
@@ -833,7 +833,7 @@
 
         <Highlight_Blob_Material_Name>Highlight_Infantry_Medic</Highlight_Blob_Material_Name>
 
-		<Property_Flags>HealsInfantry | HealsVehicles</Property_Flags>
+		<Property_Flags>HealsOrganic| HealsVehicles</Property_Flags>
 
 		<Abilities SubObjectList="Yes">
 			<Force_Healing_Ability Name="Medic_Healing">
@@ -1715,7 +1715,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask>Infantry | AntiVehicle</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiVehicle</CategoryMask>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
 		<Stealth_Capable>No</Stealth_Capable>

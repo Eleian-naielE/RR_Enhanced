@@ -37,6 +37,8 @@
 
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 
+		
+
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -217,47 +219,47 @@
 		<Affiliation>Empire</Affiliation>
 		
 		<HardPoints> 
-		HP_Centurion_Turbo_01,
-		HP_Centurion_Turbo_02,
-		HP_Centurion_Turbo_03,
-		HP_Centurion_Turbo_04,
-		HP_Centurion_Turbo_05,
-		HP_Centurion_Turbo_06,
-		HP_Centurion_Turbo_07,
-		HP_Centurion_Turbo_08,
-		HP_Centurion_Turbo_09,
-		HP_Centurion_Turbo_10,
-		HP_Centurion_Turbo_11,
-		HP_Centurion_Turbo_12,
-		HP_Centurion_Hero_Ion_MS_01,
-		HP_Centurion_Hero_Ion_MS_02,
-		HP_Centurion_Hero_Ion_MS_03,
-		HP_Centurion_Hero_Ion_MS_04,
-		HP_Centurion_Hero_Ion_MS_05,
-		HP_Centurion_Hero_Ion_MS_06,
-		HP_Centurion_Laser_01,
-		HP_Centurion_Laser_02,
-		HP_Centurion_Laser_03,
-		HP_Centurion_Laser_04,
-		HP_Centurion_Laser_05,
-		HP_Centurion_Laser_06,
-		HP_Centurion_Laser_07,
-		HP_Centurion_Laser_08,
-		HP_Centurion_Laser_09,
-		HP_Centurion_Laser_10,
-		HP_Centurion_Laser_11,
-		HP_Centurion_Laser_12,
-		HP_Centurion_Hero_Proton_LS_01,
-		HP_Centurion_Hero_Proton_LS_02,
-		HP_Centurion_Hero_Proton_LS_03,
-		HP_Centurion_Hero_Proton_LS_04,
-		HP_Centurion_Hero_Proton_LS_05,
-		HP_Centurion_Hero_Proton_LS_06,
-		HP_Centurion_Hangar_01,
-		HP_Centurion_Hangar_02,
-		HP_Centurion_Engines_00,
-		HP_Centurion_Engines_01,
-		HP_Centurion_Engines_02
+			HP_Centurion_Turbo_01,
+			HP_Centurion_Turbo_02,
+			HP_Centurion_Turbo_03,
+			HP_Centurion_Turbo_04,
+			HP_Centurion_Turbo_05,
+			HP_Centurion_Turbo_06,
+			HP_Centurion_Turbo_07,
+			HP_Centurion_Turbo_08,
+			HP_Centurion_Turbo_09,
+			HP_Centurion_Turbo_10,
+			HP_Centurion_Turbo_11,
+			HP_Centurion_Turbo_12,
+			HP_Centurion_Hero_Ion_MS_01,
+			HP_Centurion_Hero_Ion_MS_02,
+			HP_Centurion_Hero_Ion_MS_03,
+			HP_Centurion_Hero_Ion_MS_04,
+			HP_Centurion_Hero_Ion_MS_05,
+			HP_Centurion_Hero_Ion_MS_06,
+			HP_Centurion_Laser_01,
+			HP_Centurion_Laser_02,
+			HP_Centurion_Laser_03,
+			HP_Centurion_Laser_04,
+			HP_Centurion_Laser_05,
+			HP_Centurion_Laser_06,
+			HP_Centurion_Laser_07,
+			HP_Centurion_Laser_08,
+			HP_Centurion_Laser_09,
+			HP_Centurion_Laser_10,
+			HP_Centurion_Laser_11,
+			HP_Centurion_Laser_12,
+			HP_Centurion_Hero_Proton_LS_01,
+			HP_Centurion_Hero_Proton_LS_02,
+			HP_Centurion_Hero_Proton_LS_03,
+			HP_Centurion_Hero_Proton_LS_04,
+			HP_Centurion_Hero_Proton_LS_05,
+			HP_Centurion_Hero_Proton_LS_06,
+			HP_Centurion_Hangar_01,
+			HP_Centurion_Hangar_02,
+			HP_Centurion_Engines_00,
+			HP_Centurion_Engines_01,
+			HP_Centurion_Engines_02
 		</HardPoints>
 
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
@@ -267,6 +269,8 @@
 		<Property_Flags>GTSImmune</Property_Flags>
 
 		<Ranking_In_Category> 1 </Ranking_In_Category>
+
+		
 
 		<SFXEvent_Select>Unit_Select_Darth_Nihilus</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Darth_Nihilus</SFXEvent_Move>
@@ -402,8 +406,10 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Ranking_In_Category> 2 </Ranking_In_Category>
+
+		
 
 		<!-- Lightsaber holstering data -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
@@ -598,7 +604,7 @@
 
 			<Drain_Life_Ability Name="Nihilus_Drain_Life">
 				<Activation_Style> User_Input </Activation_Style>
-				<Applicable_Unit_Categories>Infantry | LandHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
 
 				<Excluded_Unit_Types>
 					Crimson_Condottiere,
@@ -866,7 +872,7 @@
 
 			<Drain_Life_Ability Name="Nihilus_Drain_Life">
 				<Activation_Style> User_Input </Activation_Style>
-				<Applicable_Unit_Categories>Infantry | LandHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
 
 				<Excluded_Unit_Types>
 					Crimson_Condottiere,
@@ -1043,7 +1049,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 
 		<!-- Lightsaber holstering data -->
@@ -1160,6 +1166,8 @@
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
 
+		
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>DRAIN_LIFE</Type>
@@ -1260,7 +1268,7 @@
 
 			<Drain_Life_Ability Name="Malak_Drain_Life">
 				<Activation_Style> User_Input </Activation_Style>
-				<Applicable_Unit_Categories>Infantry | LandHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
 
 				<Excluded_Unit_Types>
 					Crimson_Condottiere,
@@ -1470,7 +1478,7 @@
 		<Tactical_Health>225</Tactical_Health>
 
 		<AI_Combat_Power>261</AI_Combat_Power>
-		
+
 		<SFXEvent_Select>Unit_Select_Darth_Malak_Apprentice</SFXEvent_Select>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -1719,7 +1727,7 @@
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>LURE, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 
 		<Lua_Script>LightsaberSwap</Lua_Script>
@@ -1836,6 +1844,8 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
+
+		
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -2094,6 +2104,8 @@
 		<Ranking_In_Category> 2 </Ranking_In_Category>
 
 		<Highlight_Blob_Material_Name>Highlight_Sith_Hero</Highlight_Blob_Material_Name>
+		
+		
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -2581,7 +2593,7 @@
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, AMBIENT_SFX, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE</LandBehavior>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Ranking_In_Category> 1 </Ranking_In_Category>
 
 		<!-- Lightsaber holstering data  -->
@@ -2700,6 +2712,8 @@
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
 
+		
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>DRAIN_LIFE</Type>
@@ -2785,7 +2799,7 @@
 
 			<Drain_Life_Ability Name="Traya_Drain_Life">
 				<Activation_Style> User_Input </Activation_Style>
-				<Applicable_Unit_Categories>Infantry | LandHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
 
 				<Excluded_Unit_Types>
 					Crimson_Condottiere,
@@ -2951,7 +2965,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_MASTER </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_TRAYA.tga</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Population_Value>1</Population_Value>
 
 		<Is_Dummy>Yes</Is_Dummy>
@@ -3019,7 +3033,7 @@
 		
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, AMBIENT_SFX, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE</LandBehavior>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Lua_Script>GroundHero</Lua_Script>
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 
@@ -3134,6 +3148,8 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
+
+		
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -3567,7 +3583,7 @@
 		<Tactical_Health>280</Tactical_Health>
 
 		<AI_Combat_Power>285</AI_Combat_Power>
-		
+
 		<SFXEvent_Tactical_Build_Complete> Unit_Complete_Darth_Sion_Master </SFXEvent_Tactical_Build_Complete>
 
 		<SFXEvent_Select>Unit_Select_Darth_Sion_Master</SFXEvent_Select>
@@ -3657,7 +3673,7 @@
 
 			<Drain_Life_Ability Name="Sion_Drain_Life">
 				<Activation_Style> User_Input </Activation_Style>
-				<Applicable_Unit_Categories>Infantry | LandHero</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories>Organic</Applicable_Unit_Categories>
 
 				<Excluded_Unit_Types>
 					Crimson_Condottiere,
@@ -3821,7 +3837,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 
@@ -4578,7 +4594,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 
@@ -4687,6 +4703,8 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
+
+		
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -5343,7 +5361,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 
 		<!-- Lightsaber holstering data -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
@@ -5452,6 +5470,8 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
+
+		
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -5624,7 +5644,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_ACOLYTE </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_Uthar.tga</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Population_Value>1</Population_Value>
 
 		<Is_Dummy>Yes</Is_Dummy>
@@ -6120,7 +6140,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 
 		<!-- Lightsaber holstering data -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
@@ -6229,6 +6249,8 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
+
+		
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -6396,7 +6418,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_ACOLYTE </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_JORAK_ULN.tga</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Population_Value>1</Population_Value>
 
 		<Is_Dummy>Yes</Is_Dummy>
@@ -6912,7 +6934,7 @@
 		
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SPAWN_SQUADRON, SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 
 		<!-- Lightsaber holstering data -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>
@@ -7694,7 +7716,7 @@
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior> SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, IMPOSING_PRESENCE </LandBehavior>
 		<Lua_Script>ObiWanPlan</Lua_Script>
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 
 		<!-- Lightsaber holstering data -->
 		<SFXEvent_Draw_Weapon> Unit_Light_Saber_On </SFXEvent_Draw_Weapon>

@@ -29,7 +29,7 @@
 		
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 		
-		<CategoryMask> LandHero  | Droid</CategoryMask>
+		<CategoryMask> LandHero | Droid</CategoryMask>
 
 		<Tactical_Health>145</Tactical_Health>
 
@@ -210,7 +210,7 @@
 		<Land_Model_Name>Sith_Officer_Young_Melee.ALO</Land_Model_Name>
 		<Land_Model_Anim_Override_Name>RI_OBIWAN.ALO</Land_Model_Anim_Override_Name>
 		
-		<CategoryMask>LandHero</CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT, SPAWN_SQUADRON </LandBehavior>
 		<Lua_Script>ObjectScript_SensorPing</Lua_Script>
@@ -455,7 +455,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDER</Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_GRANN.tga</Icon_Name>
 
-		<CategoryMask>LandHero</CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 		<Population_Value>1</Population_Value>
 		
@@ -522,6 +522,9 @@
 		<Icon_Name>I_BUTTON_AZKUL.tga</Icon_Name>
 		
 		<Ranking_In_Category>5</Ranking_In_Category>
+
+		<CategoryMask>Organic | LandHero</CategoryMask>
+
 
 		<Tactical_Health>160</Tactical_Health>
 		<Shield_Points>25</Shield_Points>
@@ -649,7 +652,7 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_AZKUL.TGA</Icon_Name>
 
-		<CategoryMask>LandHero</CategoryMask>
+		<CategoryMask>Organic | LandHero</CategoryMask>
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 		<Population_Value>1</Population_Value>
 
@@ -713,6 +716,8 @@
 		
 		<Ranking_In_Category>10</Ranking_In_Category>
 		
+		<CategoryMask>Organic | LandHero</CategoryMask>
+
 		<Tactical_Health>155</Tactical_Health>
 
 		<Max_Speed>1.3</Max_Speed>
@@ -870,6 +875,8 @@
 		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 
 		<Ranking_In_Category> 10 </Ranking_In_Category>
+		
+		<CategoryMask>Organic | LandHero</CategoryMask>
 		
 		<Lua_Script>ObjectScript_SensorPing</Lua_Script>
 

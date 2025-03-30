@@ -26,6 +26,8 @@
 
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 
+		<CategoryMask> Organic | LandHero </CategoryMask>
+
 		<Tactical_Health>180</Tactical_Health>
 		<Shield_Points>25</Shield_Points>
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
@@ -148,7 +150,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIELD_MARSHAL </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_Bralor.tga</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Population_Value>1</Population_Value>
 
 		<SFXEvent_Build_Started>UHD_Request_Assistance</SFXEvent_Build_Started>
@@ -512,6 +514,8 @@
 
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 		
+		<CategoryMask> Organic | LandHero </CategoryMask>
+
 		<Population_Value>1</Population_Value>
 
 		<Tactical_Health>130</Tactical_Health>
@@ -793,6 +797,8 @@
 
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 
+		<CategoryMask> Organic | LandHero </CategoryMask>
+
 		<Tactical_Health>195</Tactical_Health>
 
 		<Max_Speed>1.3</Max_Speed>
@@ -901,7 +907,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIELD_MARSHAL </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_BENDAK.tga</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Population_Value>1</Population_Value>
 		
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>

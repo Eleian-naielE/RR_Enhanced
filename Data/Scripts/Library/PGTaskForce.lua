@@ -514,7 +514,7 @@ end
 function ConsiderHeal(unit)
 	unit_hull = unit.Get_Hull()
 	if (unit_hull < 0.8) then
-		bacta = Find_Nearest(unit, "HealsInfantry", PlayerObject, true)
+		bacta = Find_Nearest(unit, "HealsOrganics", PlayerObject, true)
 		if TestValid(bacta) then
 			if (unit_hull < 0.4) or (unit.Get_Distance(bacta) < 700) then
 				unit.Activate_Ability("STEALTH", true)
@@ -536,7 +536,7 @@ end
 function ConsiderRepair(unit)
 	unit_hull = unit.Get_Hull()
 	if (unit_hull < 0.8) then
-		repair_station = Find_Nearest(unit, "HealsVehicles", PlayerObject, true)
+		repair_station = Find_Nearest(unit, "HealsVehicles | HealsDroids", PlayerObject, true)
         if TestValid(repair_station) then 
 			if (unit_hull < 0.4) or (unit.Get_Distance(repair_station) < 700) then
 		

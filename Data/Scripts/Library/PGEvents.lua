@@ -447,7 +447,7 @@ end
 function Try_Heal(tf, unit)
 	-- Try to find the nearest healing structure appropriate for this unit
 	if not lib_healer_property_flag then
-		if unit.Is_Category("Organic") or unit.Is_Category("LandHero") then
+		if unit.Is_Category("Organic") then
 			lib_healer_property_flag = "HealsOrganics"
 		elseif unit.Is_Category("Droid") or unit.Is_Category("Vehicle") or unit.Is_Category("Air") then
 			lib_healer_property_flag = "HealsVehicles"
