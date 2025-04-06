@@ -5284,7 +5284,7 @@
 		<Autoresolve_Health>600</Autoresolve_Health>
 		<Damage>20</Damage>
 		
-		<Affiliation/>
+		<Affiliation>Underworld</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Maintenance_Cost>9</Maintenance_Cost>
 
@@ -5327,7 +5327,7 @@
 
 		<HardPoints/>
 		
-		<Lua_Script/>
+		<Lua_Script>GenericGameObject</Lua_Script>
 		
 		<SFXEvent_Select>Null</SFXEvent_Select>
 
