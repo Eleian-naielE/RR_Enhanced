@@ -49,7 +49,7 @@
 		<Affiliation/>
 
 		<Type>Walk</Type>
-		<CategoryMask> Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry</CategoryMask>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
 		<Stealth_Capable>No</Stealth_Capable>
@@ -204,7 +204,7 @@
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 		<AI_Combat_Power>3</AI_Combat_Power>
 
-		<CategoryMask> Infantry | AntiVehicle</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiVehicle</CategoryMask>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
 
@@ -391,7 +391,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Orgnaic | Infantry | AntiInfantry</CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
@@ -500,7 +500,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask> Infantry | AntiInfantry </CategoryMask>
+		<CategoryMask> Organic | Infantry | AntiInfantry </CategoryMask>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
 		<Stealth_Capable>No</Stealth_Capable>
@@ -691,7 +691,7 @@
 		<AI_Combat_Power>2</AI_Combat_Power>
 
 		<HardPoints>HP_Backwater_HAT</HardPoints>
-		<CategoryMask> Infantry | AntiVehicle</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiVehicle</CategoryMask>
 		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
@@ -1008,7 +1008,7 @@
 		<Political_Control>0</Political_Control>
 
 		<Type>Walk</Type>
-		<CategoryMask> Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Orgnaic | Infantry | AntiInfantry</CategoryMask>
 		<Weather_Category>Infantry</Weather_Category>
 		<Deploys>No</Deploys>
 		<Stealth_Capable>No</Stealth_Capable>
@@ -1200,7 +1200,7 @@
 		TEXT_TOOLTIP_CAPABILITY_INFANTRY_CAPTURE
 		</Encyclopedia_Text>
 
-		<CategoryMask>Infantry | AntiVehicle</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiVehicle</CategoryMask>
 
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, null </SFXEvent_Hardpoint_Destroyed>
 
@@ -1381,7 +1381,7 @@
 		<OverrideDeceleration>0.1</OverrideDeceleration>
 		<Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
 
-		<CategoryMask>Infantry | AntiInfantry</CategoryMask>
+		<CategoryMask>Organic | Infantry | AntiInfantry</CategoryMask>
 		<Show_Name>No</Show_Name>
 
 		<Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
