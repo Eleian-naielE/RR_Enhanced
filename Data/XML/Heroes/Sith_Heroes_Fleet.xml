@@ -43,6 +43,8 @@
 
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -159,6 +161,8 @@
 
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -241,6 +245,8 @@
 
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<SFXEvent_Select>Unit_Select_Imperial_Destroyer</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Imperial_Destroyer</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Imperial_Destroyer</SFXEvent_Fleet_Move>
@@ -364,6 +370,8 @@
 		<Score_Cost_Credits> 60000 </Score_Cost_Credits>
 
 		<Ranking_In_Category> 3 </Ranking_In_Category>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<SFXEvent_Select>Unit_Select_Saul_Karath_Sith</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Saul_Karath</SFXEvent_Move>
@@ -490,6 +498,8 @@
 
 		<Ranking_In_Category> 6 </Ranking_In_Category>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_04_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -561,6 +571,8 @@
 		<Property_Flags>GTSImmune</Property_Flags>
 
 		<Ranking_In_Category> 5 </Ranking_In_Category>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -669,6 +681,8 @@
 
 		<Ranking_In_Category> 6 </Ranking_In_Category>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_03_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -742,6 +756,8 @@
 
 		<Ranking_In_Category> 7 </Ranking_In_Category>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Laser_Defense_Ability Name="Coruscant_Laser_Defense">
                 <Activation_Style> Space_Automatic </Activation_Style>

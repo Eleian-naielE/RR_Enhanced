@@ -37,6 +37,8 @@
 
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Command_Tier_06_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
@@ -267,6 +269,8 @@
 		<Property_Flags>GTSImmune</Property_Flags>
 
 		<Ranking_In_Category> 1 </Ranking_In_Category>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<SFXEvent_Select>Unit_Select_Darth_Nihilus</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_Darth_Nihilus</SFXEvent_Move>
@@ -520,6 +524,8 @@
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>DRAIN_LIFE</Type>
@@ -1159,6 +1165,8 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -1837,6 +1845,8 @@
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>FORCE_SIGHT</Type>
@@ -2092,6 +2102,8 @@
 		<Land_Model_Anim_Override_Name>Bastila_Shan.alo</Land_Model_Anim_Override_Name>
 		
 		<Ranking_In_Category> 2 </Ranking_In_Category>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Highlight_Blob_Material_Name>Highlight_Sith_Hero</Highlight_Blob_Material_Name>
 
@@ -2700,6 +2712,8 @@
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>DRAIN_LIFE</Type>
@@ -3134,6 +3148,8 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -3933,6 +3949,8 @@
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>FORCE_WHIRLWIND</Type>
@@ -4687,6 +4705,8 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -5452,6 +5472,8 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -6229,6 +6251,8 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -7026,6 +7050,8 @@
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>FORCE_WHIRLWIND</Type>
@@ -7806,6 +7832,8 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>5.0</Death_Persistence_Duration>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
