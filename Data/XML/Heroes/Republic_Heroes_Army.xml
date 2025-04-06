@@ -30,7 +30,7 @@
 		
 		<Ranking_In_Category> 5 </Ranking_In_Category>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SHIELDED, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT</LandBehavior>
 		<Lua_Script>GroundHero</Lua_Script>
@@ -299,6 +299,8 @@
 
 		<Ranking_In_Category> 7 </Ranking_In_Category>
 
+		<CategoryMask> Organic | LandHero </CategoryMask>
+
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
 		<LandBehavior>SPAWN_SQUADRON, SELECTABLE, VEHICLE_THIEF, ABILITY_COUNTDOWN, SURFACE_FX, POWERED, WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,UNIT_AI, GARRISON_UNIT, IMPOSING_PRESENCE</LandBehavior>
@@ -429,7 +431,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_ZHERRON.tga</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Population_Value>1</Population_Value>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Can_Be_Only_One>true</Can_Be_Only_One>
@@ -487,6 +489,8 @@
 		<LandBehavior>SPAWN_SQUADRON, SELECTABLE, VEHICLE_THIEF, ABILITY_COUNTDOWN, SURFACE_FX, POWERED, SHIELDED, WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING,UNIT_AI, GARRISON_UNIT, IMPOSING_PRESENCE</LandBehavior>
 
 		<Ranking_In_Category> 8 </Ranking_In_Category>
+
+		<CategoryMask> Organic | LandHero </CategoryMask>
 
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
@@ -588,7 +592,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIEUTENANT </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_JERRIT.tga</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Population_Value>1</Population_Value>
 
 		<Company_Transport_Unit>KT400_Landing_Craft</Company_Transport_Unit>
@@ -652,6 +656,8 @@
 		<Icon_Name>I_BUTTON_CARTH_ONASI_MW.tga</Icon_Name>
 
 		<Ranking_In_Category> 3 </Ranking_In_Category>
+
+		<CategoryMask> Organic | LandHero </CategoryMask>
 
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
@@ -782,7 +788,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_LIEUTENANT </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_CARTH_ONASI_MW.tga</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Population_Value>1</Population_Value>
 
 		<Is_Dummy>Yes</Is_Dummy>
@@ -841,6 +847,8 @@
 		<Land_Model_Anim_Override_Name> Jedi.ALO </Land_Model_Anim_Override_Name>
 
 		<Ranking_In_Category> 4 </Ranking_In_Category>
+
+		<CategoryMask> Organic | LandHero </CategoryMask>
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
@@ -987,7 +995,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_PRINCESS </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_TALIA_KIRA_MW.tga</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Ranking_In_Category> 3 </Ranking_In_Category>
 		<Population_Value>1</Population_Value>
 
@@ -1043,6 +1051,8 @@
 		<Land_Model_Anim_Override_Name>TrainedInfantry.alo</Land_Model_Anim_Override_Name>
 		
 		<Ranking_In_Category>6</Ranking_In_Category>
+
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		
 		<Tactical_Health>125</Tactical_Health>
 		<Shield_Points>25</Shield_Points>
@@ -1366,6 +1376,8 @@
 
 		<Ranking_In_Category> 4 </Ranking_In_Category>
 
+		<CategoryMask> Organic | LandHero </CategoryMask>
+
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
 		<AI_Combat_Power>29</AI_Combat_Power>
@@ -1516,7 +1528,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SLICER </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_MISSION_VAO.tga</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Population_Value>1</Population_Value>
 
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
@@ -1578,6 +1590,8 @@
 		<Land_Model_Anim_Override_Name>chewbacca.ALO</Land_Model_Anim_Override_Name>
 		
 		<Tactical_Health>250</Tactical_Health>
+
+		<CategoryMask> Organic | LandHero </CategoryMask>
 
 		<Max_Speed>1.3</Max_Speed>
 		<OverrideAcceleration> 1.3 </OverrideAcceleration>
@@ -2160,7 +2174,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPTAIN </Encyclopedia_Unit_Class>
 		<Icon_Name>I_BUTTON_NOANA_SOWRS.tga</Icon_Name>
 
-		<CategoryMask> LandHero </CategoryMask>
+		<CategoryMask> Organic | LandHero </CategoryMask>
 		<Population_Value>1</Population_Value>
 
 		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
@@ -2820,6 +2834,8 @@
 		<Land_Model_Anim_Override_Name> RI_Oron_Kira.alo</Land_Model_Anim_Override_Name>
 
 		<Ranking_In_Category> 4 </Ranking_In_Category>
+
+		<CategoryMask> Organic | LandHero </CategoryMask>
 
 		<Highlight_Blob_Material_Name>Highlight_Republic_Hero</Highlight_Blob_Material_Name>
 
