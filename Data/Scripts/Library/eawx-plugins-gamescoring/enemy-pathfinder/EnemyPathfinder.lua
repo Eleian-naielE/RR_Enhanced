@@ -15,7 +15,7 @@ function EnemyPathfinder:new()
 end
 
 function EnemyPathfinder:mode_start(mode)
-    if mode ~= "Space" or TestValid(Find_First_Object("SCRIPTED_BATTLE_MARKER")) == true then
+    if mode ~= "Space" or TestValid(Find_First_Object("SCRIPTED_BATTLE_MARKER")) == true or GlobalValue.Get("ENEMYPATHFINDER") == 0  then
         self.pathfinder_enabled = false
         return
     end
@@ -28,7 +28,7 @@ end
 
 function EnemyPathfinder:update() 
     if self.pathfinder_enabled then
-        self:spawn_pathfinder()
+        self:spawn_pathfinder() 
     end
 end
 
@@ -39,6 +39,9 @@ function EnemyPathfinder:spawn_pathfinder()
         spawned_unit.Despawn()
         Add_Reinforcement(spawned_unit, self.player_enemy)
     end
+
+    
+
     
     Object.Prevent_All_Fire(true)
 
