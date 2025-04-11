@@ -39,15 +39,13 @@ function EnemyPathfinder:spawn_pathfinder()
         spawned_unit.Despawn()
         Add_Reinforcement(spawned_unit, self.player_enemy)
     end
-
-    
+    Spawn_From_Reinforcement_Pool()
+    --Add_Reinforcement(spawned_unit, self.player_enemy)
 
     
     Object.Prevent_All_Fire(true)
 
-    Object.Cancel_Hyperspace()
-
-    Object.Hide(true)
+--    Object.Cancel_Hyperspace()
     Object.Hide(true)
 
     local heightType = Find_Object_Type(heights[GameRandom(1, table.getn(heights))])
