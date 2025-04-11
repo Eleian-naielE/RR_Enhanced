@@ -1,4 +1,6 @@
+require("PGBase")
 require("deepcore/std/class")
+require("deepcore/crossplot/crossplot")
 require("eawx-util/StoryUtil")
 require("PGSpawnUnits")
 
