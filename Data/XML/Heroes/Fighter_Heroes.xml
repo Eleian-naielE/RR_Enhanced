@@ -110,6 +110,8 @@
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, TELEKINESIS_TARGET, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 		
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<SFXEvent_Select> Unit_Select_Carth </SFXEvent_Select>
 		<SFXEvent_Move> Unit_Move_Carth </SFXEvent_Move>
 		<SFXEvent_Fleet_Move> Unit_Fleet_Move_Carth </SFXEvent_Fleet_Move>
@@ -349,6 +351,8 @@
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, TELEKINESIS_TARGET, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
@@ -565,6 +569,8 @@
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, TELEKINESIS_TARGET, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
@@ -757,6 +763,8 @@
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, TELEKINESIS_TARGET, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
@@ -939,6 +947,8 @@
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, TELEKINESIS_TARGET, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -1159,6 +1169,8 @@
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, TELEKINESIS_TARGET, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
 
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
 				<Type>LUCKY_SHOT</Type>
@@ -1373,6 +1385,8 @@
 		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, TELEKINESIS_TARGET, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
@@ -2182,6 +2196,8 @@
 		<Tactical_Health>350</Tactical_Health>
 
 		<SpaceBehavior>ABILITY_COUNTDOWN, TELEKINESIS_TARGET, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA</SpaceBehavior>
+
+		<Apply_Special_Ability_To_Self_On_Creation>Yes</Apply_Special_Ability_To_Self_On_Creation>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<Unit_Ability>
