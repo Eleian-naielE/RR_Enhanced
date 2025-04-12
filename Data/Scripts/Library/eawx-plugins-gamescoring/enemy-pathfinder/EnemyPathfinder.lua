@@ -68,7 +68,8 @@ function EnemyPathfinder:mode_end()
 end
 return EnemyPathfinder
 
-
+--Parameter_Category
+--HasUnit
 
 
 --[[
