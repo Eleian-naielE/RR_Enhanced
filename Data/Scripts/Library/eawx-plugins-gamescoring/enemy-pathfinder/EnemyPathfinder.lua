@@ -1,8 +1,9 @@
 require("PGBase")
+require("PGSpawnUnits")
 require("deepcore/std/class")
 require("deepcore/crossplot/crossplot")
 require("eawx-util/StoryUtil")
-require("PGSpawnUnits")
+
 
 EnemyPathfinder = class()
 
@@ -22,15 +23,16 @@ function EnemyPathfinder:mode_start(mode)
         return
     end
     local player_attacker = Find_First_Object("Attacker Entry Position").Get_Owner()
-    if player_attacker ~= Find_Player("local") then
+    if player_attacker ~= self.human_player then
         self.pathfinder_enabled = true
         self.player_enemy = player_attacker
+        self.pathfinder_done = false
     end
 end
 
 function EnemyPathfinder:update() 
     
-    if self.pathfinder_enabled == false then
+    if self.pathfinder_enabled == false or self.pathfinder_done then
         return
     end
     self:spawn_pathfinder()
@@ -88,11 +90,12 @@ function EnemyPathfinder:spawn_pathfinder()
             spawned_unit.Despawn()														--Clear unit from battle
         end
     end
-
+    self.pathfinder_done = true
 end
 
 
 function EnemyPathfinder:mode_end()
     self.pathfinder_enabled = false
+    self.player_enemy = nil
 end
 return EnemyPathfinder
