@@ -1,0 +1,128 @@
+require("PGBase")
+require("deepcore/std/class")
+require("deepcore/crossplot/crossplot")
+require("eawx-util/StoryUtil")
+require("PGSpawnUnits")
+
+EnemyPathfinder = class()
+
+function EnemyPathfinder:new()
+    
+    self.player_enemy = nil
+    self.pathfinder_enabled = false
+    self.human_player = Find_Player("local")
+    crossplot:subscribe("GAME_MODE_STARTING", self.mode_start, self)
+    crossplot:subscribe("GAME_MODE_ENDING", self.mode_end, self)
+    self.setup_bool = false
+    self.found_bool = false
+    self.ending_bool = false
+    
+end
+
+function EnemyPathfinder:mode_start(mode)
+    if mode ~= "Space" or TestValid(Find_First_Object("SCRIPTED_BATTLE_MARKER")) == true then
+        self.pathfinder_enabled = false
+        return
+    end
+    local player_attacker = Find_First_Object("Attacker Entry Position").Get_Owner()
+    if player_attacker ~= self.human_player then
+        self.player_enemy = player_attacker
+        local spawned_list = Find_All_Objects_Of_Type("Transport | Gunship | Corvette | Frigate | Capital | SuperCapital", self.player_enemy)
+        for _, spawned_unit in pairs(spawned_list) do
+            spawned_unit.Hide(true)		--Hides objects
+            spawned_unit.Prevent_All_Fire(true)	--Stops units from firing
+        end
+        self.pathfinder_enabled = true
+    end
+end
+
+function EnemyPathfinder:update() 
+    
+    if self.pathfinder_enabled == false then
+        return
+    end
+
+    if self.setup_bool == false then
+        self:setup_pathfinder()
+
+    elseif self.found_bool == false then
+        self:buff_begin(false)
+
+    elseif self.active_buff ~= nil and now > self.buff_end_time then
+        self:cooldown_begin()
+    end
+end
+
+function EnemyPathfinder:selection_begin()
+    if TestValid(self.player_enemy) ~= true then
+        return
+    end
+
+    local spawned_list = Find_All_Objects_Of_Type("Transport | Gunship | Corvette | Frigate | Capital | SuperCapital", self.player_enemy)
+
+    
+
+
+    local target_index = GameRandom.Free_Random(1,table.getn(target_list))
+    self.active_target = target_list[target_index]
+
+    StoryUtil.ShowScreenText(message, 15, self.active_target)
+
+end
+
+function EnemyPathfinder:spawn_pathfinder()
+	
+    
+    local unit_to_pathfind = nil			--Stores value of pathfinder
+    local pathfinder_id = nil				--Stored ID of pathfinder and compared against objects to store into reinforcement pool 
+    local pathfinder_category_table = nil	--Table of objects found in category
+    local entry_pos_obj = Find_First_Object("Attacker Entry Position") --postion dummy, used to teleport pathfinder to location
+
+    local category_table = { 				--table of categories to loop through
+        "Corvette",
+        "Frigate",
+        "Capital",
+        "SuperCapital",
+        "Gunship",
+        "Transport",
+    }
+
+    while pathfinder_id == nil do												--Loop until we get a pathfinder
+
+        for _, category in ipairs(category_table) do							--Loop through categories
+            pathfinder_category_table = Find_All_Objects_Of_Type(category, self.player_enemy) --Search individual categories for units
+			if table.getn(pathfinder_category_table) > 0 then								--If table contains units
+                unit_to_pathfind = pathfinder_category_table[1]					--Assign first object in table as valid pathfinder
+                unit_to_pathfind.Teleport(entry_pos_obj)						--Move pathfinder to location
+                unit_to_pathfind.Cinematic_Hyperspace_In(1)						--Do hyperspace jump
+                
+                unit_to_pathfind.Prevent_All_Fire(false)						--Allow weapon fire
+                unit_to_pathfind.Make_Invulnerable(false)						--Allow damage
+                unit_to_pathfind.Prevent_AI_Usage(false)						--AI can use
+                pathfinder_id = unit_to_pathfind.Get_Parent_Mode_Object_ID()	--Store pathfinder ID
+				break
+            end
+            StoryUtil.ShowScreenText("Unit not found in category: "..category..", attempting next category", 5)	--debug print if unit not found in category 
+        end
+        StoryUtil.ShowScreenText("Pathfinder not selected, attempting on next loop", 5)	--debug print if unit not found in loop
+
+    end
+
+    StoryUtil.ShowScreenText("Pathfinder ID:  "..pathfinder_id, 5)						--Debug print of pathfinder ID
+	
+    for _, spawned_unit in pairs(spawned_list) do									--Loop once more through all units
+        if spawned_unit.Get_Parent_Mode_Object_ID() ~= pathfinder_id then				--Compare ID does not match pathfinders
+            Add_Reinforcement(spawned_unit.Get_Type(), self.player_enemy)		--Add to reinforcement pool
+            spawned_unit.Despawn()														--Clear unit from battle
+        end
+    end
+	self.pathfinder_done = true
+end
+
+
+function EnemyPathfinder:mode_end()
+    self.pathfinder_enabled = false
+    self.player_enemy = nil
+	StoryUtil.ShowScreenText("Script end", 5)						--Debug script mode end
+end
+return EnemyPathfinder

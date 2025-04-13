@@ -22,36 +22,44 @@ function EnemyPathfinder:mode_start(mode)
         return
     end
     local player_attacker = Find_First_Object("Attacker Entry Position").Get_Owner()
-    if player_attacker ~= self.human_player then
+    -- if player_attacker ~= self.human_player then
         self.pathfinder_enabled = true
         self.player_enemy = player_attacker
-    end
+		self.initial_setup = false
+		self.found_pathfinder = false
+		self.moved_to_reinforcement = false
+    -- end
 end
 
 function EnemyPathfinder:update() 
     
-    if self.pathfinder_enabled == false or self.pathfinder_done then
+    if self.pathfinder_enabled == false then
         return
     end
-    self:spawn_pathfinder()
+	if self.initial_setup == false then
+		self:initialise_setup()
+	end
+	if self.found_pathfinder == false then
+    	self:get_pathfinder()
+	end
+	if self.found_pathfinder == true and self.moved_to_reinforcement == false then
+		self:reinforcement_non_pathfinder()
+	end
 end
 
-function EnemyPathfinder:spawn_pathfinder()
-	
-    local spawned_list = Find_All_Objects_Of_Type("Transport | Gunship | Corvette | Frigate | Capital | SuperCapital", self.player_enemy)
-    for _, spawned_unit in pairs(spawned_list) do
+function EnemyPathfinder:initialise_setup()
+	self.spawned_list = Find_All_Objects_Of_Type("Transport | Gunship | Corvette | Frigate | Capital | SuperCapital", self.player_enemy)
+    for _, spawned_unit in pairs(self.spawned_list) do
         spawned_unit.Hide(true)		--Hides objects
         spawned_unit.Hide(true)
         spawned_unit.Prevent_All_Fire(true)	--Stops units from firing
-        
     end
-    
-    local unit_to_pathfind = nil			--Stores value of pathfinder
-    local pathfinder_id = nil				--Stored ID of pathfinder and compared against objects to store into reinforcement pool 
-    local pathfinder_category_table = nil	--Table of objects found in category
-    local entry_pos_obj = Find_First_Object("Attacker Entry Position") --postion dummy, used to teleport pathfinder to location
+	self.unit_to_pathfind = nil			--Stores value of pathfinder
+    self.pathfinder_id = nil				--Stored ID of pathfinder and compared against objects to store into reinforcement pool 
+    self.pathfinder_category_table = nil	--Table of objects found in category
+    self.entry_pos_obj = Find_First_Object("Attacker Entry Position") --postion dummy, used to teleport pathfinder to location
 
-    local category_table = { 				--table of categories to loop through
+    self.category_table = { 				--table of categories to loop through
         "Corvette",
         "Frigate",
         "Capital",
@@ -59,43 +67,44 @@ function EnemyPathfinder:spawn_pathfinder()
         "Gunship",
         "Transport",
     }
+	self.initial_setup = true
 
-    while pathfinder_id == nil do												--Loop until we get a pathfinder
+end
 
-        for _, category in ipairs(category_table) do							--Loop through categories
-            pathfinder_category_table = Find_All_Objects_Of_Type(category, self.player_enemy) --Search individual categories for units
-			if table.getn(pathfinder_category_table) > 0 then								--If table contains units
-                unit_to_pathfind = pathfinder_category_table[1]					--Assign first object in table as valid pathfinder
-                unit_to_pathfind.Teleport(entry_pos_obj)						--Move pathfinder to location
-                unit_to_pathfind.Cinematic_Hyperspace_In(1)						--Do hyperspace jump
+function EnemyPathfinder:get_pathfinder()
+
+        for _, category in ipairs(self.category_table) do							--Loop through categories
+            self.pathfinder_category_table = Find_All_Objects_Of_Type(category, self.player_enemy) --Search individual categories for units
+			if table.getn(self.pathfinder_category_table) > 0 then								--If table contains units
+                self.unit_to_pathfind = self.pathfinder_category_table[1]					--Assign first object in table as valid pathfinder
+                self.unit_to_pathfind.Teleport(self.entry_pos_obj)						--Move pathfinder to location
+                self.unit_to_pathfind.Cinematic_Hyperspace_In(1)						--Do hyperspace jump
                 
-                unit_to_pathfind.Prevent_All_Fire(false)						--Allow weapon fire
-                unit_to_pathfind.Make_Invulnerable(false)						--Allow damage
-                unit_to_pathfind.Prevent_AI_Usage(false)						--AI can use
-                pathfinder_id = unit_to_pathfind.Get_Parent_Mode_Object_ID()	--Store pathfinder ID
-				break
+                self.unit_to_pathfind.Prevent_All_Fire(false)						--Allow weapon fire
+                self.unit_to_pathfind.Make_Invulnerable(false)						--Allow damage
+                self.unit_to_pathfind.Prevent_AI_Usage(false)						--AI can use
+                self.pathfinder_id = self.unit_to_pathfind.Get_Parent_Mode_Object_ID()	--Store pathfinder ID
+				self.found_pathfinder = true
             end
             StoryUtil.ShowScreenText("Unit not found in category: "..category..", attempting next category", 5)	--debug print if unit not found in category 
         end
         StoryUtil.ShowScreenText("Pathfinder not selected, attempting on next loop", 5)	--debug print if unit not found in loop
 
-    end
+end
 
-    StoryUtil.ShowScreenText("Pathfinder ID:  "..pathfinder_id, 5)						--Debug print of pathfinder ID
-	
-    for _, spawned_unit in pairs(spawned_list) do									--Loop once more through all units
-        if spawned_unit.Get_Parent_Mode_Object_ID() ~= pathfinder_id then				--Compare ID does not match pathfinders
-            Add_Reinforcement(spawned_unit.Get_Type(), self.player_enemy)		--Add to reinforcement pool
-            spawned_unit.Despawn()														--Clear unit from battle
-        end
-    end
-	self.pathfinder_done = true
+function EnemyPathfinder:reinforcement_non_pathfinder()
+	StoryUtil.ShowScreenText("Pathfinder ID:  "..self.pathfinder_id, 5)						--Debug print of pathfinder ID
+		for _, spawned_unit in pairs(self.spawned_list) do									--Loop once more through all units
+			if spawned_unit.Get_Parent_Mode_Object_ID() ~= self.pathfinder_id then				--Compare ID does not match pathfinders
+				Add_Reinforcement(spawned_unit.Get_Type(), self.player_enemy)		--Add to reinforcement pool
+				spawned_unit.Despawn()														--Clear unit from battle
+			end
+		end
+	self.moved_to_reinforcement = true
 end
 
 
 function EnemyPathfinder:mode_end()
     self.pathfinder_enabled = false
-    self.player_enemy = nil
-	StoryUtil.ShowScreenText("Script end", 5)						--Debug script mode end
 end
 return EnemyPathfinder
