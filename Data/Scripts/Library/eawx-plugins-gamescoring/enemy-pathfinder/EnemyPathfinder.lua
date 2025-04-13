@@ -30,7 +30,7 @@ end
 
 function EnemyPathfinder:update() 
     
-    if self.pathfinder_enabled == false then
+    if self.pathfinder_enabled == false or self.pathfinder_done then
         return
     end
     self:spawn_pathfinder()
@@ -89,12 +89,13 @@ function EnemyPathfinder:spawn_pathfinder()
             spawned_unit.Despawn()														--Clear unit from battle
         end
     end
-	
+	self.pathfinder_done = true
 end
 
 
 function EnemyPathfinder:mode_end()
     self.pathfinder_enabled = false
+    self.player_enemy = nil
 	StoryUtil.ShowScreenText("Script end", 5)						--Debug script mode end
 end
 return EnemyPathfinder
