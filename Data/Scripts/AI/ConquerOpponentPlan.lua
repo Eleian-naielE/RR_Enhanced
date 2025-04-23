@@ -98,6 +98,16 @@ function SpaceForce_Thread()
             SpaceSecured = true
         end
     else
+        --local Fleet_Marker = Find_First_Object("Ai_Fleet_Marker")
+        SpaceForce.Get_Unit_Table()
+        local FleetLocation = SpaceForce.Get_Planet_Location()
+        local FleetOwner = SpaceForce.Get_Owner()
+        local Fleet_Marker = Spawn_Unit("Ai_Fleet_Marker", FleetLocation, FleetOwner)
+        local MarkerID = Fleet_Marker.Get_Object_ID()
+        SpaceForce.Add_Force(Fleet_Marker)
+        local FleetComp = SpaceForce.Get_Unit_Table()
+        local FleetID={}
+        GlobalValue.Set(tostring(MarkerID), FleetComp)
         GlobalValue.Set("CONQUER_OPPONENT", Target.Get_Type().Get_Name())
         BlockOnCommand(SpaceForce.Move_To(Target))
         WasConflict = true

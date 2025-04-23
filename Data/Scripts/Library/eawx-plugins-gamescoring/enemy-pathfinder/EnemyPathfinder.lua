@@ -55,54 +55,6 @@ function EnemyPathfinder:selection_begin()
 
 end
 
-function EnemyPathfinder:spawn_pathfinder()
-	
-    
-    local unit_to_pathfind = nil			--Stores value of pathfinder
-    local pathfinder_id = nil				--Stored ID of pathfinder and compared against objects to store into reinforcement pool 
-    local pathfinder_category_table = nil	--Table of objects found in category
-    local entry_pos_obj = Find_First_Object("Attacker Entry Position") --postion dummy, used to teleport pathfinder to location
-
-    local category_table = { 				--table of categories to loop through
-        "Corvette",
-        "Frigate",
-        "Capital",
-        "SuperCapital",
-        "Gunship",
-        "Transport",
-    }
-
-    while pathfinder_id == nil do												--Loop until we get a pathfinder
-
-        for _, category in ipairs(category_table) do							--Loop through categories
-            pathfinder_category_table = Find_All_Objects_Of_Type(category, self.player_enemy) --Search individual categories for units
-			if table.getn(pathfinder_category_table) > 0 then								--If table contains units
-                unit_to_pathfind = pathfinder_category_table[1]					--Assign first object in table as valid pathfinder
-                unit_to_pathfind.Teleport(entry_pos_obj)						--Move pathfinder to location
-                unit_to_pathfind.Cinematic_Hyperspace_In(1)						--Do hyperspace jump
-                
-                unit_to_pathfind.Prevent_All_Fire(false)						--Allow weapon fire
-                unit_to_pathfind.Make_Invulnerable(false)						--Allow damage
-                unit_to_pathfind.Prevent_AI_Usage(false)						--AI can use
-                pathfinder_id = unit_to_pathfind.Get_Parent_Mode_Object_ID()	--Store pathfinder ID
-				break
-            end
-            StoryUtil.ShowScreenText("Unit not found in category: "..category..", attempting next category", 5)	--debug print if unit not found in category 
-        end
-        StoryUtil.ShowScreenText("Pathfinder not selected, attempting on next loop", 5)	--debug print if unit not found in loop
-
-    end
-
-    StoryUtil.ShowScreenText("Pathfinder ID:  "..pathfinder_id, 5)						--Debug print of pathfinder ID
-	
-    for _, spawned_unit in pairs(spawned_list) do									--Loop once more through all units
-        if spawned_unit.Get_Parent_Mode_Object_ID() ~= pathfinder_id then				--Compare ID does not match pathfinders
-            Add_Reinforcement(spawned_unit.Get_Type(), self.player_enemy)		--Add to reinforcement pool
-            spawned_unit.Despawn()														--Clear unit from battle
-        end
-    end
-	self.pathfinder_done = true
-end
 
 
 function EnemyPathfinder:mode_end()
