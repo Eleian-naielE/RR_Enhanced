@@ -4,52 +4,65 @@ require("deepcore/crossplot/crossplot")
 require("eawx-util/StoryUtil")
 require("PGSpawnUnits")
 
+--[[
+
+WARNING!!! Needs serious re-implementation!!
+
+]]
 EnemyPathfinder = class()
 
 function EnemyPathfinder:new()
     
     self.player_enemy = nil
-    self.pathfinder_enabled = false
     self.human_player = Find_Player("local")
     crossplot:subscribe("GAME_MODE_STARTING", self.mode_start, self)
     crossplot:subscribe("GAME_MODE_ENDING", self.mode_end, self)
-    self.setup_bool = false
-    self.found_bool = false
-    self.ending_bool = false
+    crossplot:subscribe("TACTICAL_UNIT_DESTROYED", self.check_unit, self)
+    self.spawn_list = nil
     
 end
 
 function EnemyPathfinder:mode_start(mode)
     if mode ~= "Space" or TestValid(Find_First_Object("SCRIPTED_BATTLE_MARKER")) == true then
-        self.pathfinder_enabled = false
         return
     end
     local player_attacker = Find_First_Object("Attacker Entry Position").Get_Owner()
     if player_attacker ~= self.human_player then
         self.player_enemy = player_attacker
-        local spawned_list = Find_All_Objects_Of_Type("Transport | Gunship | Corvette | Frigate | Capital | SuperCapital", self.player_enemy)
+        self.spawned_list = Find_All_Objects_Of_Type("Transport | Gunship | Corvette | Frigate | Capital | SuperCapital", self.player_enemy)
+        self.Marker = Spawn_From_Reinforcement_Pool(Find_Object_Type("AI_Fleet_Marker"), "Attacker Entry Position", self.player_enemy)
+        self.Marker.Get_Parent_Mode_Object_ID()
         for _, spawned_unit in pairs(spawned_list) do
-            spawned_unit.Hide(true)		--Hides objects
-            spawned_unit.Prevent_All_Fire(true)	--Stops units from firing
+            spawned_unit.Despawn()
+            Add_Reinforcement(spawned_unit, self.player_enemy)
         end
-        self.pathfinder_enabled = true
+        self:get_pathfinder()
     end
 end
 
-
-
-function EnemyPathfinder:selection_begin()
-    if TestValid(self.player_enemy) ~= true then
-        return
+function EnemyPathfinder:check_unit(object_name, object_power, object_is_hero, object)
+    if self.spawn_list[object] == true then
+        for _, v in pairs(self.spawn_list) do
+            if v == object then
+                table.remove(tbl, i)
+                break
+            end
+        end
     end
+end
 
-    local spawned_list = Find_All_Objects_Of_Type("Transport | Gunship | Corvette | Frigate | Capital | SuperCapital", self.player_enemy)
-
-    
-
+function EnemyPathfinder:get_pathfinder()
 
     local target_index = GameRandom.Free_Random(1,table.getn(target_list))
-    self.active_target = target_list[target_index]
+
+    target_index.Teleport("Attacker Entry Position")						--Move pathfinder to location
+    target_index.Cinematic_Hyperspace_In(1)						--Do hyperspace jump
+                
+    target_index.Prevent_All_Fire(false)						--Allow weapon fire
+    target_index.Make_Invulnerable(false)						--Allow damage
+    target_index.Prevent_AI_Usage(false)
+
+    self.Marker.Despawn()
 
     StoryUtil.ShowScreenText(message, 15, self.active_target)
 
@@ -58,8 +71,10 @@ end
 
 
 function EnemyPathfinder:mode_end()
-    self.pathfinder_enabled = false
+    
     self.player_enemy = nil
-	StoryUtil.ShowScreenText("Script end", 5)						--Debug script mode end
+    self.spawned_list = nil
+    self.Marker = nil
+	StoryUtil.ShowScreenText("Script end", 5)
 end
 return EnemyPathfinder
