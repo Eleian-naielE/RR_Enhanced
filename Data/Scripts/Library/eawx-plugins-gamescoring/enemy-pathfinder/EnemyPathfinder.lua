@@ -17,7 +17,7 @@ function EnemyPathfinder:new()
     self.human_player = Find_Player("local")
     crossplot:subscribe("GAME_MODE_STARTING", self.mode_start, self)
     crossplot:subscribe("GAME_MODE_ENDING", self.mode_end, self)
-    crossplot:subscribe("TACTICAL_UNIT_DESTROYED", self.check_unit, self)
+    crossplot:subscribe("TACTICAL_UNIT_DESTROYED", self.on_tactical_unit_destroyed, self)
     self.spawn_list = nil
     self.categorized_list = {}
     self.Marker = nil 
@@ -31,22 +31,12 @@ function EnemyPathfinder:mode_start(mode)
     local player_attacker = Find_First_Object("Attacker Entry Position").Get_Owner()
     if player_attacker ~= self.human_player then
         self.player_enemy = player_attacker
-        self.spawned_list = Find_All_Objects_Of_Type("Transport | Gunship | Corvette | Frigate | Capital | SuperCapital", self.player_enemy)
-        self:Categorize(self.spawned_list)
-        self.Marker = Spawn_From_Reinforcement_Pool(Find_Object_Type("AI_Fleet_Marker"), "Attacker Entry Position", self.player_enemy)
-        self.Marker.Get_Parent_Mode_Object_ID()
-        for _, spawned_unit in pairs(spawned_list) do
-            spawned_unit.Despawn()
-            Add_Reinforcement(spawned_unit, self.player_enemy)
-        end
-        self:get_pathfinder()
     end
 end
 
-function EnemyPathfinder:check_unit(object_name, object_power, object_is_hero, object)
-    if self.categorized_list.object then
-        self.categorized_list[object] 
-    end
+function EnemyPathfinder:on_tactical_unit_destroyed(object_name, object_power, object_is_hero, object)
+    if object.get_owner == self.player_enemy then
+        
 end
 
 function EnemyPathfinder:Categorize(UnitList)
