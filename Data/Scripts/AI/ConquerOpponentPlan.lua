@@ -99,23 +99,15 @@ function SpaceForce_Thread()
         end
     else
         GlobalValue.Set("CONQUER_OPPONENT", Target.Get_Type().Get_Name())
-        local FleetStage = SpaceForce.Get_Planet_Location()
-        local FleetOwner = SpaceForce.Get_Owner()
-        local FleetMarker = Spawn_Unit("AI_Fleet_Marker", FleetStage, FleetOwner)
-        Fleet_Index = FleetMarker.Get_Object_ID()
-        SpaceForce.Add_Force(FleetMarker)
-        local GValName = string.upper(tostring(Fleet_Index)).."STORED_UNITS"
-        GlobalValue.Set(GValName, nil)
+        Fleet_Location = SpaceForce.Get_Planet_Location()
+        Fleet_Owner = SpaceForce.Get_Owner()
+        Space_Unit_List = SpaceForce.Get_Unit_Table()
+        Fleet_Marker = Spawn_Unit("AI_Fleet_Marker", Fleet_Location, FleetOwner)
+        Fleet_Marker_ID = Fleet_Marker.Get_Object_ID()
+
         BlockOnCommand(SpaceForce.Move_To(Target))
+        
         WasConflict = true
-        if SpaceForce.Get_Unit_Type("AI_Fleet_Marker").Get_Object_ID() == Fleet_Index then
-            UnitsAlive = GlobalValue.Get(GValName)
-        end
-        if UnitsAlive ~= nil then
-            for _, AddingUnit in pairs(UnitsAlive) do
-                SpaceForce.Add_Force(AddingUnit)    
-            end    
-        end
         
         if SpaceForce.Get_Force_Count() == 0 then
             SpaceForce.Set_Plan_Result(false)

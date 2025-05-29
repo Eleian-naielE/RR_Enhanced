@@ -19,7 +19,7 @@ function EnemyPathfinder:new()
     crossplot:subscribe("GAME_MODE_ENDING", self.mode_end, self)
     crossplot:subscribe("TACTICAL_UNIT_DESTROYED", self.on_tactical_unit_destroyed, self)
     self.spawn_list = nil
-    self.categorized_list = {}
+    self.allow_pathfinder = false
     self.Marker = nil 
     
 end
@@ -31,18 +31,21 @@ function EnemyPathfinder:mode_start(mode)
     local player_attacker = Find_First_Object("Attacker Entry Position").Get_Owner()
     if player_attacker ~= self.human_player then
         self.player_enemy = player_attacker
+        self.allow_pathfinder = true
     end
 end
 
 function EnemyPathfinder:on_tactical_unit_destroyed(object_name, object_power, object_is_hero, object)
-    if object.get_owner == self.player_enemy then
+    if not self.allow_pathfinder then
+        return
+    end
+    if object.Get_Owner() == self.player_enemy then
         
+    end 
 end
 
 function EnemyPathfinder:Categorize(UnitList)
-    for k, Unit in pairs(UnitList) do
-        self.categorized_list[Unit] 
-        
+    for k, Unit in pairs(UnitList) do   
     end
 end
 
@@ -70,6 +73,7 @@ function EnemyPathfinder:mode_end()
     self.player_enemy = nil
     self.spawned_list = nil
     self.Marker = nil
+    self.allow_pathfinder = false
 	StoryUtil.ShowScreenText("Script end", 5)
 end
 return EnemyPathfinder
