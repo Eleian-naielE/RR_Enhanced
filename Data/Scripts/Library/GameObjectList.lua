@@ -167,7 +167,7 @@ return {
 ["VIPSANIS_VICTUS"] = true,
 ["XARGA_SHAADLAR_MANDALORIAN"] = true,
 ["XOR_AJUUR"] = true,
---RR_Enhanced
+-- RR_Enhanced
 ["MANDO_BOARDING_SHUTTLE"] = true,
 
 }
