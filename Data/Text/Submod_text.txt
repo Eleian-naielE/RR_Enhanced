@@ -1,1 +1,4 @@
 ﻿TEXT_NOTE,Put text changes for submods here
+
+TEXT_HERO_REBUILD_CASSUS,
+TEXT_TOOLTIP_REBUILD_CASSUS_FETT,
